@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0ED648A72A3D87070020E918 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648A02A3D87070020E918 /* UIColorExt.swift */; };
+		0ED648A82A3D87070020E918 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648A22A3D87070020E918 /* KWTabBarController.swift */; };
+		0ED648A92A3D87070020E918 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648A52A3D87070020E918 /* AutoFit.swift */; };
+		0ED648AA2A3D87070020E918 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648A62A3D87070020E918 /* SizeS.swift */; };
+		0ED648AF2A3D91B80020E918 /* TabBarDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648AE2A3D91B80020E918 /* TabBarDemoVC.m */; };
+		0ED648B22A3D92B90020E918 /* TabBar1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648B12A3D92B90020E918 /* TabBar1VC.m */; };
+		0ED648B52A3D92C50020E918 /* TabBar2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648B42A3D92C50020E918 /* TabBar2VC.m */; };
+		0ED648B82A3D92CC0020E918 /* TabBar3VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648B72A3D92CC0020E918 /* TabBar3VC.m */; };
+		0ED648BB2A3D92D50020E918 /* TabBar4VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648BA2A3D92D50020E918 /* TabBar4VC.m */; };
+		0ED648BE2A3D92DD0020E918 /* TabBar5VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648BD2A3D92DD0020E918 /* TabBar5VC.m */; };
+		0ED648C32A3D9F9B0020E918 /* KWColorDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648C22A3D9F9B0020E918 /* KWColorDemo.m */; };
+		0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0F92A394C71003F04DF /* AppDelegate.m */; };
+		0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0FC2A394C71003F04DF /* SceneDelegate.m */; };
+		0EEBD1002A394C71003F04DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0FF2A394C71003F04DF /* ViewController.m */; };
+		0EEBD1032A394C71003F04DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEBD1012A394C71003F04DF /* Main.storyboard */; };
+		0EEBD1052A394C73003F04DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EEBD1042A394C73003F04DF /* Assets.xcassets */; };
+		0EEBD1082A394C73003F04DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EEBD1062A394C73003F04DF /* LaunchScreen.storyboard */; };
+		0EEBD10B2A394C73003F04DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD10A2A394C73003F04DF /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0ED648A02A3D87070020E918 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		0ED648A22A3D87070020E918 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
+		0ED648A42A3D87070020E918 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
+		0ED648A52A3D87070020E918 /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
+		0ED648A62A3D87070020E918 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
+		0ED648AD2A3D91B80020E918 /* TabBarDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarDemoVC.h; sourceTree = "<group>"; };
+		0ED648AE2A3D91B80020E918 /* TabBarDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarDemoVC.m; sourceTree = "<group>"; };
+		0ED648B02A3D92B90020E918 /* TabBar1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar1VC.h; sourceTree = "<group>"; };
+		0ED648B12A3D92B90020E918 /* TabBar1VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar1VC.m; sourceTree = "<group>"; };
+		0ED648B32A3D92C50020E918 /* TabBar2VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar2VC.h; sourceTree = "<group>"; };
+		0ED648B42A3D92C50020E918 /* TabBar2VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar2VC.m; sourceTree = "<group>"; };
+		0ED648B62A3D92CC0020E918 /* TabBar3VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar3VC.h; sourceTree = "<group>"; };
+		0ED648B72A3D92CC0020E918 /* TabBar3VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar3VC.m; sourceTree = "<group>"; };
+		0ED648B92A3D92D50020E918 /* TabBar4VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar4VC.h; sourceTree = "<group>"; };
+		0ED648BA2A3D92D50020E918 /* TabBar4VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar4VC.m; sourceTree = "<group>"; };
+		0ED648BC2A3D92DD0020E918 /* TabBar5VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar5VC.h; sourceTree = "<group>"; };
+		0ED648BD2A3D92DD0020E918 /* TabBar5VC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBar5VC.m; sourceTree = "<group>"; };
+		0ED648BF2A3D94080020E918 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0ED648C12A3D9F9B0020E918 /* KWColorDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWColorDemo.h; sourceTree = "<group>"; };
+		0ED648C22A3D9F9B0020E918 /* KWColorDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWColorDemo.m; sourceTree = "<group>"; };
+		0EEBD0F52A394C71003F04DF /* KWOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EEBD0F82A394C71003F04DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0EEBD0F92A394C71003F04DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0EEBD0FB2A394C71003F04DF /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0EEBD0FC2A394C71003F04DF /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0EEBD0FE2A394C71003F04DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0EEBD0FF2A394C71003F04DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0EEBD1022A394C71003F04DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EEBD1042A394C73003F04DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EEBD1072A394C73003F04DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EEBD1092A394C73003F04DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EEBD10A2A394C73003F04DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0EEBD1202A39541C003F04DF /* KWOC-Bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KWOC-Bridging-header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EEBD0F22A394C71003F04DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED6489E2A3D87070020E918 /* KWFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				0ED6489F2A3D87070020E918 /* Extension */,
+				0ED648A12A3D87070020E918 /* BaseClass */,
+				0ED648A32A3D87070020E918 /* Const */,
+			);
+			name = KWFrameWork;
+			path = ../KWFrameWork;
+			sourceTree = "<group>";
+		};
+		0ED6489F2A3D87070020E918 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0ED648A02A3D87070020E918 /* UIColorExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0ED648A12A3D87070020E918 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				0ED648A22A3D87070020E918 /* KWTabBarController.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		0ED648A32A3D87070020E918 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				0ED648A42A3D87070020E918 /* SizeO.h */,
+				0ED648A52A3D87070020E918 /* AutoFit.swift */,
+				0ED648A62A3D87070020E918 /* SizeS.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		0ED648AB2A3D91850020E918 /* UseDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0ED648C02A3D9F6E0020E918 /* KWColor */,
+				0ED648AC2A3D91950020E918 /* KWTabBar */,
+			);
+			path = UseDemo;
+			sourceTree = "<group>";
+		};
+		0ED648AC2A3D91950020E918 /* KWTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0ED648AD2A3D91B80020E918 /* TabBarDemoVC.h */,
+				0ED648AE2A3D91B80020E918 /* TabBarDemoVC.m */,
+				0ED648B02A3D92B90020E918 /* TabBar1VC.h */,
+				0ED648B12A3D92B90020E918 /* TabBar1VC.m */,
+				0ED648B32A3D92C50020E918 /* TabBar2VC.h */,
+				0ED648B42A3D92C50020E918 /* TabBar2VC.m */,
+				0ED648B62A3D92CC0020E918 /* TabBar3VC.h */,
+				0ED648B72A3D92CC0020E918 /* TabBar3VC.m */,
+				0ED648B92A3D92D50020E918 /* TabBar4VC.h */,
+				0ED648BA2A3D92D50020E918 /* TabBar4VC.m */,
+				0ED648BC2A3D92DD0020E918 /* TabBar5VC.h */,
+				0ED648BD2A3D92DD0020E918 /* TabBar5VC.m */,
+			);
+			path = KWTabBar;
+			sourceTree = "<group>";
+		};
+		0ED648C02A3D9F6E0020E918 /* KWColor */ = {
+			isa = PBXGroup;
+			children = (
+				0ED648C12A3D9F9B0020E918 /* KWColorDemo.h */,
+				0ED648C22A3D9F9B0020E918 /* KWColorDemo.m */,
+			);
+			path = KWColor;
+			sourceTree = "<group>";
+		};
+		0EEBD0EC2A394C71003F04DF = {
+			isa = PBXGroup;
+			children = (
+				0ED6489E2A3D87070020E918 /* KWFrameWork */,
+				0EEBD1202A39541C003F04DF /* KWOC-Bridging-header.h */,
+				0EEBD0F72A394C71003F04DF /* KWOC */,
+				0EEBD0F62A394C71003F04DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EEBD0F62A394C71003F04DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EEBD0F52A394C71003F04DF /* KWOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EEBD0F72A394C71003F04DF /* KWOC */ = {
+			isa = PBXGroup;
+			children = (
+				0ED648AB2A3D91850020E918 /* UseDemo */,
+				0EEBD0F82A394C71003F04DF /* AppDelegate.h */,
+				0EEBD0F92A394C71003F04DF /* AppDelegate.m */,
+				0EEBD0FB2A394C71003F04DF /* SceneDelegate.h */,
+				0EEBD0FC2A394C71003F04DF /* SceneDelegate.m */,
+				0EEBD0FE2A394C71003F04DF /* ViewController.h */,
+				0EEBD0FF2A394C71003F04DF /* ViewController.m */,
+				0ED648BF2A3D94080020E918 /* PrefixHeader.pch */,
+				0EEBD1012A394C71003F04DF /* Main.storyboard */,
+				0EEBD1042A394C73003F04DF /* Assets.xcassets */,
+				0EEBD1062A394C73003F04DF /* LaunchScreen.storyboard */,
+				0EEBD1092A394C73003F04DF /* Info.plist */,
+				0EEBD10A2A394C73003F04DF /* main.m */,
+			);
+			path = KWOC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EEBD0F42A394C71003F04DF /* KWOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEBD10E2A394C73003F04DF /* Build configuration list for PBXNativeTarget "KWOC" */;
+			buildPhases = (
+				0EEBD0F12A394C71003F04DF /* Sources */,
+				0EEBD0F22A394C71003F04DF /* Frameworks */,
+				0EEBD0F32A394C71003F04DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KWOC;
+			productName = KWOC;
+			productReference = 0EEBD0F52A394C71003F04DF /* KWOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EEBD0ED2A394C71003F04DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0EEBD0F42A394C71003F04DF = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0EEBD0F02A394C71003F04DF /* Build configuration list for PBXProject "KWOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EEBD0EC2A394C71003F04DF;
+			productRefGroup = 0EEBD0F62A394C71003F04DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EEBD0F42A394C71003F04DF /* KWOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EEBD0F32A394C71003F04DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEBD1082A394C73003F04DF /* LaunchScreen.storyboard in Resources */,
+				0EEBD1052A394C73003F04DF /* Assets.xcassets in Resources */,
+				0EEBD1032A394C71003F04DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EEBD0F12A394C71003F04DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EEBD1002A394C71003F04DF /* ViewController.m in Sources */,
+				0ED648A82A3D87070020E918 /* KWTabBarController.swift in Sources */,
+				0ED648B82A3D92CC0020E918 /* TabBar3VC.m in Sources */,
+				0ED648B22A3D92B90020E918 /* TabBar1VC.m in Sources */,
+				0ED648BB2A3D92D50020E918 /* TabBar4VC.m in Sources */,
+				0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */,
+				0ED648C32A3D9F9B0020E918 /* KWColorDemo.m in Sources */,
+				0ED648BE2A3D92DD0020E918 /* TabBar5VC.m in Sources */,
+				0EEBD10B2A394C73003F04DF /* main.m in Sources */,
+				0ED648B52A3D92C50020E918 /* TabBar2VC.m in Sources */,
+				0ED648AA2A3D87070020E918 /* SizeS.swift in Sources */,
+				0ED648A72A3D87070020E918 /* UIColorExt.swift in Sources */,
+				0ED648AF2A3D91B80020E918 /* TabBarDemoVC.m in Sources */,
+				0ED648A92A3D87070020E918 /* AutoFit.swift in Sources */,
+				0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0EEBD1012A394C71003F04DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEBD1022A394C71003F04DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EEBD1062A394C73003F04DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EEBD1072A394C73003F04DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EEBD10C2A394C73003F04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0EEBD10D2A394C73003F04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EEBD10F2A394C73003F04DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MQ7N2N5WN6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KWOC/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KWOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kk.KWOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KWOC-Bridging-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EEBD1102A394C73003F04DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = MQ7N2N5WN6;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/KWOC/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KWOC/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.kk.KWOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "KWOC-Bridging-header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEBD0F02A394C71003F04DF /* Build configuration list for PBXProject "KWOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEBD10C2A394C73003F04DF /* Debug */,
+				0EEBD10D2A394C73003F04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EEBD10E2A394C73003F04DF /* Build configuration list for PBXNativeTarget "KWOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEBD10F2A394C73003F04DF /* Debug */,
+				0EEBD1102A394C73003F04DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EEBD0ED2A394C71003F04DF /* Project object */;
+}
