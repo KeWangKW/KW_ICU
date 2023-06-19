@@ -44,7 +44,7 @@ class ViewController: UIViewController {
         return table
     }()
     
-
+    let ss = CGRect(x: kAdapt(10), y: kAdapt(20), width: kAdapt(100), height: kAdapt(100))
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {

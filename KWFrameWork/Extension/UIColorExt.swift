@@ -16,7 +16,7 @@ public extension UIColor {
         case section, line
         case background
         case base
-        case onlyLight
+        case White
         
         func style() -> Style {
             switch self {
@@ -26,28 +26,32 @@ public extension UIColor {
             case .section:          return Style(light: 0xF8F8F8, dark: 0xFFFFFF)
             case .line:             return Style(light: 0xDDDDDD, dark: 0xFFFFFF)
             case .background:       return Style(light: 0xFFFFFF, dark: 0x000000)
-            case .base:             return Style(light: 0x0069B7, dark: 0x0069B7)
-            case .onlyLight:        return Style(light: 0xFFFFFF, dark: 0xFFFFFF)
+            case .base:             return Style(light: 0x0069B7, dark: 0xFFB400)
+            case .White:            return Style(light: 0xFFFFFF)
             }
         }
     }
     
     struct Style {
         let light: UInt64
-        let dark: UInt64
+        //var dark: UInt64 = 0xFFFFFF
+        var dark: UInt64 = 999999999999999
     }
 }
 
 public extension UIColor {
     
     
-    /// 使用自定义色值，适配暗黑模式
+    /// 使用自定义色值，适配暗黑模式 (未设置dark色值时全输出light色值)
     /// - Parameter custom: 枚举
     /// - Returns: 颜色
     @objc static func KW_LD(_ custom: Custom) -> UIColor {
         let style = custom.style()
         guard #available(iOS 13.0, *) else { return UIColor(hex: style.light) }
-        return UIColor(light: UIColor(hex: style.light), dark: UIColor(hex: style.dark))
+        return UIColor(
+            light: UIColor(hex: style.light),
+            dark: style.dark == 999999999999999 ? UIColor(hex: style.light) : UIColor(hex: style.dark)
+        )
     }
     
     /// 使用自定义色值，仅使用Light值
@@ -56,6 +60,14 @@ public extension UIColor {
     @objc static func KW_L(_ custom: Custom) -> UIColor {
         let style = custom.style()
         return UIColor(hex: style.light)
+    }
+    
+    /// 使用自定义色值，仅使用Dark值
+    /// - Parameter custom: 枚举
+    /// - Returns: 颜色
+    @objc static func KW_D(_ custom: Custom) -> UIColor {
+        let style = custom.style()
+        return style.dark == 999999999999999 ? UIColor(hex: style.light) : UIColor(hex: style.dark)
     }
     
     
@@ -94,7 +106,7 @@ public extension UIColor {
     
     /// 通过字符串数值初始化颜色
     /// - Parameters:
-    ///   - sHex: 字符串色值 (eg: "#FFFFFF", "##FFFFFF", "0xFFFFFF")
+    ///   - sHex: 字符串色值 ("#FFFFFF", "##FFFFFF", "0xFFFFFF")
     ///   - alpha: 透明度 默认1
     convenience init?(sHex: String, alpha: CGFloat = 1.0) {
         if sHex.isEmpty { return nil }

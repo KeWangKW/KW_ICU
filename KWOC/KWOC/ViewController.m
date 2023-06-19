@@ -28,6 +28,14 @@
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight()) style:UITableViewStyleGrouped];
     tableView.delegate = self;
     tableView.dataSource = self;
+    tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    tableView.estimatedSectionFooterHeight = 0;
+    tableView.estimatedSectionHeaderHeight = 0;
+    if (@available(iOS 15.0, *)) {
+        tableView.sectionHeaderTopPadding = 0;
+    } else {
+        // Fallback on earlier versions
+    }
     [self.view addSubview:tableView];
     
 }
