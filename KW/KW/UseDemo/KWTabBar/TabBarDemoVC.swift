@@ -51,10 +51,22 @@ class TabBarDemoVC: UIViewController {
         btn5.backgroundColor = .black
         btn5.addTarget(self, action: #selector(type5Show), for: .touchUpInside)
         view.addSubview(btn5)
+        
+        
+        
+        let backBtn = UIButton(frame: CGRect(x: 10, y: KScreenHeight-KNavigationStatusHeight-100, width: 100, height: 30))
+        backBtn.setTitle("返回", for: .normal)
+        backBtn.backgroundColor = .black
+        backBtn.addTarget(self, action: #selector(backBtnClick), for: .touchUpInside)
+        view.addSubview(backBtn)
     }
     
+    @objc func backBtnClick() {
+        let nav = UINavigationController(rootViewController: ViewController())
+        self .changeRootViewController(vc: nav)
+    }
     
-    func changeRootViewController(vc:KWTabBarController) {
+    func changeRootViewController(vc:UIViewController) {
         if #available(iOS 15.0, *) {
             let scenes = UIApplication.shared.connectedScenes
             let windowScene = scenes.first as? UIWindowScene

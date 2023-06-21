@@ -9,7 +9,6 @@
 import Foundation
 import UIKit
 
-
 public let KScreenSize: CGSize = UIScreen.main.bounds.size
 
 public let KScreenWidth: CGFloat = KScreenSize.width
@@ -57,7 +56,7 @@ public var isIOS13: Bool {
     return false
 }
 
-public func kAdapt(_ x:CGFloat ) -> CGFloat {
+public func KAdapt(_ x:CGFloat ) -> CGFloat {
     return (x / 375 * KScreenWidth)
 }
 

@@ -21,7 +21,8 @@ class ViewController: UIViewController {
     }
 
     let dataArr:[String] = ["KWTabBar",
-    "KWColor"];
+    "KWColor",
+    "KWNavigation"];
     
     
     lazy var tableView: UITableView =  {
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
         return table
     }()
     
-    let ss = CGRect(x: kAdapt(10), y: kAdapt(20), width: kAdapt(100), height: kAdapt(100))
+    let ss = CGRect(x: KAdapt(20), y: KAdapt(20), width: KAdapt(100), height: KAdapt(100))
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
@@ -77,9 +78,40 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         }else if indexPath.row == 1 {
             let vc = KWColorDemoVC()
             self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 2 {
+            let vc = KWNavigationVC()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
         }
         
     }
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    func changeRootViewController(vc:UIViewController) {
+        if #available(iOS 15.0, *) {
+            let scenes = UIApplication.shared.connectedScenes
+            let windowScene = scenes.first as? UIWindowScene
+
+            if let windowScene = windowScene {
+                windowScene.keyWindow?.rootViewController = vc
+                windowScene.keyWindow?.makeKeyAndVisible()
+            }
+        }else{
+            UIApplication.shared.windows.first?.rootViewController = vc
+            UIApplication.shared.windows.first?.makeKeyAndVisible()
+        }
+    }
+    
+    
 }
+

@@ -10,6 +10,7 @@
 #import <KWOC-Swift.h>
 #import "SizeO.h"
 #import "KWColorDemo.h"
+#import "KWNavigationVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, copy) NSArray *dataArr;
@@ -23,7 +24,8 @@
     self.view.backgroundColor = [UIColor redColor];
     
     self.dataArr = @[@"KWTabBar",
-                     @"KWColor"];
+                     @"KWColor",
+                     @"KWNavigationController"];
     
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight()) style:UITableViewStyleGrouped];
     tableView.delegate = self;
@@ -58,6 +60,11 @@
     }else if (indexPath.row == 1) {
         KWColorDemo * vc = [[KWColorDemo alloc]init];
         [self.navigationController pushViewController:vc animated:true];
+    }else if (indexPath.row == 2) {
+        KWNavigationVC * vc = [[KWNavigationVC alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
     }
 }
 

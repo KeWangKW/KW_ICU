@@ -67,7 +67,13 @@ import Foundation
         self.delegate = self
         
         for i in 0..<vcArr.count {
-            let vc = vcArr[i]
+            //不使用 UINavigationController
+            //let vc = vcArr[i]
+            //使用系统 UINavigationController
+            //let vc = UINavigationController(rootViewController: vcArr[i])
+            //使用自定义 KWNavigationController
+            let vc = KWNavigationController(rootViewController: vcArr[i])
+            
             let item = UITabBarItem(title: titleArr[i],
                                     image: UIImage(named: normalImageArr[i])?.withRenderingMode(.alwaysOriginal),
                                     selectedImage: UIImage(named: selectedImageArr[i])?.withRenderingMode(.alwaysOriginal))

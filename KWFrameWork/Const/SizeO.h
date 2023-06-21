@@ -46,14 +46,14 @@ static inline BOOL kIsIPhoneX() {
     if (UIDevice.currentDevice.userInterfaceIdiom != UIUserInterfaceIdiomPhone) {
         return iPhoneX;
     }
-    
+
     if (@available(iOS 11.0, *)) {
         UIWindow *mainWindow = [[[UIApplication sharedApplication] delegate] window];
         if (mainWindow.safeAreaInsets.bottom > 0.0) {
             iPhoneX = YES;
         }
     }
-    
+
     return iPhoneX;
 }
 
