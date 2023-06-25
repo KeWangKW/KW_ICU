@@ -7,10 +7,11 @@
 
 #import "ViewController.h"
 #import "TabBarDemoVC.h"
-#import <KWOC-Swift.h>
+#import <KW-Swift.h>
 #import "SizeO.h"
 #import "KWColorDemo.h"
 #import "KWNavigationVC.h"
+#import "TestBaseVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, copy) NSArray *dataArr;
@@ -25,7 +26,8 @@
     
     self.dataArr = @[@"KWTabBar",
                      @"KWColor",
-                     @"KWNavigationController"];
+                     @"KWNavigationController",
+                     @"KWViewController"];
     
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight()) style:UITableViewStyleGrouped];
     tableView.delegate = self;
@@ -62,6 +64,11 @@
         [self.navigationController pushViewController:vc animated:true];
     }else if (indexPath.row == 2) {
         KWNavigationVC * vc = [[KWNavigationVC alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 3) {
+        TestBaseVC * vc = [[TestBaseVC alloc]init];
         KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
         [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
         [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];

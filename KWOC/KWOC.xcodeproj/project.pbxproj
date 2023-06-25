@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EA7074F2A42DA4F001745A7 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7073F2A42DA4F001745A7 /* KWSwift.swift */; };
-		0EA707502A42DA4F001745A7 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA707412A42DA4F001745A7 /* UIColorExt.swift */; };
-		0EA707512A42DA4F001745A7 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA707442A42DA4F001745A7 /* KWNavigationController.swift */; };
-		0EA707522A42DA4F001745A7 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA707452A42DA4F001745A7 /* KWFakeNavigationBar.swift */; };
-		0EA707532A42DA4F001745A7 /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA707462A42DA4F001745A7 /* UIViewController+KWNavigationBar.swift */; };
-		0EA707542A42DA4F001745A7 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA707472A42DA4F001745A7 /* UIViewControllerExt.swift */; };
-		0EA707552A42DA4F001745A7 /* KWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA707482A42DA4F001745A7 /* KWViewController.swift */; };
-		0EA707562A42DA4F001745A7 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7074A2A42DA4F001745A7 /* KWTabBarController.swift */; };
-		0EA707572A42DA4F001745A7 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7074D2A42DA4F001745A7 /* AutoFit.swift */; };
-		0EA707582A42DA4F001745A7 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7074E2A42DA4F001745A7 /* SizeS.swift */; };
+		0EC4BA6C2A47D5A4008EB77B /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA592A47D5A4008EB77B /* KWSwift.swift */; };
+		0EC4BA6D2A47D5A4008EB77B /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA5B2A47D5A4008EB77B /* UIColorExt.swift */; };
+		0EC4BA6E2A47D5A4008EB77B /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA5C2A47D5A4008EB77B /* UIViewControllerExt.swift */; };
+		0EC4BA6F2A47D5A4008EB77B /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA5F2A47D5A4008EB77B /* KWNavigationController.swift */; };
+		0EC4BA702A47D5A4008EB77B /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA602A47D5A4008EB77B /* KWFakeNavigationBar.swift */; };
+		0EC4BA712A47D5A4008EB77B /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA612A47D5A4008EB77B /* UIViewController+KWNavigationBar.swift */; };
+		0EC4BA722A47D5A4008EB77B /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA642A47D5A4008EB77B /* KSViewController.swift */; };
+		0EC4BA732A47D5A4008EB77B /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA652A47D5A4008EB77B /* KOViewController.m */; };
+		0EC4BA742A47D5A5008EB77B /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA672A47D5A4008EB77B /* KWTabBarController.swift */; };
+		0EC4BA752A47D5A5008EB77B /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA6A2A47D5A4008EB77B /* AutoFit.swift */; };
+		0EC4BA762A47D5A5008EB77B /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA6B2A47D5A4008EB77B /* SizeS.swift */; };
+		0EC4BA7A2A47D61E008EB77B /* TestBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA792A47D61E008EB77B /* TestBaseVC.m */; };
+		0EC4BA842A47DE56008EB77B /* TestBaseVC11.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA832A47DE56008EB77B /* TestBaseVC11.m */; };
 		0ED648AF2A3D91B80020E918 /* TabBarDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648AE2A3D91B80020E918 /* TabBarDemoVC.m */; };
 		0ED648B22A3D92B90020E918 /* TabBar1VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648B12A3D92B90020E918 /* TabBar1VC.m */; };
 		0ED648B52A3D92C50020E918 /* TabBar2VC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648B42A3D92C50020E918 /* TabBar2VC.m */; };
@@ -36,17 +39,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EA7073F2A42DA4F001745A7 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
-		0EA707412A42DA4F001745A7 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
-		0EA707442A42DA4F001745A7 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
-		0EA707452A42DA4F001745A7 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
-		0EA707462A42DA4F001745A7 /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
-		0EA707472A42DA4F001745A7 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
-		0EA707482A42DA4F001745A7 /* KWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWViewController.swift; sourceTree = "<group>"; };
-		0EA7074A2A42DA4F001745A7 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
-		0EA7074C2A42DA4F001745A7 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
-		0EA7074D2A42DA4F001745A7 /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
-		0EA7074E2A42DA4F001745A7 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
+		0EC4BA592A47D5A4008EB77B /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
+		0EC4BA5B2A47D5A4008EB77B /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		0EC4BA5C2A47D5A4008EB77B /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		0EC4BA5F2A47D5A4008EB77B /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
+		0EC4BA602A47D5A4008EB77B /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
+		0EC4BA612A47D5A4008EB77B /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
+		0EC4BA632A47D5A4008EB77B /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
+		0EC4BA642A47D5A4008EB77B /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
+		0EC4BA652A47D5A4008EB77B /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
+		0EC4BA672A47D5A4008EB77B /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
+		0EC4BA692A47D5A4008EB77B /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
+		0EC4BA6A2A47D5A4008EB77B /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
+		0EC4BA6B2A47D5A4008EB77B /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
+		0EC4BA782A47D61E008EB77B /* TestBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBaseVC.h; sourceTree = "<group>"; };
+		0EC4BA792A47D61E008EB77B /* TestBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBaseVC.m; sourceTree = "<group>"; };
+		0EC4BA822A47DE56008EB77B /* TestBaseVC11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBaseVC11.h; sourceTree = "<group>"; };
+		0EC4BA832A47DE56008EB77B /* TestBaseVC11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBaseVC11.m; sourceTree = "<group>"; };
 		0ED648AD2A3D91B80020E918 /* TabBarDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarDemoVC.h; sourceTree = "<group>"; };
 		0ED648AE2A3D91B80020E918 /* TabBarDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarDemoVC.m; sourceTree = "<group>"; };
 		0ED648B02A3D92B90020E918 /* TabBar1VC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBar1VC.h; sourceTree = "<group>"; };
@@ -92,68 +101,90 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EA7073E2A42DA4F001745A7 /* KWFrameWork */ = {
+		0EC4BA582A47D5A4008EB77B /* KWFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				0EA7073F2A42DA4F001745A7 /* KWSwift.swift */,
-				0EA707402A42DA4F001745A7 /* Extension */,
-				0EA707422A42DA4F001745A7 /* BaseClass */,
-				0EA7074B2A42DA4F001745A7 /* Const */,
+				0EC4BA592A47D5A4008EB77B /* KWSwift.swift */,
+				0EC4BA5A2A47D5A4008EB77B /* Extension */,
+				0EC4BA5D2A47D5A4008EB77B /* BaseClass */,
+				0EC4BA682A47D5A4008EB77B /* Const */,
 			);
 			name = KWFrameWork;
 			path = ../KWFrameWork;
 			sourceTree = "<group>";
 		};
-		0EA707402A42DA4F001745A7 /* Extension */ = {
+		0EC4BA5A2A47D5A4008EB77B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				0EA707412A42DA4F001745A7 /* UIColorExt.swift */,
+				0EC4BA5B2A47D5A4008EB77B /* UIColorExt.swift */,
+				0EC4BA5C2A47D5A4008EB77B /* UIViewControllerExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		0EA707422A42DA4F001745A7 /* BaseClass */ = {
+		0EC4BA5D2A47D5A4008EB77B /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
-				0EA707432A42DA4F001745A7 /* NavigationController */,
-				0EA707472A42DA4F001745A7 /* UIViewControllerExt.swift */,
-				0EA707482A42DA4F001745A7 /* KWViewController.swift */,
-				0EA707492A42DA4F001745A7 /* TabbarController */,
+				0EC4BA5E2A47D5A4008EB77B /* NavigationController */,
+				0EC4BA622A47D5A4008EB77B /* ViewController */,
+				0EC4BA662A47D5A4008EB77B /* TabbarController */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
 		};
-		0EA707432A42DA4F001745A7 /* NavigationController */ = {
+		0EC4BA5E2A47D5A4008EB77B /* NavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				0EA707442A42DA4F001745A7 /* KWNavigationController.swift */,
-				0EA707452A42DA4F001745A7 /* KWFakeNavigationBar.swift */,
-				0EA707462A42DA4F001745A7 /* UIViewController+KWNavigationBar.swift */,
+				0EC4BA5F2A47D5A4008EB77B /* KWNavigationController.swift */,
+				0EC4BA602A47D5A4008EB77B /* KWFakeNavigationBar.swift */,
+				0EC4BA612A47D5A4008EB77B /* UIViewController+KWNavigationBar.swift */,
 			);
 			path = NavigationController;
 			sourceTree = "<group>";
 		};
-		0EA707492A42DA4F001745A7 /* TabbarController */ = {
+		0EC4BA622A47D5A4008EB77B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				0EA7074A2A42DA4F001745A7 /* KWTabBarController.swift */,
+				0EC4BA642A47D5A4008EB77B /* KSViewController.swift */,
+				0EC4BA632A47D5A4008EB77B /* KOViewController.h */,
+				0EC4BA652A47D5A4008EB77B /* KOViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0EC4BA662A47D5A4008EB77B /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4BA672A47D5A4008EB77B /* KWTabBarController.swift */,
 			);
 			path = TabbarController;
 			sourceTree = "<group>";
 		};
-		0EA7074B2A42DA4F001745A7 /* Const */ = {
+		0EC4BA682A47D5A4008EB77B /* Const */ = {
 			isa = PBXGroup;
 			children = (
-				0EA7074C2A42DA4F001745A7 /* SizeO.h */,
-				0EA7074D2A42DA4F001745A7 /* AutoFit.swift */,
-				0EA7074E2A42DA4F001745A7 /* SizeS.swift */,
+				0EC4BA692A47D5A4008EB77B /* SizeO.h */,
+				0EC4BA6A2A47D5A4008EB77B /* AutoFit.swift */,
+				0EC4BA6B2A47D5A4008EB77B /* SizeS.swift */,
 			);
 			path = Const;
+			sourceTree = "<group>";
+		};
+		0EC4BA772A47D5F3008EB77B /* KWViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4BA782A47D61E008EB77B /* TestBaseVC.h */,
+				0EC4BA792A47D61E008EB77B /* TestBaseVC.m */,
+				0EC4BA822A47DE56008EB77B /* TestBaseVC11.h */,
+				0EC4BA832A47DE56008EB77B /* TestBaseVC11.m */,
+			);
+			path = KWViewController;
 			sourceTree = "<group>";
 		};
 		0ED648AB2A3D91850020E918 /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0EC4BA772A47D5F3008EB77B /* KWViewController */,
 				0ED649602A404F620020E918 /* KWNavigation */,
 				0ED648C02A3D9F6E0020E918 /* KWColor */,
 				0ED648AC2A3D91950020E918 /* KWTabBar */,
@@ -203,7 +234,7 @@
 		0EEBD0EC2A394C71003F04DF = {
 			isa = PBXGroup;
 			children = (
-				0EA7073E2A42DA4F001745A7 /* KWFrameWork */,
+				0EC4BA582A47D5A4008EB77B /* KWFrameWork */,
 				0EEBD1202A39541C003F04DF /* KWOC-Bridging-header.h */,
 				0EEBD0F72A394C71003F04DF /* KWOC */,
 				0EEBD0F62A394C71003F04DF /* Products */,
@@ -310,27 +341,30 @@
 			files = (
 				0EEBD1002A394C71003F04DF /* ViewController.m in Sources */,
 				0ED648B82A3D92CC0020E918 /* TabBar3VC.m in Sources */,
-				0EA707552A42DA4F001745A7 /* KWViewController.swift in Sources */,
+				0EC4BA6E2A47D5A4008EB77B /* UIViewControllerExt.swift in Sources */,
 				0ED648B22A3D92B90020E918 /* TabBar1VC.m in Sources */,
-				0EA707582A42DA4F001745A7 /* SizeS.swift in Sources */,
-				0EA707562A42DA4F001745A7 /* KWTabBarController.swift in Sources */,
+				0EC4BA762A47D5A5008EB77B /* SizeS.swift in Sources */,
 				0ED648BB2A3D92D50020E918 /* TabBar4VC.m in Sources */,
 				0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */,
-				0EA707522A42DA4F001745A7 /* KWFakeNavigationBar.swift in Sources */,
+				0EC4BA842A47DE56008EB77B /* TestBaseVC11.m in Sources */,
+				0EC4BA732A47D5A4008EB77B /* KOViewController.m in Sources */,
 				0ED648C32A3D9F9B0020E918 /* KWColorDemo.m in Sources */,
 				0ED648BE2A3D92DD0020E918 /* TabBar5VC.m in Sources */,
-				0EA7074F2A42DA4F001745A7 /* KWSwift.swift in Sources */,
+				0EC4BA6F2A47D5A4008EB77B /* KWNavigationController.swift in Sources */,
+				0EC4BA6C2A47D5A4008EB77B /* KWSwift.swift in Sources */,
+				0EC4BA722A47D5A4008EB77B /* KSViewController.swift in Sources */,
 				0EEBD10B2A394C73003F04DF /* main.m in Sources */,
-				0EA707572A42DA4F001745A7 /* AutoFit.swift in Sources */,
 				0ED648B52A3D92C50020E918 /* TabBar2VC.m in Sources */,
+				0EC4BA7A2A47D61E008EB77B /* TestBaseVC.m in Sources */,
+				0EC4BA702A47D5A4008EB77B /* KWFakeNavigationBar.swift in Sources */,
+				0EC4BA742A47D5A5008EB77B /* KWTabBarController.swift in Sources */,
 				0ED649632A404F7C0020E918 /* KWNavigationVC.m in Sources */,
 				0ED648AF2A3D91B80020E918 /* TabBarDemoVC.m in Sources */,
 				0ED649662A404FA70020E918 /* KWNavigationVC1.m in Sources */,
-				0EA707542A42DA4F001745A7 /* UIViewControllerExt.swift in Sources */,
-				0EA707512A42DA4F001745A7 /* KWNavigationController.swift in Sources */,
-				0EA707502A42DA4F001745A7 /* UIColorExt.swift in Sources */,
-				0EA707532A42DA4F001745A7 /* UIViewController+KWNavigationBar.swift in Sources */,
+				0EC4BA6D2A47D5A4008EB77B /* UIColorExt.swift in Sources */,
 				0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */,
+				0EC4BA752A47D5A5008EB77B /* AutoFit.swift in Sources */,
+				0EC4BA712A47D5A4008EB77B /* UIViewController+KWNavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +527,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "KWOC-Bridging-header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "KW-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -525,6 +560,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "KWOC-Bridging-header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "KW-Swift.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

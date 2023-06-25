@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KWNavigationVC: KWViewController {
+class KWNavigationVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

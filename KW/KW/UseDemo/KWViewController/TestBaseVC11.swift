@@ -1,19 +1,17 @@
 //
-//  KWNavigationVC2.swift
+//  TestBaseVC11.swift
 //  KW
 //
-//  Created by 渴望 on 2023/6/19.
+//  Created by 渴望 on 2023/6/25.
 //
 
 import UIKit
 
-class KWNavigationVC2: UIViewController {
+class TestBaseVC11: KSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        kw_backgroundColor = UIColor.red
-        
+
         // Do any additional setup after loading the view.
     }
     

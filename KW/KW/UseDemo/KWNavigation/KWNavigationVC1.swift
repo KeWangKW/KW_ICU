@@ -7,7 +7,7 @@
 
 import UIKit
 
-class KWNavigationVC1: KWViewController,UIScrollViewDelegate {
+class KWNavigationVC1: UIViewController,UIScrollViewDelegate {
 
 //    override func viewWillAppear(_ animated: Bool) {
 //        super.viewWillAppear(animated)

@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0EA7073B2A42D8F9001745A7 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */; };
 		0EA7073D2A42D914001745A7 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7073C2A42D914001745A7 /* KWSwift.swift */; };
+		0EC4BA4F2A47CF2C008EB77B /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA4E2A47CF2C008EB77B /* KOViewController.m */; };
+		0EC4BA572A47D47D008EB77B /* TestBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA562A47D47D008EB77B /* TestBaseVC.swift */; };
+		0EC4BA7F2A47DBC4008EB77B /* TestBaseVC11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA7E2A47DBC4008EB77B /* TestBaseVC11.swift */; };
 		0ED6480B2A3D3C700020E918 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648092A3D3C700020E918 /* KWTabBarController.swift */; };
 		0ED6480C2A3D3C700020E918 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED6480A2A3D3C700020E918 /* SizeS.swift */; };
 		0ED648182A3D42D30020E918 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648172A3D42D30020E918 /* AutoFit.swift */; };
@@ -20,7 +23,7 @@
 		0ED649402A4028780020E918 /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED6493F2A4028780020E918 /* UIViewController+KWNavigationBar.swift */; };
 		0ED649432A4029C30020E918 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649412A4029C30020E918 /* KWFakeNavigationBar.swift */; };
 		0ED649442A4029C30020E918 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649422A4029C30020E918 /* KWNavigationController.swift */; };
-		0ED649462A40325A0020E918 /* KWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649452A40325A0020E918 /* KWViewController.swift */; };
+		0ED649462A40325A0020E918 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649452A40325A0020E918 /* KSViewController.swift */; };
 		0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */; };
 		0EEBD0132A37FFD5003F04DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */; };
 		0EEBD0152A37FFD5003F04DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0142A37FFD5003F04DF /* ViewController.swift */; };
@@ -38,6 +41,10 @@
 /* Begin PBXFileReference section */
 		0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		0EA7073C2A42D914001745A7 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
+		0EC4BA4D2A47CF2C008EB77B /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
+		0EC4BA4E2A47CF2C008EB77B /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
+		0EC4BA562A47D47D008EB77B /* TestBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseVC.swift; sourceTree = "<group>"; };
+		0EC4BA7E2A47DBC4008EB77B /* TestBaseVC11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestBaseVC11.swift; sourceTree = "<group>"; };
 		0ED648092A3D3C700020E918 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
 		0ED6480A2A3D3C700020E918 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
 		0ED648112A3D41170020E918 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
@@ -51,7 +58,7 @@
 		0ED6493F2A4028780020E918 /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
 		0ED649412A4029C30020E918 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
 		0ED649422A4029C30020E918 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
-		0ED649452A40325A0020E918 /* KWViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWViewController.swift; sourceTree = "<group>"; };
+		0ED649452A40325A0020E918 /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
 		0EEBD00D2A37FFD5003F04DF /* KW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +86,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0EC4BA4C2A47CDE4008EB77B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED649452A40325A0020E918 /* KSViewController.swift */,
+				0EC4BA4D2A47CF2C008EB77B /* KOViewController.h */,
+				0EC4BA4E2A47CF2C008EB77B /* KOViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0EC4BA502A47D3F3008EB77B /* KWViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4BA562A47D47D008EB77B /* TestBaseVC.swift */,
+				0EC4BA7E2A47DBC4008EB77B /* TestBaseVC11.swift */,
+			);
+			path = KWViewController;
+			sourceTree = "<group>";
+		};
 		0ED648082A3D3C700020E918 /* KWFrameWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -104,10 +130,9 @@
 		0ED648192A3D43160020E918 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				0EC4BA4C2A47CDE4008EB77B /* ViewController */,
 				0ED649482A404C840020E918 /* NavigationController */,
 				0ED649472A404C7A0020E918 /* TabbarController */,
-				0ED649452A40325A0020E918 /* KWViewController.swift */,
-				0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -116,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				0ED6488C2A3D4CD90020E918 /* UIColorExt.swift */,
+				0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -205,6 +231,7 @@
 		0EEBD06B2A38041C003F04DF /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0EC4BA502A47D3F3008EB77B /* KWViewController */,
 				0ED649382A3FFC530020E918 /* KWNavigation */,
 				0ED6488F2A3D58350020E918 /* KWColor */,
 				0ED6488E2A3D56A40020E918 /* KWTabBar */,
@@ -286,15 +313,18 @@
 			files = (
 				0EEBD06E2A380472003F04DF /* TabBar1VC.swift in Sources */,
 				0EEBD0742A380494003F04DF /* TabBar4VC.swift in Sources */,
+				0EC4BA4F2A47CF2C008EB77B /* KOViewController.m in Sources */,
 				0ED649432A4029C30020E918 /* KWFakeNavigationBar.swift in Sources */,
 				0EEBD0152A37FFD5003F04DF /* ViewController.swift in Sources */,
 				0ED648942A3D58680020E918 /* KWColorDemoVC.swift in Sources */,
 				0ED649442A4029C30020E918 /* KWNavigationController.swift in Sources */,
 				0ED6493E2A4026AE0020E918 /* KWNavigationVC2.swift in Sources */,
 				0ED6480B2A3D3C700020E918 /* KWTabBarController.swift in Sources */,
-				0ED649462A40325A0020E918 /* KWViewController.swift in Sources */,
+				0ED649462A40325A0020E918 /* KSViewController.swift in Sources */,
 				0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */,
+				0EC4BA572A47D47D008EB77B /* TestBaseVC.swift in Sources */,
 				0ED6488D2A3D4CD90020E918 /* UIColorExt.swift in Sources */,
+				0EC4BA7F2A47DBC4008EB77B /* TestBaseVC11.swift in Sources */,
 				0EEBD07A2A380790003F04DF /* TabBarDemoVC.swift in Sources */,
 				0EA7073B2A42D8F9001745A7 /* UIViewControllerExt.swift in Sources */,
 				0EEBD0762A3804A0003F04DF /* TabBar5VC.swift in Sources */,
