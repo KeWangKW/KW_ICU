@@ -12,6 +12,7 @@
 #import "KWColorDemo.h"
 #import "KWNavigationVC.h"
 #import "TestBaseVC.h"
+#import "TestTableView.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, copy) NSArray *dataArr;
@@ -27,7 +28,8 @@
     self.dataArr = @[@"KWTabBar",
                      @"KWColor",
                      @"KWNavigationController",
-                     @"KWViewController"];
+                     @"KWViewController",
+                     @"KWTableView"];
     
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight()) style:UITableViewStyleGrouped];
     tableView.delegate = self;
@@ -69,6 +71,11 @@
         [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
     }else if (indexPath.row == 3) {
         TestBaseVC * vc = [[TestBaseVC alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 4) {
+        TestTableView * vc = [[TestTableView alloc]init];
         KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
         [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
         [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];

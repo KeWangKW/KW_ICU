@@ -23,7 +23,8 @@ class ViewController: UIViewController {
     let dataArr:[String] = ["KWTabBar",
     "KWColor",
     "KWNavigation",
-    "KWViewController"];
+    "KWViewController",
+    "KWTableViewController"];
     
     
     lazy var tableView: UITableView =  {
@@ -85,6 +86,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             self.changeRootViewController(vc: nav)
         }else if indexPath.row == 3 {
             let vc = TestBaseVC()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 4 {
+            let vc = TestTableView()
             let nav = KWNavigationController(rootViewController: vc)
             self.changeRootViewController(vc: nav)
         }

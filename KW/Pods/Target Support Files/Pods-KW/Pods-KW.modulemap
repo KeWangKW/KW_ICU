@@ -1,0 +1,6 @@
+framework module Pods_KW {
+  umbrella header "Pods-KW-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,19 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+#修改为项目依赖方式
+install! 'cocoapods', :generate_multiple_pod_projects => true
+# 忽略引入库的所有警告
+inhibit_all_warnings!
+
+platform :ios, '10.0'
+
+target 'KW' do
+
+use_frameworks!
+
+  pod 'MJRefresh'
+  pod 'DZNEmptyDataSet'
+#  pod 'SnapKit'
+  pod 'HandyJSON'
+  
+end

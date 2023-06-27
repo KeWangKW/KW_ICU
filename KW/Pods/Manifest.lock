@@ -1,0 +1,24 @@
+PODS:
+  - DZNEmptyDataSet (1.8.1)
+  - HandyJSON (5.0.2)
+  - MJRefresh (3.7.5)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - HandyJSON
+  - MJRefresh
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DZNEmptyDataSet
+    - HandyJSON
+    - MJRefresh
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+
+PODFILE CHECKSUM: c4cfbc56d8c8d9d47d66db0b5889a4a3cc4b9ea6
+
+COCOAPODS: 1.12.1
