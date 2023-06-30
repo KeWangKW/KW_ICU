@@ -1,18 +1,17 @@
 //
-//  TestTableViewShow.m
+//  TestCollectionViewShow.m
 //  KWOC
 //
-//  Created by 渴望 on 2023/6/27.
+//  Created by 渴望 on 2023/6/30.
 //
 
-#import "TestTableViewShow.h"
-#import "TestTableViewShowCell.h"
-
-@interface TestTableViewShow ()
+#import "TestCollectionViewShow.h"
+#import "TestCollectionViewShowCell.h"
+@interface TestCollectionViewShow ()
 
 @end
 
-@implementation TestTableViewShow
+@implementation TestCollectionViewShow
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -30,19 +29,15 @@
     self.isAddRefreshFooter = true;
     
     [self.DataArr addObject:self.Section0Arr];
-    
-    self.style = UITableViewStyleGrouped;
-    
-    
-    [self.tableView kw_registerCell:[TestTableViewShowCell class] Xib:YES];
+    [self.collectionView kw_registerCell:[TestCollectionViewShowCell class] Xib:YES];
 }
 
 - (void)kw_initUI{
     [super kw_initUI];
-    self.tableView.backgroundColor = UIColor.redColor;
-    self.tableView.frame = CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight());
+    self.collectionView.backgroundColor = UIColor.redColor;
+    self.collectionView.frame = CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight());
+//    self.collectionView.collectionViewLayout = [[KWFlowLayout alloc]init];
 }
-
 
 - (void)kw_requestData{
     [super kw_requestData];
@@ -69,21 +64,18 @@
 
 - (void)refreshCell:(NSMutableArray *)arr {
     for (NSString *str in arr) {
-        TestTableViewShowCellItem * item = [TestTableViewShowCellItem item];
+        TestCollectionViewShowCellItem * item = [TestCollectionViewShowCellItem item];
         item.str = str;
         [self.DataArr[0] addObject:item];
     }
     
-    [self kw_tableViewReloadData];
+    [self kw_collectionViewReloadData];
 }
 
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    TestTableViewShowCellItem * item = self.DataArr[indexPath.section][indexPath.row];
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    TestCollectionViewShowCellItem * item = self.DataArr[indexPath.section][indexPath.row];
     NSLog(@"%@",item.str);
 }
-
-
 
 /*
 #pragma mark - Navigation

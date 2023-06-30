@@ -7,26 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5BFE182A4EAC1F00BB2679 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDEE2A4EAC1F00BB2679 /* KWSwift.swift */; };
+		0E5BFE192A4EAC1F00BB2679 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDF02A4EAC1F00BB2679 /* UIColorExt.swift */; };
+		0E5BFE1A2A4EAC1F00BB2679 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDF12A4EAC1F00BB2679 /* UIViewControllerExt.swift */; };
+		0E5BFE1B2A4EAC1F00BB2679 /* KOCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDF42A4EAC1F00BB2679 /* KOCollectionCell.m */; };
+		0E5BFE1C2A4EAC1F00BB2679 /* KOCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDF72A4EAC1F00BB2679 /* KOCollectionVC.m */; };
+		0E5BFE1D2A4EAC1F00BB2679 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDF92A4EAC1F00BB2679 /* KWNavigationController.swift */; };
+		0E5BFE1E2A4EAC1F00BB2679 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDFA2A4EAC1F00BB2679 /* KWFakeNavigationBar.swift */; };
+		0E5BFE1F2A4EAC1F00BB2679 /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDFB2A4EAC1F00BB2679 /* UIViewController+KWNavigationBar.swift */; };
+		0E5BFE202A4EAC1F00BB2679 /* KOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDFD2A4EAC1F00BB2679 /* KOTableVC.m */; };
+		0E5BFE212A4EAC1F00BB2679 /* KOTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDFE2A4EAC1F00BB2679 /* KOTableCell.m */; };
+		0E5BFE222A4EAC1F00BB2679 /* KSCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE022A4EAC1F00BB2679 /* KSCollectionVC.swift */; };
+		0E5BFE232A4EAC1F00BB2679 /* KSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE032A4EAC1F00BB2679 /* KSCollectionCell.swift */; };
+		0E5BFE242A4EAC1F00BB2679 /* KWFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE042A4EAC1F00BB2679 /* KWFlowLayout.swift */; };
+		0E5BFE252A4EAC1F00BB2679 /* KSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE062A4EAC1F00BB2679 /* KSTableVC.swift */; };
+		0E5BFE262A4EAC1F00BB2679 /* KSTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE072A4EAC1F00BB2679 /* KSTableCell.swift */; };
+		0E5BFE272A4EAC1F00BB2679 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE092A4EAC1F00BB2679 /* KSViewController.swift */; };
+		0E5BFE282A4EAC1F00BB2679 /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE0C2A4EAC1F00BB2679 /* KOViewController.m */; };
+		0E5BFE292A4EAC1F00BB2679 /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE0E2A4EAC1F00BB2679 /* KSModel.swift */; };
+		0E5BFE2A2A4EAC1F00BB2679 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE102A4EAC1F00BB2679 /* KWTabBarController.swift */; };
+		0E5BFE2B2A4EAC1F00BB2679 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE132A4EAC1F00BB2679 /* AutoFit.swift */; };
+		0E5BFE2C2A4EAC1F00BB2679 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE142A4EAC1F00BB2679 /* SizeS.swift */; };
+		0E5BFE2D2A4EAC1F00BB2679 /* MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE162A4EAC1F00BB2679 /* MJRefresh.swift */; };
+		0E5BFE2E2A4EAC1F00BB2679 /* DZNEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE172A4EAC1F00BB2679 /* DZNEmptyDataSet.swift */; };
+		0E5BFE322A4EAC7300BB2679 /* TestCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE312A4EAC7300BB2679 /* TestCollectionView.m */; };
+		0E5BFE352A4EAC8B00BB2679 /* TestCollectionViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE342A4EAC8B00BB2679 /* TestCollectionViewShow.m */; };
+		0E5BFE392A4EB64700BB2679 /* TestCollectionViewShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE372A4EB64700BB2679 /* TestCollectionViewShowCell.m */; };
+		0E5BFE3A2A4EB64700BB2679 /* TestCollectionViewShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BFE382A4EB64700BB2679 /* TestCollectionViewShowCell.xib */; };
+		0E5BFE432A4EB9A000BB2679 /* TestCollectionViewShow1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE422A4EB9A000BB2679 /* TestCollectionViewShow1.m */; };
+		0E5BFE472A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE452A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.m */; };
+		0E5BFE482A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BFE462A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.xib */; };
+		0E5BFE4B2A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE4A2A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.m */; };
+		0E5BFE4F2A4EBCF300BB2679 /* TestCollectionHeadFoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE4D2A4EBCF300BB2679 /* TestCollectionHeadFoot.m */; };
+		0E5BFE502A4EBCF300BB2679 /* TestCollectionHeadFoot.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5BFE4E2A4EBCF300BB2679 /* TestCollectionHeadFoot.xib */; };
 		0EC4BA7A2A47D61E008EB77B /* TestBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA792A47D61E008EB77B /* TestBaseVC.m */; };
 		0EC4BA842A47DE56008EB77B /* TestBaseVC11.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA832A47DE56008EB77B /* TestBaseVC11.m */; };
-		0EC4BCCD2A4AAF79008EB77B /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCAC2A4AAF78008EB77B /* KWSwift.swift */; };
-		0EC4BCCE2A4AAF79008EB77B /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCAE2A4AAF78008EB77B /* UIColorExt.swift */; };
-		0EC4BCCF2A4AAF79008EB77B /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCAF2A4AAF78008EB77B /* UIViewControllerExt.swift */; };
-		0EC4BCD02A4AAF79008EB77B /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCB22A4AAF78008EB77B /* KWNavigationController.swift */; };
-		0EC4BCD12A4AAF79008EB77B /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCB32A4AAF78008EB77B /* KWFakeNavigationBar.swift */; };
-		0EC4BCD22A4AAF79008EB77B /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCB42A4AAF78008EB77B /* UIViewController+KWNavigationBar.swift */; };
-		0EC4BCD32A4AAF79008EB77B /* KOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCB62A4AAF78008EB77B /* KOTableVC.m */; };
-		0EC4BCD42A4AAF79008EB77B /* KOTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCB72A4AAF78008EB77B /* KOTableCell.m */; };
-		0EC4BCD52A4AAF79008EB77B /* KSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCBB2A4AAF78008EB77B /* KSTableVC.swift */; };
-		0EC4BCD62A4AAF79008EB77B /* KSTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCBC2A4AAF78008EB77B /* KSTableCell.swift */; };
-		0EC4BCD72A4AAF79008EB77B /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCBE2A4AAF78008EB77B /* KSViewController.swift */; };
-		0EC4BCD82A4AAF79008EB77B /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCC12A4AAF78008EB77B /* KOViewController.m */; };
-		0EC4BCD92A4AAF79008EB77B /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCC32A4AAF78008EB77B /* KSModel.swift */; };
-		0EC4BCDA2A4AAF79008EB77B /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCC52A4AAF78008EB77B /* KWTabBarController.swift */; };
-		0EC4BCDB2A4AAF79008EB77B /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCC82A4AAF78008EB77B /* AutoFit.swift */; };
-		0EC4BCDC2A4AAF79008EB77B /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCC92A4AAF78008EB77B /* SizeS.swift */; };
-		0EC4BCDD2A4AAF79008EB77B /* MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCCB2A4AAF78008EB77B /* MJRefresh.swift */; };
-		0EC4BCDE2A4AAF79008EB77B /* DZNEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCCC2A4AAF78008EB77B /* DZNEmptyDataSet.swift */; };
 		0EC4BCE22A4AB00A008EB77B /* TestTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCE12A4AB00A008EB77B /* TestTableView.m */; };
 		0EC4BCE52A4AB024008EB77B /* TestTableViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCE42A4AB024008EB77B /* TestTableViewShow.m */; };
 		0EC4BCE92A4AB1F5008EB77B /* TestTableViewShowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCE72A4AB1F5008EB77B /* TestTableViewShowCell.m */; };
@@ -51,32 +66,56 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E5BFDEE2A4EAC1F00BB2679 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
+		0E5BFDF02A4EAC1F00BB2679 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		0E5BFDF12A4EAC1F00BB2679 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		0E5BFDF42A4EAC1F00BB2679 /* KOCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionCell.m; sourceTree = "<group>"; };
+		0E5BFDF52A4EAC1F00BB2679 /* KOCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionVC.h; sourceTree = "<group>"; };
+		0E5BFDF62A4EAC1F00BB2679 /* KOCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionCell.h; sourceTree = "<group>"; };
+		0E5BFDF72A4EAC1F00BB2679 /* KOCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionVC.m; sourceTree = "<group>"; };
+		0E5BFDF92A4EAC1F00BB2679 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
+		0E5BFDFA2A4EAC1F00BB2679 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
+		0E5BFDFB2A4EAC1F00BB2679 /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
+		0E5BFDFD2A4EAC1F00BB2679 /* KOTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableVC.m; sourceTree = "<group>"; };
+		0E5BFDFE2A4EAC1F00BB2679 /* KOTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableCell.m; sourceTree = "<group>"; };
+		0E5BFDFF2A4EAC1F00BB2679 /* KOTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableVC.h; sourceTree = "<group>"; };
+		0E5BFE002A4EAC1F00BB2679 /* KOTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableCell.h; sourceTree = "<group>"; };
+		0E5BFE022A4EAC1F00BB2679 /* KSCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionVC.swift; sourceTree = "<group>"; };
+		0E5BFE032A4EAC1F00BB2679 /* KSCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionCell.swift; sourceTree = "<group>"; };
+		0E5BFE042A4EAC1F00BB2679 /* KWFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFlowLayout.swift; sourceTree = "<group>"; };
+		0E5BFE062A4EAC1F00BB2679 /* KSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableVC.swift; sourceTree = "<group>"; };
+		0E5BFE072A4EAC1F00BB2679 /* KSTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableCell.swift; sourceTree = "<group>"; };
+		0E5BFE092A4EAC1F00BB2679 /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
+		0E5BFE0B2A4EAC1F00BB2679 /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
+		0E5BFE0C2A4EAC1F00BB2679 /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
+		0E5BFE0E2A4EAC1F00BB2679 /* KSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
+		0E5BFE102A4EAC1F00BB2679 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
+		0E5BFE122A4EAC1F00BB2679 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
+		0E5BFE132A4EAC1F00BB2679 /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
+		0E5BFE142A4EAC1F00BB2679 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
+		0E5BFE162A4EAC1F00BB2679 /* MJRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefresh.swift; sourceTree = "<group>"; };
+		0E5BFE172A4EAC1F00BB2679 /* DZNEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZNEmptyDataSet.swift; sourceTree = "<group>"; };
+		0E5BFE302A4EAC7300BB2679 /* TestCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionView.h; sourceTree = "<group>"; };
+		0E5BFE312A4EAC7300BB2679 /* TestCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionView.m; sourceTree = "<group>"; };
+		0E5BFE332A4EAC8B00BB2679 /* TestCollectionViewShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewShow.h; sourceTree = "<group>"; };
+		0E5BFE342A4EAC8B00BB2679 /* TestCollectionViewShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewShow.m; sourceTree = "<group>"; };
+		0E5BFE362A4EB64700BB2679 /* TestCollectionViewShowCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewShowCell.h; sourceTree = "<group>"; };
+		0E5BFE372A4EB64700BB2679 /* TestCollectionViewShowCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewShowCell.m; sourceTree = "<group>"; };
+		0E5BFE382A4EB64700BB2679 /* TestCollectionViewShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionViewShowCell.xib; sourceTree = "<group>"; };
+		0E5BFE412A4EB9A000BB2679 /* TestCollectionViewShow1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewShow1.h; sourceTree = "<group>"; };
+		0E5BFE422A4EB9A000BB2679 /* TestCollectionViewShow1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewShow1.m; sourceTree = "<group>"; };
+		0E5BFE442A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewShow1Cell1.h; sourceTree = "<group>"; };
+		0E5BFE452A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewShow1Cell1.m; sourceTree = "<group>"; };
+		0E5BFE462A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionViewShow1Cell1.xib; sourceTree = "<group>"; };
+		0E5BFE492A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionViewShow1Cell2.h; sourceTree = "<group>"; };
+		0E5BFE4A2A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionViewShow1Cell2.m; sourceTree = "<group>"; };
+		0E5BFE4C2A4EBCF300BB2679 /* TestCollectionHeadFoot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionHeadFoot.h; sourceTree = "<group>"; };
+		0E5BFE4D2A4EBCF300BB2679 /* TestCollectionHeadFoot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollectionHeadFoot.m; sourceTree = "<group>"; };
+		0E5BFE4E2A4EBCF300BB2679 /* TestCollectionHeadFoot.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionHeadFoot.xib; sourceTree = "<group>"; };
 		0EC4BA782A47D61E008EB77B /* TestBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBaseVC.h; sourceTree = "<group>"; };
 		0EC4BA792A47D61E008EB77B /* TestBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBaseVC.m; sourceTree = "<group>"; };
 		0EC4BA822A47DE56008EB77B /* TestBaseVC11.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBaseVC11.h; sourceTree = "<group>"; };
 		0EC4BA832A47DE56008EB77B /* TestBaseVC11.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBaseVC11.m; sourceTree = "<group>"; };
-		0EC4BCAC2A4AAF78008EB77B /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
-		0EC4BCAE2A4AAF78008EB77B /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
-		0EC4BCAF2A4AAF78008EB77B /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
-		0EC4BCB22A4AAF78008EB77B /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
-		0EC4BCB32A4AAF78008EB77B /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
-		0EC4BCB42A4AAF78008EB77B /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
-		0EC4BCB62A4AAF78008EB77B /* KOTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableVC.m; sourceTree = "<group>"; };
-		0EC4BCB72A4AAF78008EB77B /* KOTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableCell.m; sourceTree = "<group>"; };
-		0EC4BCB82A4AAF78008EB77B /* KOTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableVC.h; sourceTree = "<group>"; };
-		0EC4BCB92A4AAF78008EB77B /* KOTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableCell.h; sourceTree = "<group>"; };
-		0EC4BCBB2A4AAF78008EB77B /* KSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableVC.swift; sourceTree = "<group>"; };
-		0EC4BCBC2A4AAF78008EB77B /* KSTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableCell.swift; sourceTree = "<group>"; };
-		0EC4BCBE2A4AAF78008EB77B /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
-		0EC4BCC02A4AAF78008EB77B /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
-		0EC4BCC12A4AAF78008EB77B /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
-		0EC4BCC32A4AAF78008EB77B /* KSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
-		0EC4BCC52A4AAF78008EB77B /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
-		0EC4BCC72A4AAF78008EB77B /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
-		0EC4BCC82A4AAF78008EB77B /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
-		0EC4BCC92A4AAF78008EB77B /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
-		0EC4BCCB2A4AAF78008EB77B /* MJRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefresh.swift; sourceTree = "<group>"; };
-		0EC4BCCC2A4AAF78008EB77B /* DZNEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZNEmptyDataSet.swift; sourceTree = "<group>"; };
 		0EC4BCE02A4AB00A008EB77B /* TestTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableView.h; sourceTree = "<group>"; };
 		0EC4BCE12A4AB00A008EB77B /* TestTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableView.m; sourceTree = "<group>"; };
 		0EC4BCE32A4AB024008EB77B /* TestTableViewShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewShow.h; sourceTree = "<group>"; };
@@ -133,6 +172,171 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E5BFDED2A4EAC1F00BB2679 /* KWFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFDEE2A4EAC1F00BB2679 /* KWSwift.swift */,
+				0E5BFDEF2A4EAC1F00BB2679 /* Extension */,
+				0E5BFDF22A4EAC1F00BB2679 /* BaseClass */,
+				0E5BFE112A4EAC1F00BB2679 /* Const */,
+				0E5BFE152A4EAC1F00BB2679 /* SDKManager */,
+			);
+			name = KWFrameWork;
+			path = ../KWFrameWork;
+			sourceTree = "<group>";
+		};
+		0E5BFDEF2A4EAC1F00BB2679 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFDF02A4EAC1F00BB2679 /* UIColorExt.swift */,
+				0E5BFDF12A4EAC1F00BB2679 /* UIViewControllerExt.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0E5BFDF22A4EAC1F00BB2679 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFDF32A4EAC1F00BB2679 /* O_CollectionViewController */,
+				0E5BFDF82A4EAC1F00BB2679 /* NavigationController */,
+				0E5BFDFC2A4EAC1F00BB2679 /* O_TableViewController */,
+				0E5BFE012A4EAC1F00BB2679 /* S_CollectionViewController */,
+				0E5BFE052A4EAC1F00BB2679 /* S_TableViewController */,
+				0E5BFE082A4EAC1F00BB2679 /* S_ViewController */,
+				0E5BFE0A2A4EAC1F00BB2679 /* O_ViewController */,
+				0E5BFE0D2A4EAC1F00BB2679 /* Model */,
+				0E5BFE0F2A4EAC1F00BB2679 /* TabbarController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		0E5BFDF32A4EAC1F00BB2679 /* O_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFDF52A4EAC1F00BB2679 /* KOCollectionVC.h */,
+				0E5BFDF72A4EAC1F00BB2679 /* KOCollectionVC.m */,
+				0E5BFDF62A4EAC1F00BB2679 /* KOCollectionCell.h */,
+				0E5BFDF42A4EAC1F00BB2679 /* KOCollectionCell.m */,
+			);
+			path = O_CollectionViewController;
+			sourceTree = "<group>";
+		};
+		0E5BFDF82A4EAC1F00BB2679 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFDF92A4EAC1F00BB2679 /* KWNavigationController.swift */,
+				0E5BFDFA2A4EAC1F00BB2679 /* KWFakeNavigationBar.swift */,
+				0E5BFDFB2A4EAC1F00BB2679 /* UIViewController+KWNavigationBar.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		0E5BFDFC2A4EAC1F00BB2679 /* O_TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFDFD2A4EAC1F00BB2679 /* KOTableVC.m */,
+				0E5BFDFE2A4EAC1F00BB2679 /* KOTableCell.m */,
+				0E5BFDFF2A4EAC1F00BB2679 /* KOTableVC.h */,
+				0E5BFE002A4EAC1F00BB2679 /* KOTableCell.h */,
+			);
+			path = O_TableViewController;
+			sourceTree = "<group>";
+		};
+		0E5BFE012A4EAC1F00BB2679 /* S_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE022A4EAC1F00BB2679 /* KSCollectionVC.swift */,
+				0E5BFE032A4EAC1F00BB2679 /* KSCollectionCell.swift */,
+				0E5BFE042A4EAC1F00BB2679 /* KWFlowLayout.swift */,
+			);
+			path = S_CollectionViewController;
+			sourceTree = "<group>";
+		};
+		0E5BFE052A4EAC1F00BB2679 /* S_TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE062A4EAC1F00BB2679 /* KSTableVC.swift */,
+				0E5BFE072A4EAC1F00BB2679 /* KSTableCell.swift */,
+			);
+			path = S_TableViewController;
+			sourceTree = "<group>";
+		};
+		0E5BFE082A4EAC1F00BB2679 /* S_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE092A4EAC1F00BB2679 /* KSViewController.swift */,
+			);
+			path = S_ViewController;
+			sourceTree = "<group>";
+		};
+		0E5BFE0A2A4EAC1F00BB2679 /* O_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE0B2A4EAC1F00BB2679 /* KOViewController.h */,
+				0E5BFE0C2A4EAC1F00BB2679 /* KOViewController.m */,
+			);
+			path = O_ViewController;
+			sourceTree = "<group>";
+		};
+		0E5BFE0D2A4EAC1F00BB2679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE0E2A4EAC1F00BB2679 /* KSModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E5BFE0F2A4EAC1F00BB2679 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE102A4EAC1F00BB2679 /* KWTabBarController.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		0E5BFE112A4EAC1F00BB2679 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE122A4EAC1F00BB2679 /* SizeO.h */,
+				0E5BFE132A4EAC1F00BB2679 /* AutoFit.swift */,
+				0E5BFE142A4EAC1F00BB2679 /* SizeS.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		0E5BFE152A4EAC1F00BB2679 /* SDKManager */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE162A4EAC1F00BB2679 /* MJRefresh.swift */,
+				0E5BFE172A4EAC1F00BB2679 /* DZNEmptyDataSet.swift */,
+			);
+			path = SDKManager;
+			sourceTree = "<group>";
+		};
+		0E5BFE2F2A4EAC4400BB2679 /* TestCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFE302A4EAC7300BB2679 /* TestCollectionView.h */,
+				0E5BFE312A4EAC7300BB2679 /* TestCollectionView.m */,
+				0E5BFE332A4EAC8B00BB2679 /* TestCollectionViewShow.h */,
+				0E5BFE342A4EAC8B00BB2679 /* TestCollectionViewShow.m */,
+				0E5BFE362A4EB64700BB2679 /* TestCollectionViewShowCell.h */,
+				0E5BFE372A4EB64700BB2679 /* TestCollectionViewShowCell.m */,
+				0E5BFE382A4EB64700BB2679 /* TestCollectionViewShowCell.xib */,
+				0E5BFE412A4EB9A000BB2679 /* TestCollectionViewShow1.h */,
+				0E5BFE422A4EB9A000BB2679 /* TestCollectionViewShow1.m */,
+				0E5BFE442A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.h */,
+				0E5BFE452A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.m */,
+				0E5BFE462A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.xib */,
+				0E5BFE492A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.h */,
+				0E5BFE4A2A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.m */,
+				0E5BFE4C2A4EBCF300BB2679 /* TestCollectionHeadFoot.h */,
+				0E5BFE4D2A4EBCF300BB2679 /* TestCollectionHeadFoot.m */,
+				0E5BFE4E2A4EBCF300BB2679 /* TestCollectionHeadFoot.xib */,
+			);
+			path = TestCollectionView;
+			sourceTree = "<group>";
+		};
 		0EC4BA772A47D5F3008EB77B /* KWViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,124 +346,6 @@
 				0EC4BA832A47DE56008EB77B /* TestBaseVC11.m */,
 			);
 			path = KWViewController;
-			sourceTree = "<group>";
-		};
-		0EC4BCAB2A4AAF78008EB77B /* KWFrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCAC2A4AAF78008EB77B /* KWSwift.swift */,
-				0EC4BCAD2A4AAF78008EB77B /* Extension */,
-				0EC4BCB02A4AAF78008EB77B /* BaseClass */,
-				0EC4BCC62A4AAF78008EB77B /* Const */,
-				0EC4BCCA2A4AAF78008EB77B /* SDKManager */,
-			);
-			name = KWFrameWork;
-			path = ../KWFrameWork;
-			sourceTree = "<group>";
-		};
-		0EC4BCAD2A4AAF78008EB77B /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCAE2A4AAF78008EB77B /* UIColorExt.swift */,
-				0EC4BCAF2A4AAF78008EB77B /* UIViewControllerExt.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		0EC4BCB02A4AAF78008EB77B /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCB12A4AAF78008EB77B /* NavigationController */,
-				0EC4BCB52A4AAF78008EB77B /* O_TableViewController */,
-				0EC4BCBA2A4AAF78008EB77B /* S_TableViewController */,
-				0EC4BCBD2A4AAF78008EB77B /* S_ViewController */,
-				0EC4BCBF2A4AAF78008EB77B /* O_ViewController */,
-				0EC4BCC22A4AAF78008EB77B /* Model */,
-				0EC4BCC42A4AAF78008EB77B /* TabbarController */,
-			);
-			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		0EC4BCB12A4AAF78008EB77B /* NavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCB22A4AAF78008EB77B /* KWNavigationController.swift */,
-				0EC4BCB32A4AAF78008EB77B /* KWFakeNavigationBar.swift */,
-				0EC4BCB42A4AAF78008EB77B /* UIViewController+KWNavigationBar.swift */,
-			);
-			path = NavigationController;
-			sourceTree = "<group>";
-		};
-		0EC4BCB52A4AAF78008EB77B /* O_TableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCB62A4AAF78008EB77B /* KOTableVC.m */,
-				0EC4BCB72A4AAF78008EB77B /* KOTableCell.m */,
-				0EC4BCB82A4AAF78008EB77B /* KOTableVC.h */,
-				0EC4BCB92A4AAF78008EB77B /* KOTableCell.h */,
-			);
-			path = O_TableViewController;
-			sourceTree = "<group>";
-		};
-		0EC4BCBA2A4AAF78008EB77B /* S_TableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCBB2A4AAF78008EB77B /* KSTableVC.swift */,
-				0EC4BCBC2A4AAF78008EB77B /* KSTableCell.swift */,
-			);
-			path = S_TableViewController;
-			sourceTree = "<group>";
-		};
-		0EC4BCBD2A4AAF78008EB77B /* S_ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCBE2A4AAF78008EB77B /* KSViewController.swift */,
-			);
-			path = S_ViewController;
-			sourceTree = "<group>";
-		};
-		0EC4BCBF2A4AAF78008EB77B /* O_ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCC02A4AAF78008EB77B /* KOViewController.h */,
-				0EC4BCC12A4AAF78008EB77B /* KOViewController.m */,
-			);
-			path = O_ViewController;
-			sourceTree = "<group>";
-		};
-		0EC4BCC22A4AAF78008EB77B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCC32A4AAF78008EB77B /* KSModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0EC4BCC42A4AAF78008EB77B /* TabbarController */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCC52A4AAF78008EB77B /* KWTabBarController.swift */,
-			);
-			path = TabbarController;
-			sourceTree = "<group>";
-		};
-		0EC4BCC62A4AAF78008EB77B /* Const */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCC72A4AAF78008EB77B /* SizeO.h */,
-				0EC4BCC82A4AAF78008EB77B /* AutoFit.swift */,
-				0EC4BCC92A4AAF78008EB77B /* SizeS.swift */,
-			);
-			path = Const;
-			sourceTree = "<group>";
-		};
-		0EC4BCCA2A4AAF78008EB77B /* SDKManager */ = {
-			isa = PBXGroup;
-			children = (
-				0EC4BCCB2A4AAF78008EB77B /* MJRefresh.swift */,
-				0EC4BCCC2A4AAF78008EB77B /* DZNEmptyDataSet.swift */,
-			);
-			path = SDKManager;
 			sourceTree = "<group>";
 		};
 		0EC4BCDF2A4AAFC2008EB77B /* TestTableView */ = {
@@ -279,6 +365,7 @@
 		0ED648AB2A3D91850020E918 /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0E5BFE2F2A4EAC4400BB2679 /* TestCollectionView */,
 				0EC4BCDF2A4AAFC2008EB77B /* TestTableView */,
 				0EC4BA772A47D5F3008EB77B /* KWViewController */,
 				0ED649602A404F620020E918 /* KWNavigation */,
@@ -330,7 +417,7 @@
 		0EEBD0EC2A394C71003F04DF = {
 			isa = PBXGroup;
 			children = (
-				0EC4BCAB2A4AAF78008EB77B /* KWFrameWork */,
+				0E5BFDED2A4EAC1F00BB2679 /* KWFrameWork */,
 				0EEBD1202A39541C003F04DF /* KWOC-Bridging-header.h */,
 				0EEBD0F72A394C71003F04DF /* KWOC */,
 				0EEBD0F62A394C71003F04DF /* Products */,
@@ -443,10 +530,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E5BFE502A4EBCF300BB2679 /* TestCollectionHeadFoot.xib in Resources */,
+				0E5BFE482A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.xib in Resources */,
 				0EEBD1082A394C73003F04DF /* LaunchScreen.storyboard in Resources */,
 				0EEBD1052A394C73003F04DF /* Assets.xcassets in Resources */,
 				0EC4BCEA2A4AB1F5008EB77B /* TestTableViewShowCell.xib in Resources */,
 				0EEBD1032A394C71003F04DF /* Main.storyboard in Resources */,
+				0E5BFE3A2A4EB64700BB2679 /* TestCollectionViewShowCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,41 +590,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEBD1002A394C71003F04DF /* ViewController.m in Sources */,
+				0E5BFE232A4EAC1F00BB2679 /* KSCollectionCell.swift in Sources */,
+				0E5BFE2B2A4EAC1F00BB2679 /* AutoFit.swift in Sources */,
 				0ED648B82A3D92CC0020E918 /* TabBar3VC.m in Sources */,
-				0EC4BCDA2A4AAF79008EB77B /* KWTabBarController.swift in Sources */,
-				0EC4BCD12A4AAF79008EB77B /* KWFakeNavigationBar.swift in Sources */,
-				0EC4BCD02A4AAF79008EB77B /* KWNavigationController.swift in Sources */,
-				0EC4BCCF2A4AAF79008EB77B /* UIViewControllerExt.swift in Sources */,
 				0ED648B22A3D92B90020E918 /* TabBar1VC.m in Sources */,
+				0E5BFE202A4EAC1F00BB2679 /* KOTableVC.m in Sources */,
+				0E5BFE1B2A4EAC1F00BB2679 /* KOCollectionCell.m in Sources */,
 				0ED648BB2A3D92D50020E918 /* TabBar4VC.m in Sources */,
-				0EC4BCD32A4AAF79008EB77B /* KOTableVC.m in Sources */,
+				0E5BFE2D2A4EAC1F00BB2679 /* MJRefresh.swift in Sources */,
+				0E5BFE242A4EAC1F00BB2679 /* KWFlowLayout.swift in Sources */,
+				0E5BFE212A4EAC1F00BB2679 /* KOTableCell.m in Sources */,
+				0E5BFE432A4EB9A000BB2679 /* TestCollectionViewShow1.m in Sources */,
+				0E5BFE252A4EAC1F00BB2679 /* KSTableVC.swift in Sources */,
 				0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */,
-				0EC4BCD52A4AAF79008EB77B /* KSTableVC.swift in Sources */,
-				0EC4BCCE2A4AAF79008EB77B /* UIColorExt.swift in Sources */,
+				0E5BFE4B2A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.m in Sources */,
+				0E5BFE292A4EAC1F00BB2679 /* KSModel.swift in Sources */,
+				0E5BFE262A4EAC1F00BB2679 /* KSTableCell.swift in Sources */,
+				0E5BFE2E2A4EAC1F00BB2679 /* DZNEmptyDataSet.swift in Sources */,
+				0E5BFE352A4EAC8B00BB2679 /* TestCollectionViewShow.m in Sources */,
+				0E5BFE222A4EAC1F00BB2679 /* KSCollectionVC.swift in Sources */,
+				0E5BFE1A2A4EAC1F00BB2679 /* UIViewControllerExt.swift in Sources */,
 				0EC4BA842A47DE56008EB77B /* TestBaseVC11.m in Sources */,
-				0EC4BCD82A4AAF79008EB77B /* KOViewController.m in Sources */,
-				0EC4BCDB2A4AAF79008EB77B /* AutoFit.swift in Sources */,
 				0ED648C32A3D9F9B0020E918 /* KWColorDemo.m in Sources */,
-				0EC4BCDD2A4AAF79008EB77B /* MJRefresh.swift in Sources */,
 				0EC4BCE52A4AB024008EB77B /* TestTableViewShow.m in Sources */,
-				0EC4BCDE2A4AAF79008EB77B /* DZNEmptyDataSet.swift in Sources */,
-				0EC4BCCD2A4AAF79008EB77B /* KWSwift.swift in Sources */,
 				0ED648BE2A3D92DD0020E918 /* TabBar5VC.m in Sources */,
+				0E5BFE2A2A4EAC1F00BB2679 /* KWTabBarController.swift in Sources */,
 				0EEBD10B2A394C73003F04DF /* main.m in Sources */,
 				0ED648B52A3D92C50020E918 /* TabBar2VC.m in Sources */,
+				0E5BFE272A4EAC1F00BB2679 /* KSViewController.swift in Sources */,
 				0EC4BA7A2A47D61E008EB77B /* TestBaseVC.m in Sources */,
+				0E5BFE2C2A4EAC1F00BB2679 /* SizeS.swift in Sources */,
+				0E5BFE1F2A4EAC1F00BB2679 /* UIViewController+KWNavigationBar.swift in Sources */,
 				0EC4BCE22A4AB00A008EB77B /* TestTableView.m in Sources */,
-				0EC4BCD72A4AAF79008EB77B /* KSViewController.swift in Sources */,
-				0EC4BCD22A4AAF79008EB77B /* UIViewController+KWNavigationBar.swift in Sources */,
+				0E5BFE192A4EAC1F00BB2679 /* UIColorExt.swift in Sources */,
+				0E5BFE472A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.m in Sources */,
 				0ED649632A404F7C0020E918 /* KWNavigationVC.m in Sources */,
-				0EC4BCD62A4AAF79008EB77B /* KSTableCell.swift in Sources */,
-				0EC4BCD42A4AAF79008EB77B /* KOTableCell.m in Sources */,
+				0E5BFE1E2A4EAC1F00BB2679 /* KWFakeNavigationBar.swift in Sources */,
 				0ED648AF2A3D91B80020E918 /* TabBarDemoVC.m in Sources */,
+				0E5BFE392A4EB64700BB2679 /* TestCollectionViewShowCell.m in Sources */,
+				0E5BFE322A4EAC7300BB2679 /* TestCollectionView.m in Sources */,
 				0ED649662A404FA70020E918 /* KWNavigationVC1.m in Sources */,
-				0EC4BCDC2A4AAF79008EB77B /* SizeS.swift in Sources */,
+				0E5BFE4F2A4EBCF300BB2679 /* TestCollectionHeadFoot.m in Sources */,
+				0E5BFE1C2A4EAC1F00BB2679 /* KOCollectionVC.m in Sources */,
 				0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */,
+				0E5BFE1D2A4EAC1F00BB2679 /* KWNavigationController.swift in Sources */,
 				0EC4BCE92A4AB1F5008EB77B /* TestTableViewShowCell.m in Sources */,
-				0EC4BCD92A4AAF79008EB77B /* KSModel.swift in Sources */,
+				0E5BFE182A4EAC1F00BB2679 /* KWSwift.swift in Sources */,
+				0E5BFE282A4EAC1F00BB2679 /* KOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

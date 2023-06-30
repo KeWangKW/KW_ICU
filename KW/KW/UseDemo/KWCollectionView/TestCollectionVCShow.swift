@@ -1,13 +1,13 @@
 //
-//  TestTableVIewShow.swift
+//  TestCollectionVCShow.swift
 //  KW
 //
-//  Created by 渴望 on 2023/6/25.
+//  Created by 渴望 on 2023/6/28.
 //
 
 import UIKit
 
-class TestTableVIewShow: KSTableVC {
+class TestCollectionVCShow: KSCollectionVC {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,7 +15,6 @@ class TestTableVIewShow: KSTableVC {
         // Do any additional setup after loading the view.
     }
     
-
     override func kw_initData() {
         super.kw_initData()
         
@@ -28,15 +27,17 @@ class TestTableVIewShow: KSTableVC {
         
         DataArr.append(Section0Arr)
         
-        style = .plain
         
-        tableView.kw_register(cell: TestTableVIewShowCell.self, isXib: true)
+        
+        
+        
+        collectionView.kw_register(cell: TestCollectionVCShowCell.self, isXib: true)
     }
     
     override func kw_initUI() {
         super.kw_initUI()
-        tableView.backgroundColor = UIColor.red
-        tableView.frame = CGRect(x: 0, y: KNavigationStatusHeight, width: KScreenWidth, height: KScreenHeight-KNavigationStatusHeight)
+        collectionView.backgroundColor = UIColor.red
+        collectionView.frame = CGRect(x: 0, y: KNavigationStatusHeight, width: KScreenWidth, height: KScreenHeight-KNavigationStatusHeight)
     }
     
     override func kw_requestData() {
@@ -58,20 +59,19 @@ class TestTableVIewShow: KSTableVC {
     func refreshCell(_ arr:[String]) {
         
         for string in arr {
-            let item = TestTableVIewShowCellItem()
+            let item = TestCollectionVCShowCellItem()
             item.str = string
             DataArr[0].append(item)
         }
         
-        kw_tableViewReloadData()
+        kw_collectionViewReloadData()
     }
     
     
-    
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let item = DataArr[indexPath.section][indexPath.row] as! TestTableVIewShowCellItem
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let item = DataArr[indexPath.section][indexPath.row] as! TestCollectionVCShowCellItem
         print(item.str)
     }
     
-    
+
 }

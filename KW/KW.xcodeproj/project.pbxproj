@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5BFDA42A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDA32A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift */; };
+		0E5BFDE92A4E756F00BB2679 /* KOCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDE82A4E756F00BB2679 /* KOCollectionVC.m */; };
+		0E5BFDEC2A4E75C700BB2679 /* KOCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDEB2A4E75C700BB2679 /* KOCollectionCell.m */; };
 		0EA7073B2A42D8F9001745A7 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */; };
 		0EA7073D2A42D914001745A7 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA7073C2A42D914001745A7 /* KWSwift.swift */; };
 		0EC4BA4F2A47CF2C008EB77B /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BA4E2A47CF2C008EB77B /* KOViewController.m */; };
@@ -24,6 +27,14 @@
 		0EC4BBEA2A482FD3008EB77B /* DZNEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BBE92A482FD2008EB77B /* DZNEmptyDataSet.swift */; };
 		0EC4BC9F2A4A7372008EB77B /* KOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BC9E2A4A7372008EB77B /* KOTableVC.m */; };
 		0EC4BCA42A4A881B008EB77B /* KOTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BCA32A4A881B008EB77B /* KOTableCell.m */; };
+		0EC4BE362A4BB6CF008EB77B /* KSCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BE352A4BB6CF008EB77B /* KSCollectionVC.swift */; };
+		0EC4BE382A4BB9DA008EB77B /* KSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BE372A4BB9DA008EB77B /* KSCollectionCell.swift */; };
+		0EC4BE3B2A4BC5A2008EB77B /* TestCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BE3A2A4BC5A2008EB77B /* TestCollectionVC.swift */; };
+		0EC4BE3D2A4BC5B9008EB77B /* TestCollectionVCShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BE3C2A4BC5B9008EB77B /* TestCollectionVCShow.swift */; };
+		0EC4BE402A4BC703008EB77B /* TestCollectionVCShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BE3E2A4BC703008EB77B /* TestCollectionVCShowCell.swift */; };
+		0EC4BE412A4BC703008EB77B /* TestCollectionVCShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EC4BE3F2A4BC703008EB77B /* TestCollectionVCShowCell.xib */; };
+		0EC4BE432A4BCCD8008EB77B /* TestCollectionVCShow1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BE422A4BCCD8008EB77B /* TestCollectionVCShow1.swift */; };
+		0EC4BE452A4BCDB3008EB77B /* KWFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC4BE442A4BCDB3008EB77B /* KWFlowLayout.swift */; };
 		0ED6480B2A3D3C700020E918 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648092A3D3C700020E918 /* KWTabBarController.swift */; };
 		0ED6480C2A3D3C700020E918 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED6480A2A3D3C700020E918 /* SizeS.swift */; };
 		0ED648182A3D42D30020E918 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648172A3D42D30020E918 /* AutoFit.swift */; };
@@ -52,6 +63,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E5BFDA32A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionVCShowCell1.swift; sourceTree = "<group>"; };
+		0E5BFDE72A4E756F00BB2679 /* KOCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOCollectionVC.h; sourceTree = "<group>"; };
+		0E5BFDE82A4E756F00BB2679 /* KOCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOCollectionVC.m; sourceTree = "<group>"; };
+		0E5BFDEA2A4E75C700BB2679 /* KOCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOCollectionCell.h; sourceTree = "<group>"; };
+		0E5BFDEB2A4E75C700BB2679 /* KOCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOCollectionCell.m; sourceTree = "<group>"; };
 		0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		0EA7073C2A42D914001745A7 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
 		0EC4BA4D2A47CF2C008EB77B /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
@@ -72,6 +88,14 @@
 		0EC4BC9E2A4A7372008EB77B /* KOTableVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOTableVC.m; sourceTree = "<group>"; };
 		0EC4BCA22A4A881B008EB77B /* KOTableCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOTableCell.h; sourceTree = "<group>"; };
 		0EC4BCA32A4A881B008EB77B /* KOTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOTableCell.m; sourceTree = "<group>"; };
+		0EC4BE352A4BB6CF008EB77B /* KSCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSCollectionVC.swift; sourceTree = "<group>"; };
+		0EC4BE372A4BB9DA008EB77B /* KSCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KSCollectionCell.swift; sourceTree = "<group>"; };
+		0EC4BE3A2A4BC5A2008EB77B /* TestCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionVC.swift; sourceTree = "<group>"; };
+		0EC4BE3C2A4BC5B9008EB77B /* TestCollectionVCShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionVCShow.swift; sourceTree = "<group>"; };
+		0EC4BE3E2A4BC703008EB77B /* TestCollectionVCShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionVCShowCell.swift; sourceTree = "<group>"; };
+		0EC4BE3F2A4BC703008EB77B /* TestCollectionVCShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionVCShowCell.xib; sourceTree = "<group>"; };
+		0EC4BE422A4BCCD8008EB77B /* TestCollectionVCShow1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionVCShow1.swift; sourceTree = "<group>"; };
+		0EC4BE442A4BCDB3008EB77B /* KWFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFlowLayout.swift; sourceTree = "<group>"; };
 		0ED648092A3D3C700020E918 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
 		0ED6480A2A3D3C700020E918 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
 		0ED648112A3D41170020E918 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
@@ -117,6 +141,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E5BFDE62A4E753000BB2679 /* O_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0E5BFDE72A4E756F00BB2679 /* KOCollectionVC.h */,
+				0E5BFDE82A4E756F00BB2679 /* KOCollectionVC.m */,
+				0E5BFDEA2A4E75C700BB2679 /* KOCollectionCell.h */,
+				0E5BFDEB2A4E75C700BB2679 /* KOCollectionCell.m */,
+			);
+			path = O_CollectionViewController;
+			sourceTree = "<group>";
+		};
 		0EC4BA4C2A47CDE4008EB77B /* S_ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +227,29 @@
 			path = O_TableViewController;
 			sourceTree = "<group>";
 		};
+		0EC4BE342A4BB658008EB77B /* S_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4BE352A4BB6CF008EB77B /* KSCollectionVC.swift */,
+				0EC4BE372A4BB9DA008EB77B /* KSCollectionCell.swift */,
+				0EC4BE442A4BCDB3008EB77B /* KWFlowLayout.swift */,
+			);
+			path = S_CollectionViewController;
+			sourceTree = "<group>";
+		};
+		0EC4BE392A4BC57A008EB77B /* KWCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				0EC4BE3A2A4BC5A2008EB77B /* TestCollectionVC.swift */,
+				0EC4BE3C2A4BC5B9008EB77B /* TestCollectionVCShow.swift */,
+				0EC4BE422A4BCCD8008EB77B /* TestCollectionVCShow1.swift */,
+				0E5BFDA32A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift */,
+				0EC4BE3E2A4BC703008EB77B /* TestCollectionVCShowCell.swift */,
+				0EC4BE3F2A4BC703008EB77B /* TestCollectionVCShowCell.xib */,
+			);
+			path = KWCollectionView;
+			sourceTree = "<group>";
+		};
 		0ED648082A3D3C700020E918 /* KWFrameWork */ = {
 			isa = PBXGroup;
 			children = (
@@ -218,6 +276,8 @@
 		0ED648192A3D43160020E918 /* BaseClass */ = {
 			isa = PBXGroup;
 			children = (
+				0E5BFDE62A4E753000BB2679 /* O_CollectionViewController */,
+				0EC4BE342A4BB658008EB77B /* S_CollectionViewController */,
 				0EC4BCA12A4A862F008EB77B /* O_TableViewController */,
 				0EC4BCA02A4A8606008EB77B /* O_ViewController */,
 				0EC4BC582A4843A1008EB77B /* Model */,
@@ -325,6 +385,7 @@
 		0EEBD06B2A38041C003F04DF /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0EC4BE392A4BC57A008EB77B /* KWCollectionView */,
 				0EC4BB042A48210A008EB77B /* KWTableView */,
 				0EC4BA502A47D3F3008EB77B /* KWViewController */,
 				0ED649382A3FFC530020E918 /* KWNavigation */,
@@ -413,6 +474,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEBD01D2A37FFD7003F04DF /* LaunchScreen.storyboard in Resources */,
+				0EC4BE412A4BC703008EB77B /* TestCollectionVCShowCell.xib in Resources */,
 				0EC4BB082A482146008EB77B /* TestTableView.xib in Resources */,
 				0EC4BB0E2A4827AF008EB77B /* TestTableVIewShowCell.xib in Resources */,
 				0EEBD01A2A37FFD7003F04DF /* Assets.xcassets in Resources */,
@@ -471,14 +533,18 @@
 			files = (
 				0EEBD06E2A380472003F04DF /* TabBar1VC.swift in Sources */,
 				0EEBD0742A380494003F04DF /* TabBar4VC.swift in Sources */,
+				0EC4BE402A4BC703008EB77B /* TestCollectionVCShowCell.swift in Sources */,
 				0EC4BA4F2A47CF2C008EB77B /* KOViewController.m in Sources */,
 				0ED649432A4029C30020E918 /* KWFakeNavigationBar.swift in Sources */,
 				0EEBD0152A37FFD5003F04DF /* ViewController.swift in Sources */,
+				0E5BFDE92A4E756F00BB2679 /* KOCollectionVC.m in Sources */,
 				0ED648942A3D58680020E918 /* KWColorDemoVC.swift in Sources */,
+				0EC4BE362A4BB6CF008EB77B /* KSCollectionVC.swift in Sources */,
 				0EC4BCA42A4A881B008EB77B /* KOTableCell.m in Sources */,
 				0ED649442A4029C30020E918 /* KWNavigationController.swift in Sources */,
 				0ED6493E2A4026AE0020E918 /* KWNavigationVC2.swift in Sources */,
 				0ED6480B2A3D3C700020E918 /* KWTabBarController.swift in Sources */,
+				0E5BFDA42A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift in Sources */,
 				0ED649462A40325A0020E918 /* KSViewController.swift in Sources */,
 				0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */,
 				0EC4BA572A47D47D008EB77B /* TestBaseVC.swift in Sources */,
@@ -487,6 +553,7 @@
 				0EC4BBEA2A482FD3008EB77B /* DZNEmptyDataSet.swift in Sources */,
 				0EC4BA7F2A47DBC4008EB77B /* TestBaseVC11.swift in Sources */,
 				0EEBD07A2A380790003F04DF /* TabBarDemoVC.swift in Sources */,
+				0EC4BE382A4BB9DA008EB77B /* KSCollectionCell.swift in Sources */,
 				0EA7073B2A42D8F9001745A7 /* UIViewControllerExt.swift in Sources */,
 				0EEBD0762A3804A0003F04DF /* TabBar5VC.swift in Sources */,
 				0ED6493C2A4026A20020E918 /* KWNavigationVC1.swift in Sources */,
@@ -495,12 +562,17 @@
 				0EEBD0132A37FFD5003F04DF /* SceneDelegate.swift in Sources */,
 				0EC4BB0A2A482272008EB77B /* TestTableVIewShow.swift in Sources */,
 				0EC4BA872A480C6B008EB77B /* KSTableVC.swift in Sources */,
+				0E5BFDEC2A4E75C700BB2679 /* KOCollectionCell.m in Sources */,
 				0EC4BC9F2A4A7372008EB77B /* KOTableVC.m in Sources */,
 				0EC4BB072A482146008EB77B /* TestTableView.swift in Sources */,
+				0EC4BE3B2A4BC5A2008EB77B /* TestCollectionVC.swift in Sources */,
 				0ED648182A3D42D30020E918 /* AutoFit.swift in Sources */,
 				0EEBD0722A38048A003F04DF /* TabBar3VC.swift in Sources */,
 				0EC4BAF82A4810E7008EB77B /* KSModel.swift in Sources */,
+				0EC4BE432A4BCCD8008EB77B /* TestCollectionVCShow1.swift in Sources */,
 				0EEBD0702A38047D003F04DF /* TabBar2VC.swift in Sources */,
+				0EC4BE452A4BCDB3008EB77B /* KWFlowLayout.swift in Sources */,
+				0EC4BE3D2A4BC5B9008EB77B /* TestCollectionVCShow.swift in Sources */,
 				0EC4BAFF2A481771008EB77B /* MJRefresh.swift in Sources */,
 				0ED6480C2A3D3C700020E918 /* SizeS.swift in Sources */,
 				0EC4BB0D2A4827AF008EB77B /* TestTableVIewShowCell.swift in Sources */,

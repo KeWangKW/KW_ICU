@@ -1,26 +1,23 @@
 //
-//  KOTableVC.h
+//  KOCollectionVC.h
 //  KW
 //
-//  Created by 渴望 on 2023/6/27.
+//  Created by 渴望 on 2023/6/30.
 //
 
 #import "KOViewController.h"
 #import "SizeO.h"
 #import <KW-Swift.h>
-#import "KOTableCell.h"
-
+#import "KOCollectionCell.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface KOTableVC : KOViewController <UITableViewDelegate, UITableViewDataSource>
-
+@interface KOCollectionVC : KOViewController <UICollectionViewDelegate,UICollectionViewDataSource ,UICollectionViewDelegateFlowLayout>
 @property (nonatomic, assign) int page;
 @property (nonatomic, assign) int pageCount;
 @property (nonatomic, assign) BOOL isAddRefreshHeader;
 @property (nonatomic, assign) BOOL isAddRefreshFooter;
 
-@property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, assign) UITableViewStyle style;
+@property (nonatomic, strong) UICollectionView *collectionView;
 
 @property (nonatomic, strong) NSMutableArray *DataArr;
 @property (nonatomic, strong) NSMutableArray *Section0Arr;
@@ -34,15 +31,21 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSMutableArray *Section8Arr;
 @property (nonatomic, strong) NSMutableArray *Section9Arr;
 
-- (void)kw_tableViewReloadData;
+- (void)kw_collectionViewReloadData;
 @end
 
 
-@interface UITableView (Category)
+
+@interface UICollectionView (Category)
 - (void)kw_registerCell:(Class _Nullable )cellClass Xib:(BOOL)isXib;
-- (void)kw_registerView:(Class _Nullable )viewClass Xib:(BOOL)isXib;
-- (UITableViewCell *)kw_dequeueCell:(Class)cellClass indexPath:(NSIndexPath *)indexPath;
-- (UITableViewHeaderFooterView *)kw_dequeueView:(Class)viewClass;
+- (void)kw_registerHeader:(Class _Nullable )headerClass Xib:(BOOL)isXib;
+- (void)kw_registerFooter:(Class _Nullable )footerClass Xib:(BOOL)isXib;
+
+- (UICollectionView *)kw_dequeueCell:(Class)cellClass indexPath:(NSIndexPath *)indexPath;
+- (UICollectionReusableView *)kw_dequeueHeader:(Class)viewClass indexPath:(NSIndexPath *)indexPath;
+- (UICollectionReusableView *)kw_dequeueFooter:(Class)viewClass indexPath:(NSIndexPath *)indexPath;
 @end
+
+
 
 NS_ASSUME_NONNULL_END

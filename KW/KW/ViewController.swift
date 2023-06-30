@@ -24,7 +24,8 @@ class ViewController: UIViewController {
     "KWColor",
     "KWNavigation",
     "KWViewController",
-    "KWTableViewController"];
+    "KWTableViewController",
+    "KWCollectionViewController"];
     
     
     lazy var tableView: UITableView =  {
@@ -90,6 +91,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             self.changeRootViewController(vc: nav)
         }else if indexPath.row == 4 {
             let vc = TestTableView()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 5 {
+            let vc = TestCollectionVC()
             let nav = KWNavigationController(rootViewController: vc)
             self.changeRootViewController(vc: nav)
         }

@@ -9,7 +9,7 @@
 import UIKit
 
 //MARK: Protocol、Delegate
-protocol KSCellItemProtocol {
+protocol KSTabCellItemProtocol {
     associatedtype T
     
     var cellIdentifier: String { get }
@@ -33,7 +33,7 @@ protocol KSCellItemProtocol {
 
 // MARK: - KWTableViewCellItem
 typealias  BlockCellBtnClick = (Any) ->()
-class KSTableCellItem: NSObject, KSCellItemProtocol {
+class KSTableCellItem: NSObject, KSTabCellItemProtocol {
     var BtnBlock : BlockCellBtnClick?
     func btnClick(jumpbtnClickBlock:@escaping BlockCellBtnClick) -> Void {
         BtnBlock = jumpbtnClickBlock;

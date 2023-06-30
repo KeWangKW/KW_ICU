@@ -26,6 +26,24 @@ class KSTableVC: KSViewController {
             self.setupMJRefreshUI()
         }
     }
+    
+    func setupMJRefreshUI() {
+        if !isAddRefreshHeader {
+            tableView.kw_header = nil
+        } else {
+            tableView.kw_refreshHeader { [weak self] in
+                self?.kw_refreshData()
+            }
+        }
+        if !isAddRefreshFooter {
+            tableView.kw_footer = nil
+        } else {
+            tableView.kw_refreshFooter { [weak self] in
+                self?.kw_loadMoreData()
+            }
+        }
+    }
+    
     ///当前页码数
     public var page:Int = defalutPage
     ///总页码数
@@ -105,7 +123,7 @@ class KSTableVC: KSViewController {
         if #available(iOS 15.0, *) {
             table.sectionHeaderTopPadding = 0
         }
-        table.kw_register(cell: KSTableCell.self)
+        table.kw_register(cell: KSTableCell.self, isXib: false)
         return table
     }()
     
@@ -158,24 +176,6 @@ class KSTableVC: KSViewController {
     
 }
 
-extension KSTableVC {
-    func setupMJRefreshUI() {
-        if !isAddRefreshHeader {
-            tableView.kw_header = nil
-        } else {
-            tableView.kw_refreshHeader { [weak self] in
-                self?.kw_refreshData()
-            }
-        }
-        if !isAddRefreshFooter {
-            tableView.kw_footer = nil
-        } else {
-            tableView.kw_refreshFooter { [weak self] in
-                self?.kw_loadMoreData()
-            }
-        }
-    }
-}
 
 extension KSTableVC: UITableViewDelegate, UITableViewDataSource, KSTableViewCellDelegate {
 // MARK: - UITableViewDataSource
@@ -232,29 +232,28 @@ extension KSTableVC: UITableViewDelegate, UITableViewDataSource, KSTableViewCell
 
 
 
-
+//MARK: Register
 public extension UITableView {
     
-    func kw_register(cell: AnyClass) {
-        self.register(cell, forCellReuseIdentifier: NSStringFromClass(cell))
+    func kw_register(cell: AnyClass ,isXib:Bool) {
+        if isXib {
+            let cellXibStr = NSStringFromClass(cell)
+            let nibNameArr = cellXibStr.components(separatedBy: ".")
+            self.register(UINib.init(nibName: nibNameArr.last!, bundle: Bundle.main), forCellReuseIdentifier: NSStringFromClass(cell))
+        }else{
+            self.register(cell, forCellReuseIdentifier: NSStringFromClass(cell))
+        }
     }
     
-    func kw_registerXib(cellXib: AnyClass) {
-        let cellXibStr = NSStringFromClass(cellXib)
-        let nibNameArr = cellXibStr.components(separatedBy: ".")
-        self.register(UINib.init(nibName: nibNameArr.last!, bundle: Bundle.main), forCellReuseIdentifier: NSStringFromClass(cellXib))
-    }
     
-    func kw_registers(cells: AnyClass...) {
-        cells.forEach { kw_register(cell: $0) }
-    }
-    
-    func kw_registerXibs(cells: AnyClass...) {
-        cells.forEach { kw_registerXib(cellXib: $0) }
-    }
-    
-    func kw_register(view: AnyClass) {
-        self.register(view, forHeaderFooterViewReuseIdentifier: NSStringFromClass(view))
+    func kw_register(view: AnyClass ,isXib:Bool) {
+        if isXib {
+            let cellXibStr = NSStringFromClass(view)
+            let nibNameArr = cellXibStr.components(separatedBy: ".")
+            self.register(UINib.init(nibName: nibNameArr.last!, bundle: Bundle.main), forHeaderFooterViewReuseIdentifier: NSStringFromClass(view))
+        }else{
+            self.register(view, forHeaderFooterViewReuseIdentifier: NSStringFromClass(view))
+        }
     }
     
     func kw_dequeue<T: UITableViewCell>(cell: T.Type, for indexPath: IndexPath) -> T {

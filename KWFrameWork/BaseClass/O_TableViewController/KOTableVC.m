@@ -167,7 +167,7 @@
         if (@available(iOS 15.0, *)) {
             _tableView.sectionHeaderTopPadding = 0;
         }
-        [_tableView kw_registerCell:[KOTableCell class]];
+        [_tableView kw_registerCell:[KOTableCell class] Xib:NO];
     }
     return _tableView;
 }
@@ -264,14 +264,19 @@
 
 
 @implementation UITableView (Category)
-- (void)kw_registerCell:(Class _Nullable )cellClass {
-    [self registerClass:cellClass forCellReuseIdentifier:NSStringFromClass(cellClass)];
+- (void)kw_registerCell:(Class _Nullable )cellClass Xib:(BOOL)isXib{
+    if (isXib) {
+        [self registerNib:[UINib nibWithNibName:NSStringFromClass(cellClass) bundle:nil] forCellReuseIdentifier:NSStringFromClass(cellClass)];
+    }else{
+        [self registerClass:cellClass forCellReuseIdentifier:NSStringFromClass(cellClass)];
+    }
 }
-- (void)kw_registerXibCell:(Class _Nullable )cellClass {
-    [self registerNib:[UINib nibWithNibName:NSStringFromClass(cellClass) bundle:nil] forCellReuseIdentifier:NSStringFromClass(cellClass)];
-}
-- (void)kw_registerView:(Class _Nullable )viewClass {
-    [self registerClass:viewClass forHeaderFooterViewReuseIdentifier:NSStringFromClass(viewClass)];
+- (void)kw_registerView:(Class _Nullable )viewClass Xib:(BOOL)isXib{
+    if (isXib) {
+        [self registerClass:viewClass forHeaderFooterViewReuseIdentifier:NSStringFromClass(viewClass)];
+    }else{
+        [self registerNib:[UINib nibWithNibName:NSStringFromClass(viewClass) bundle:nil] forHeaderFooterViewReuseIdentifier:NSStringFromClass(viewClass)];
+    }
 }
 - (UITableViewCell *)kw_dequeueCell:(Class)cellClass indexPath:(NSIndexPath *)indexPath {
     return [self dequeueReusableCellWithIdentifier:NSStringFromClass([cellClass class]) forIndexPath:indexPath];
