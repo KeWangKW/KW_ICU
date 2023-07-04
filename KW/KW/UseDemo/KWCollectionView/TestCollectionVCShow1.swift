@@ -56,8 +56,9 @@ class TestCollectionVCShow1: KSCollectionVC {
         //模拟数据请求
         let SSSS = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
         var randomStringArr:[String] = []
-        for _ in 1..<20 {
-            let ssss = String(SSSS.map { String($0) }.randomElement()!)
+        for idx in 1..<20 {
+            //let ssss = String(SSSS.map { String($0) }.randomElement()!)
+            let ssss = String(format: "%d", idx)
             randomStringArr.append(ssss)
         }
 
@@ -146,43 +147,6 @@ extension TestCollectionVCShow1 {
     override func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
         return 10
     }
-    
-//    func columnNumber(collectionView collection: UICollectionView, layout: KWFlowLayout, section: Int) -> Int {
-//        if section == 0 {
-//            return 3
-//        }else{
-//            return 2
-//        }
-//    }
-    
-//    func referenceSizeForHeader(collectionView collection: UICollectionView, layout: KWFlowLayout, section: Int) -> CGSize {
-//        if section == 0 {
-//            return CGSize(width: KScreenWidth, height: 30)
-//        }else{
-//            return CGSize(width: KScreenWidth, height: 40)
-//        }
-//    }
-//
-//    func referenceSizeForFooter(collectionView collection: UICollectionView, layout: KWFlowLayout, section: Int) -> CGSize {
-//        if section == 0 {
-//            return CGSize(width: KScreenWidth, height: 20)
-//        }else{
-//            return CGSize(width: KScreenWidth, height: 20)
-//        }
-//    }
-//
-//    func insetForSection(collectionView collection: UICollectionView, layout: KWFlowLayout, section: Int) -> UIEdgeInsets {
-//        return UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10)
-//    }
-    
-//    func lineSpacing(collectionView collection: UICollectionView, layout: KWFlowLayout, section: Int) -> CGFloat {
-//        return 10
-//    }
-//    
-//    func interitemSpacing(collectionView collection: UICollectionView, layout: KWFlowLayout, section: Int) -> CGFloat {
-//        return 10
-//    }
-    
     
     
 }

@@ -14,8 +14,6 @@ public class KSViewController: UIViewController {
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        kw_reloadData()
-        
     }
     
     public override func viewWillDisappear(_ animated: Bool) {
@@ -60,7 +58,7 @@ public class KSViewController: UIViewController {
     
     public func kw_requestData() -> Void {}
     
-    public func kw_reloadData() {}
+
 }
 
 

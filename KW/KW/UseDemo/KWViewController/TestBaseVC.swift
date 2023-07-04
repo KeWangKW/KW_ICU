@@ -41,10 +41,6 @@ class TestBaseVC: KSViewController {
         
     }
     
-    override func kw_reloadData() {
-        super.kw_reloadData()
-        
-    }
     
 
     /*

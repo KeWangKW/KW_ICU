@@ -14,6 +14,7 @@
 #import "TestBaseVC.h"
 #import "TestTableView.h"
 #import "TestCollectionView.h"
+#import "KOPageVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, copy) NSArray *dataArr;
@@ -31,7 +32,8 @@
                      @"KWNavigationController",
                      @"KWViewController",
                      @"KWTableView",
-                     @"KWCollectionView"];
+                     @"KWCollectionView",
+                     @"KWPageController"];
     
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight()) style:UITableViewStyleGrouped];
     tableView.delegate = self;
@@ -83,6 +85,11 @@
         [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
     }else if (indexPath.row == 5) {
         TestCollectionView * vc = [[TestCollectionView alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 6) {
+        KOPageVC * vc = [[KOPageVC alloc]init];
         KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
         [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
         [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
