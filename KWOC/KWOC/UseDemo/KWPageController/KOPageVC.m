@@ -56,7 +56,8 @@
 
 - (void)type5Show {
     KOTitleViewShow * vc = [[KOTitleViewShow alloc]init];
-    [self.navigationController pushViewController:vc animated:true];
+//    [self.navigationController pushViewController:vc animated:true];
+    [[self.view kw_currentController].navigationController pushViewController:vc animated:true];
 }
 
 @end

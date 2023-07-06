@@ -64,7 +64,8 @@ class KSPageVC: KSViewController {
     @objc func push1() {
 
         let vc = KSTitleViewShow()
-        self.navigationController?.pushViewController(vc, animated: true)
+//        self.navigationController?.pushViewController(vc, animated: true)
+        view.kw_currentController?.navigationController?.pushViewController(vc, animated: true)
 
     }
 

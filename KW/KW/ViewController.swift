@@ -26,7 +26,8 @@ class ViewController: UIViewController {
     "KWViewController",
     "KWTableViewController",
     "KWCollectionViewController",
-    "KWPageController"];
+    "KWPageController",
+    "UIView拓展方法"];
     
     
     lazy var tableView: UITableView =  {
@@ -100,6 +101,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             self.changeRootViewController(vc: nav)
         }else if indexPath.row == 6 {
             let vc = KSPageVC()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 7 {
+            let vc = KWViewExtShow()
             let nav = KWNavigationController(rootViewController: vc)
             self.changeRootViewController(vc: nav)
         }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E5B00B92A54039900BB2679 /* UIView+THDXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00B82A54039800BB2679 /* UIView+THDXib.m */; };
+		0E5B00BE2A5403EF00BB2679 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00BD2A5403EF00BB2679 /* UIViewExt.swift */; };
+		0E5B00C12A54061600BB2679 /* KWViewExtShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00C02A54061600BB2679 /* KWViewExtShow.swift */; };
 		0E5BFDA42A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDA32A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift */; };
 		0E5BFDE92A4E756F00BB2679 /* KOCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDE82A4E756F00BB2679 /* KOCollectionVC.m */; };
 		0E5BFDEC2A4E75C700BB2679 /* KOCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFDEB2A4E75C700BB2679 /* KOCollectionCell.m */; };
@@ -74,6 +77,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E5B00B72A54039800BB2679 /* UIView+THDXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THDXib.h"; sourceTree = "<group>"; };
+		0E5B00B82A54039800BB2679 /* UIView+THDXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THDXib.m"; sourceTree = "<group>"; };
+		0E5B00BD2A5403EF00BB2679 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		0E5B00C02A54061600BB2679 /* KWViewExtShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KWViewExtShow.swift; sourceTree = "<group>"; };
 		0E5BFDA32A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionVCShowCell1.swift; sourceTree = "<group>"; };
 		0E5BFDE72A4E756F00BB2679 /* KOCollectionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOCollectionVC.h; sourceTree = "<group>"; };
 		0E5BFDE82A4E756F00BB2679 /* KOCollectionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOCollectionVC.m; sourceTree = "<group>"; };
@@ -164,6 +171,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E5B00BF2A5405CC00BB2679 /* UIVIewExt_use */ = {
+			isa = PBXGroup;
+			children = (
+				0E5B00C02A54061600BB2679 /* KWViewExtShow.swift */,
+			);
+			path = UIVIewExt_use;
+			sourceTree = "<group>";
+		};
 		0E5BFDE62A4E753000BB2679 /* O_CollectionViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,6 +367,9 @@
 			children = (
 				0ED6488C2A3D4CD90020E918 /* UIColorExt.swift */,
 				0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */,
+				0E5B00B72A54039800BB2679 /* UIView+THDXib.h */,
+				0E5B00B82A54039800BB2679 /* UIView+THDXib.m */,
+				0E5B00BD2A5403EF00BB2679 /* UIViewExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -443,6 +461,7 @@
 		0EEBD06B2A38041C003F04DF /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0E5B00BF2A5405CC00BB2679 /* UIVIewExt_use */,
 				0E5BFEF82A52571800BB2679 /* KWPageController */,
 				0EC4BE392A4BC57A008EB77B /* KWCollectionView */,
 				0EC4BB042A48210A008EB77B /* KWTableView */,
@@ -593,6 +612,8 @@
 				0EEBD06E2A380472003F04DF /* TabBar1VC.swift in Sources */,
 				0EEBD0742A380494003F04DF /* TabBar4VC.swift in Sources */,
 				0EC4BE402A4BC703008EB77B /* TestCollectionVCShowCell.swift in Sources */,
+				0E5B00B92A54039900BB2679 /* UIView+THDXib.m in Sources */,
+				0E5B00BE2A5403EF00BB2679 /* UIViewExt.swift in Sources */,
 				0EC4BA4F2A47CF2C008EB77B /* KOViewController.m in Sources */,
 				0E5BFF032A5257D500BB2679 /* KSPageController3.swift in Sources */,
 				0ED649432A4029C30020E918 /* KWFakeNavigationBar.swift in Sources */,
@@ -641,6 +662,7 @@
 				0E5BFF372A526C9C00BB2679 /* KSTitleView.swift in Sources */,
 				0EEBD0702A38047D003F04DF /* TabBar2VC.swift in Sources */,
 				0EC4BE452A4BCDB3008EB77B /* KWFlowLayout.swift in Sources */,
+				0E5B00C12A54061600BB2679 /* KWViewExtShow.swift in Sources */,
 				0E5BFF072A5257EA00BB2679 /* KSPageController5.swift in Sources */,
 				0EC4BE3D2A4BC5B9008EB77B /* TestCollectionVCShow.swift in Sources */,
 				0EC4BAFF2A481771008EB77B /* MJRefresh.swift in Sources */,
