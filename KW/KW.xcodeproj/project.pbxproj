@@ -67,10 +67,11 @@
 		0ED721962A566DFA007AA148 /* UITextFieldExtShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED721952A566DFA007AA148 /* UITextFieldExtShow.swift */; };
 		0ED721982A569A52007AA148 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED721972A569A52007AA148 /* UIImageExt.swift */; };
 		0ED722622A56C0A8007AA148 /* UIImageExtShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED722612A56C0A8007AA148 /* UIImageExtShow.swift */; };
-		0ED723F62A57B8BE007AA148 /* VideoCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED723F52A57B8BE007AA148 /* VideoCompress.m */; };
 		0ED724202A57FA24007AA148 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7241F2A57FA24007AA148 /* HUD.swift */; };
 		0ED724232A57FBF4007AA148 /* MBProgressHUDShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724222A57FBF4007AA148 /* MBProgressHUDShow.swift */; };
 		0ED724252A58F945007AA148 /* 加载缓存.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0ED724242A58F945007AA148 /* 加载缓存.gif */; };
+		0ED725732A5CF84B007AA148 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725722A5CF84B007AA148 /* Alert.swift */; };
+		0ED725762A5CF8DE007AA148 /* AlertUseShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725752A5CF8DE007AA148 /* AlertUseShow.swift */; };
 		0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */; };
 		0EEBD0132A37FFD5003F04DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */; };
 		0EEBD0152A37FFD5003F04DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0142A37FFD5003F04DF /* ViewController.swift */; };
@@ -156,11 +157,11 @@
 		0ED721952A566DFA007AA148 /* UITextFieldExtShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtShow.swift; sourceTree = "<group>"; };
 		0ED721972A569A52007AA148 /* UIImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
 		0ED722612A56C0A8007AA148 /* UIImageExtShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtShow.swift; sourceTree = "<group>"; };
-		0ED723F42A57B8BD007AA148 /* VideoCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCompress.h; sourceTree = "<group>"; };
-		0ED723F52A57B8BE007AA148 /* VideoCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCompress.m; sourceTree = "<group>"; };
 		0ED7241F2A57FA24007AA148 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		0ED724222A57FBF4007AA148 /* MBProgressHUDShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDShow.swift; sourceTree = "<group>"; };
 		0ED724242A58F945007AA148 /* 加载缓存.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载缓存.gif"; sourceTree = "<group>"; };
+		0ED725722A5CF84B007AA148 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		0ED725752A5CF8DE007AA148 /* AlertUseShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUseShow.swift; sourceTree = "<group>"; };
 		0EEBD00D2A37FFD5003F04DF /* KW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -388,8 +389,7 @@
 		0ED6488B2A3D4C8B0020E918 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				0ED723F42A57B8BD007AA148 /* VideoCompress.h */,
-				0ED723F52A57B8BE007AA148 /* VideoCompress.m */,
+				0ED725722A5CF84B007AA148 /* Alert.swift */,
 				0ED6488C2A3D4CD90020E918 /* UIColorExt.swift */,
 				0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */,
 				0E5B00B72A54039800BB2679 /* UIView+THDXib.h */,
@@ -483,6 +483,14 @@
 			path = MBProgressHUD_use;
 			sourceTree = "<group>";
 		};
+		0ED725742A5CF8C0007AA148 /* Alert_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725752A5CF8DE007AA148 /* AlertUseShow.swift */,
+			);
+			path = Alert_use;
+			sourceTree = "<group>";
+		};
 		0EEBD0042A37FFD5003F04DF = {
 			isa = PBXGroup;
 			children = (
@@ -521,6 +529,7 @@
 		0EEBD06B2A38041C003F04DF /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0ED725742A5CF8C0007AA148 /* Alert_use */,
 				0ED724212A57FBC5007AA148 /* MBProgressHUD_use */,
 				0ED722602A56C085007AA148 /* UIImageExt_use */,
 				0ED721942A566DE7007AA148 /* UITextFieldExt_use */,
@@ -675,6 +684,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEBD06E2A380472003F04DF /* TabBar1VC.swift in Sources */,
+				0ED725762A5CF8DE007AA148 /* AlertUseShow.swift in Sources */,
 				0EEBD0742A380494003F04DF /* TabBar4VC.swift in Sources */,
 				0EC4BE402A4BC703008EB77B /* TestCollectionVCShowCell.swift in Sources */,
 				0E5B00B92A54039900BB2679 /* UIView+THDXib.m in Sources */,
@@ -713,7 +723,6 @@
 				0E5BFFA82A52B99600BB2679 /* KSPageShow.swift in Sources */,
 				0ED6493C2A4026A20020E918 /* KWNavigationVC1.swift in Sources */,
 				0EA7073D2A42D914001745A7 /* KWSwift.swift in Sources */,
-				0ED723F62A57B8BE007AA148 /* VideoCompress.m in Sources */,
 				0ED6493A2A3FFC7B0020E918 /* KWNavigationVC.swift in Sources */,
 				0EEBD0132A37FFD5003F04DF /* SceneDelegate.swift in Sources */,
 				0E5BFF052A5257E000BB2679 /* KSPageController4.swift in Sources */,
@@ -722,6 +731,7 @@
 				0EC4BA872A480C6B008EB77B /* KSTableVC.swift in Sources */,
 				0E5BFDEC2A4E75C700BB2679 /* KOCollectionCell.m in Sources */,
 				0ED721962A566DFA007AA148 /* UITextFieldExtShow.swift in Sources */,
+				0ED725732A5CF84B007AA148 /* Alert.swift in Sources */,
 				0EC4BC9F2A4A7372008EB77B /* KOTableVC.m in Sources */,
 				0E5BFEFF2A5257C000BB2679 /* KSPageController1.swift in Sources */,
 				0ED724202A57FA24007AA148 /* HUD.swift in Sources */,

@@ -44,7 +44,7 @@
                      @"UITextField拓展方法",
                      @"UIImageView拓展方法",
                      @"MBProgressHUD封装",
-                     @"Masnory/SnapKit"];
+                     @"UIAlertController封装"];
     
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight()) style:UITableViewStyleGrouped];
     tableView.delegate = self;

@@ -43,42 +43,42 @@
 		0ED649662A404FA70020E918 /* KWNavigationVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649652A404FA70020E918 /* KWNavigationVC1.m */; };
 		0ED7218E2A566642007AA148 /* UIButtonExtShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7218D2A566642007AA148 /* UIButtonExtShow.m */; };
 		0ED7219C2A56A3FA007AA148 /* UITextFieldExtShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7219B2A56A3FA007AA148 /* UITextFieldExtShow.m */; };
-		0ED724A92A5CDC33007AA148 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7246F2A5CDC32007AA148 /* KWSwift.swift */; };
-		0ED724AA2A5CDC33007AA148 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724712A5CDC32007AA148 /* UIColorExt.swift */; };
-		0ED724AB2A5CDC33007AA148 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724722A5CDC32007AA148 /* UIButtonExt.swift */; };
-		0ED724AC2A5CDC33007AA148 /* VideoCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724732A5CDC32007AA148 /* VideoCompress.m */; };
-		0ED724AD2A5CDC33007AA148 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724742A5CDC32007AA148 /* UIViewExt.swift */; };
-		0ED724AE2A5CDC33007AA148 /* UIView+THDXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724752A5CDC32007AA148 /* UIView+THDXib.m */; };
-		0ED724AF2A5CDC33007AA148 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724762A5CDC32007AA148 /* UIViewControllerExt.swift */; };
-		0ED724B02A5CDC33007AA148 /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724772A5CDC32007AA148 /* UITextFieldExt.swift */; };
-		0ED724B12A5CDC33007AA148 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724792A5CDC32007AA148 /* UIImageExt.swift */; };
-		0ED724B22A5CDC33007AA148 /* KOCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7247D2A5CDC32007AA148 /* KOCollectionCell.m */; };
-		0ED724B32A5CDC33007AA148 /* KOCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724802A5CDC32007AA148 /* KOCollectionVC.m */; };
-		0ED724B42A5CDC33007AA148 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724822A5CDC32007AA148 /* KWNavigationController.swift */; };
-		0ED724B52A5CDC33007AA148 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724832A5CDC32007AA148 /* KWFakeNavigationBar.swift */; };
-		0ED724B62A5CDC33007AA148 /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724842A5CDC32007AA148 /* UIViewController+KWNavigationBar.swift */; };
-		0ED724B72A5CDC33007AA148 /* KOPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724862A5CDC32007AA148 /* KOPageController.m */; };
-		0ED724B82A5CDC33007AA148 /* KOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724892A5CDC32007AA148 /* KOTableVC.m */; };
-		0ED724B92A5CDC33007AA148 /* KOTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7248A2A5CDC32007AA148 /* KOTableCell.m */; };
-		0ED724BA2A5CDC33007AA148 /* KSCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7248E2A5CDC32007AA148 /* KSCollectionVC.swift */; };
-		0ED724BB2A5CDC33007AA148 /* KSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7248F2A5CDC32007AA148 /* KSCollectionCell.swift */; };
-		0ED724BC2A5CDC33007AA148 /* KWFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724902A5CDC32007AA148 /* KWFlowLayout.swift */; };
-		0ED724BD2A5CDC33007AA148 /* KSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724922A5CDC32007AA148 /* KSTableVC.swift */; };
-		0ED724BE2A5CDC33007AA148 /* KSTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724932A5CDC32007AA148 /* KSTableCell.swift */; };
-		0ED724BF2A5CDC33007AA148 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724952A5CDC32007AA148 /* KSViewController.swift */; };
-		0ED724C02A5CDC33007AA148 /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724982A5CDC32007AA148 /* KOViewController.m */; };
-		0ED724C12A5CDC33007AA148 /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249A2A5CDC32007AA148 /* KSModel.swift */; };
-		0ED724C22A5CDC33007AA148 /* KSTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249C2A5CDC32007AA148 /* KSTitleView.swift */; };
-		0ED724C32A5CDC33007AA148 /* KSPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249D2A5CDC32007AA148 /* KSPageController.swift */; };
-		0ED724C42A5CDC33007AA148 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249F2A5CDC32007AA148 /* KWTabBarController.swift */; };
-		0ED724C52A5CDC33007AA148 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A22A5CDC32007AA148 /* AutoFit.swift */; };
-		0ED724C62A5CDC33007AA148 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A32A5CDC32007AA148 /* SizeS.swift */; };
-		0ED724C72A5CDC33007AA148 /* 加载缓存.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0ED724A52A5CDC32007AA148 /* 加载缓存.gif */; };
-		0ED724C82A5CDC33007AA148 /* MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A62A5CDC32007AA148 /* MJRefresh.swift */; };
-		0ED724C92A5CDC33007AA148 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A72A5CDC32007AA148 /* HUD.swift */; };
-		0ED724CA2A5CDC33007AA148 /* DZNEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A82A5CDC32007AA148 /* DZNEmptyDataSet.swift */; };
 		0ED724D02A5CDE2E007AA148 /* MBProgressHUDShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724CF2A5CDE2E007AA148 /* MBProgressHUDShow.m */; };
 		0ED724D42A5CF034007AA148 /* MasnorySnapKitShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724D32A5CF034007AA148 /* MasnorySnapKitShow.m */; };
+		0ED725C12A5D2597007AA148 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725882A5D2596007AA148 /* KWSwift.swift */; };
+		0ED725C22A5D2597007AA148 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7258A2A5D2596007AA148 /* Alert.swift */; };
+		0ED725C32A5D2597007AA148 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7258B2A5D2596007AA148 /* UIColorExt.swift */; };
+		0ED725C42A5D2597007AA148 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7258C2A5D2596007AA148 /* UIButtonExt.swift */; };
+		0ED725C52A5D2597007AA148 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7258D2A5D2596007AA148 /* UIViewExt.swift */; };
+		0ED725C62A5D2597007AA148 /* UIView+THDXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7258E2A5D2596007AA148 /* UIView+THDXib.m */; };
+		0ED725C72A5D2597007AA148 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7258F2A5D2596007AA148 /* UIViewControllerExt.swift */; };
+		0ED725C82A5D2597007AA148 /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725902A5D2596007AA148 /* UITextFieldExt.swift */; };
+		0ED725C92A5D2597007AA148 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725912A5D2596007AA148 /* UIImageExt.swift */; };
+		0ED725CA2A5D2597007AA148 /* KOCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725952A5D2596007AA148 /* KOCollectionCell.m */; };
+		0ED725CB2A5D2597007AA148 /* KOCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725982A5D2596007AA148 /* KOCollectionVC.m */; };
+		0ED725CC2A5D2597007AA148 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7259A2A5D2596007AA148 /* KWNavigationController.swift */; };
+		0ED725CD2A5D2597007AA148 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7259B2A5D2596007AA148 /* KWFakeNavigationBar.swift */; };
+		0ED725CE2A5D2597007AA148 /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7259C2A5D2596007AA148 /* UIViewController+KWNavigationBar.swift */; };
+		0ED725CF2A5D2597007AA148 /* KOPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7259E2A5D2596007AA148 /* KOPageController.m */; };
+		0ED725D02A5D2597007AA148 /* KOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725A12A5D2596007AA148 /* KOTableVC.m */; };
+		0ED725D12A5D2597007AA148 /* KOTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725A22A5D2596007AA148 /* KOTableCell.m */; };
+		0ED725D22A5D2597007AA148 /* KSCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725A62A5D2596007AA148 /* KSCollectionVC.swift */; };
+		0ED725D32A5D2597007AA148 /* KSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725A72A5D2596007AA148 /* KSCollectionCell.swift */; };
+		0ED725D42A5D2597007AA148 /* KWFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725A82A5D2596007AA148 /* KWFlowLayout.swift */; };
+		0ED725D52A5D2597007AA148 /* KSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725AA2A5D2596007AA148 /* KSTableVC.swift */; };
+		0ED725D62A5D2597007AA148 /* KSTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725AB2A5D2596007AA148 /* KSTableCell.swift */; };
+		0ED725D72A5D2597007AA148 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725AD2A5D2596007AA148 /* KSViewController.swift */; };
+		0ED725D82A5D2597007AA148 /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725B02A5D2596007AA148 /* KOViewController.m */; };
+		0ED725D92A5D2597007AA148 /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725B22A5D2596007AA148 /* KSModel.swift */; };
+		0ED725DA2A5D2597007AA148 /* KSTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725B42A5D2596007AA148 /* KSTitleView.swift */; };
+		0ED725DB2A5D2597007AA148 /* KSPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725B52A5D2596007AA148 /* KSPageController.swift */; };
+		0ED725DC2A5D2597007AA148 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725B72A5D2596007AA148 /* KWTabBarController.swift */; };
+		0ED725DD2A5D2597007AA148 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725BA2A5D2596007AA148 /* AutoFit.swift */; };
+		0ED725DE2A5D2597007AA148 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725BB2A5D2596007AA148 /* SizeS.swift */; };
+		0ED725DF2A5D2597007AA148 /* 加载缓存.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0ED725BD2A5D2596007AA148 /* 加载缓存.gif */; };
+		0ED725E02A5D2597007AA148 /* MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725BE2A5D2596007AA148 /* MJRefresh.swift */; };
+		0ED725E12A5D2597007AA148 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725BF2A5D2596007AA148 /* HUD.swift */; };
+		0ED725E22A5D2597007AA148 /* DZNEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725C02A5D2596007AA148 /* DZNEmptyDataSet.swift */; };
 		0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0F92A394C71003F04DF /* AppDelegate.m */; };
 		0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0FC2A394C71003F04DF /* SceneDelegate.m */; };
 		0EEBD1002A394C71003F04DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0FF2A394C71003F04DF /* ViewController.m */; };
@@ -159,53 +159,52 @@
 		0ED7218D2A566642007AA148 /* UIButtonExtShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonExtShow.m; sourceTree = "<group>"; };
 		0ED7219A2A56A3FA007AA148 /* UITextFieldExtShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldExtShow.h; sourceTree = "<group>"; };
 		0ED7219B2A56A3FA007AA148 /* UITextFieldExtShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldExtShow.m; sourceTree = "<group>"; };
-		0ED7246F2A5CDC32007AA148 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
-		0ED724712A5CDC32007AA148 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
-		0ED724722A5CDC32007AA148 /* UIButtonExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
-		0ED724732A5CDC32007AA148 /* VideoCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCompress.m; sourceTree = "<group>"; };
-		0ED724742A5CDC32007AA148 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
-		0ED724752A5CDC32007AA148 /* UIView+THDXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THDXib.m"; sourceTree = "<group>"; };
-		0ED724762A5CDC32007AA148 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
-		0ED724772A5CDC32007AA148 /* UITextFieldExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
-		0ED724782A5CDC32007AA148 /* VideoCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCompress.h; sourceTree = "<group>"; };
-		0ED724792A5CDC32007AA148 /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
-		0ED7247A2A5CDC32007AA148 /* UIView+THDXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THDXib.h"; sourceTree = "<group>"; };
-		0ED7247D2A5CDC32007AA148 /* KOCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionCell.m; sourceTree = "<group>"; };
-		0ED7247E2A5CDC32007AA148 /* KOCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionVC.h; sourceTree = "<group>"; };
-		0ED7247F2A5CDC32007AA148 /* KOCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionCell.h; sourceTree = "<group>"; };
-		0ED724802A5CDC32007AA148 /* KOCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionVC.m; sourceTree = "<group>"; };
-		0ED724822A5CDC32007AA148 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
-		0ED724832A5CDC32007AA148 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
-		0ED724842A5CDC32007AA148 /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
-		0ED724862A5CDC32007AA148 /* KOPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPageController.m; sourceTree = "<group>"; };
-		0ED724872A5CDC32007AA148 /* KOPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPageController.h; sourceTree = "<group>"; };
-		0ED724892A5CDC32007AA148 /* KOTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableVC.m; sourceTree = "<group>"; };
-		0ED7248A2A5CDC32007AA148 /* KOTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableCell.m; sourceTree = "<group>"; };
-		0ED7248B2A5CDC32007AA148 /* KOTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableVC.h; sourceTree = "<group>"; };
-		0ED7248C2A5CDC32007AA148 /* KOTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableCell.h; sourceTree = "<group>"; };
-		0ED7248E2A5CDC32007AA148 /* KSCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionVC.swift; sourceTree = "<group>"; };
-		0ED7248F2A5CDC32007AA148 /* KSCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionCell.swift; sourceTree = "<group>"; };
-		0ED724902A5CDC32007AA148 /* KWFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFlowLayout.swift; sourceTree = "<group>"; };
-		0ED724922A5CDC32007AA148 /* KSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableVC.swift; sourceTree = "<group>"; };
-		0ED724932A5CDC32007AA148 /* KSTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableCell.swift; sourceTree = "<group>"; };
-		0ED724952A5CDC32007AA148 /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
-		0ED724972A5CDC32007AA148 /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
-		0ED724982A5CDC32007AA148 /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
-		0ED7249A2A5CDC32007AA148 /* KSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
-		0ED7249C2A5CDC32007AA148 /* KSTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTitleView.swift; sourceTree = "<group>"; };
-		0ED7249D2A5CDC32007AA148 /* KSPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageController.swift; sourceTree = "<group>"; };
-		0ED7249F2A5CDC32007AA148 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
-		0ED724A12A5CDC32007AA148 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
-		0ED724A22A5CDC32007AA148 /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
-		0ED724A32A5CDC32007AA148 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
-		0ED724A52A5CDC32007AA148 /* 加载缓存.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载缓存.gif"; sourceTree = "<group>"; };
-		0ED724A62A5CDC32007AA148 /* MJRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefresh.swift; sourceTree = "<group>"; };
-		0ED724A72A5CDC32007AA148 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
-		0ED724A82A5CDC32007AA148 /* DZNEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZNEmptyDataSet.swift; sourceTree = "<group>"; };
 		0ED724CE2A5CDE2E007AA148 /* MBProgressHUDShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDShow.h; sourceTree = "<group>"; };
 		0ED724CF2A5CDE2E007AA148 /* MBProgressHUDShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDShow.m; sourceTree = "<group>"; };
 		0ED724D22A5CF034007AA148 /* MasnorySnapKitShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasnorySnapKitShow.h; sourceTree = "<group>"; };
 		0ED724D32A5CF034007AA148 /* MasnorySnapKitShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasnorySnapKitShow.m; sourceTree = "<group>"; };
+		0ED725882A5D2596007AA148 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
+		0ED7258A2A5D2596007AA148 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		0ED7258B2A5D2596007AA148 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		0ED7258C2A5D2596007AA148 /* UIButtonExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		0ED7258D2A5D2596007AA148 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		0ED7258E2A5D2596007AA148 /* UIView+THDXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THDXib.m"; sourceTree = "<group>"; };
+		0ED7258F2A5D2596007AA148 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		0ED725902A5D2596007AA148 /* UITextFieldExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		0ED725912A5D2596007AA148 /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		0ED725922A5D2596007AA148 /* UIView+THDXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THDXib.h"; sourceTree = "<group>"; };
+		0ED725952A5D2596007AA148 /* KOCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionCell.m; sourceTree = "<group>"; };
+		0ED725962A5D2596007AA148 /* KOCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionVC.h; sourceTree = "<group>"; };
+		0ED725972A5D2596007AA148 /* KOCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionCell.h; sourceTree = "<group>"; };
+		0ED725982A5D2596007AA148 /* KOCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionVC.m; sourceTree = "<group>"; };
+		0ED7259A2A5D2596007AA148 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
+		0ED7259B2A5D2596007AA148 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
+		0ED7259C2A5D2596007AA148 /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
+		0ED7259E2A5D2596007AA148 /* KOPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPageController.m; sourceTree = "<group>"; };
+		0ED7259F2A5D2596007AA148 /* KOPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPageController.h; sourceTree = "<group>"; };
+		0ED725A12A5D2596007AA148 /* KOTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableVC.m; sourceTree = "<group>"; };
+		0ED725A22A5D2596007AA148 /* KOTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableCell.m; sourceTree = "<group>"; };
+		0ED725A32A5D2596007AA148 /* KOTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableVC.h; sourceTree = "<group>"; };
+		0ED725A42A5D2596007AA148 /* KOTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableCell.h; sourceTree = "<group>"; };
+		0ED725A62A5D2596007AA148 /* KSCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionVC.swift; sourceTree = "<group>"; };
+		0ED725A72A5D2596007AA148 /* KSCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionCell.swift; sourceTree = "<group>"; };
+		0ED725A82A5D2596007AA148 /* KWFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFlowLayout.swift; sourceTree = "<group>"; };
+		0ED725AA2A5D2596007AA148 /* KSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableVC.swift; sourceTree = "<group>"; };
+		0ED725AB2A5D2596007AA148 /* KSTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableCell.swift; sourceTree = "<group>"; };
+		0ED725AD2A5D2596007AA148 /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
+		0ED725AF2A5D2596007AA148 /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
+		0ED725B02A5D2596007AA148 /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
+		0ED725B22A5D2596007AA148 /* KSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
+		0ED725B42A5D2596007AA148 /* KSTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTitleView.swift; sourceTree = "<group>"; };
+		0ED725B52A5D2596007AA148 /* KSPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageController.swift; sourceTree = "<group>"; };
+		0ED725B72A5D2596007AA148 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
+		0ED725B92A5D2596007AA148 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
+		0ED725BA2A5D2596007AA148 /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
+		0ED725BB2A5D2596007AA148 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
+		0ED725BD2A5D2596007AA148 /* 加载缓存.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载缓存.gif"; sourceTree = "<group>"; };
+		0ED725BE2A5D2596007AA148 /* MJRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefresh.swift; sourceTree = "<group>"; };
+		0ED725BF2A5D2596007AA148 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		0ED725C02A5D2596007AA148 /* DZNEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZNEmptyDataSet.swift; sourceTree = "<group>"; };
 		0EEBD0F52A394C71003F04DF /* KWOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEBD0F82A394C71003F04DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EEBD0F92A394C71003F04DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -320,7 +319,7 @@
 		0ED648AB2A3D91850020E918 /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
-				0ED724D12A5CF013007AA148 /* MasnorySnapKit_use */,
+				0ED724D12A5CF013007AA148 /* Alert_use */,
 				0ED724CB2A5CDDE6007AA148 /* MBProgressHUD_use */,
 				0ED721992A56A3DD007AA148 /* UITextFieldExt_use */,
 				0ED7218B2A566614007AA148 /* UIButtonExt_use */,
@@ -393,177 +392,6 @@
 			path = UITextFieldExt_use;
 			sourceTree = "<group>";
 		};
-		0ED7246E2A5CDC32007AA148 /* KWFrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				0ED7246F2A5CDC32007AA148 /* KWSwift.swift */,
-				0ED724702A5CDC32007AA148 /* Extension */,
-				0ED7247B2A5CDC32007AA148 /* BaseClass */,
-				0ED724A02A5CDC32007AA148 /* Const */,
-				0ED724A42A5CDC32007AA148 /* SDKManager */,
-			);
-			name = KWFrameWork;
-			path = ../KWFrameWork;
-			sourceTree = "<group>";
-		};
-		0ED724702A5CDC32007AA148 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724712A5CDC32007AA148 /* UIColorExt.swift */,
-				0ED724722A5CDC32007AA148 /* UIButtonExt.swift */,
-				0ED724732A5CDC32007AA148 /* VideoCompress.m */,
-				0ED724742A5CDC32007AA148 /* UIViewExt.swift */,
-				0ED724752A5CDC32007AA148 /* UIView+THDXib.m */,
-				0ED724762A5CDC32007AA148 /* UIViewControllerExt.swift */,
-				0ED724772A5CDC32007AA148 /* UITextFieldExt.swift */,
-				0ED724782A5CDC32007AA148 /* VideoCompress.h */,
-				0ED724792A5CDC32007AA148 /* UIImageExt.swift */,
-				0ED7247A2A5CDC32007AA148 /* UIView+THDXib.h */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		0ED7247B2A5CDC32007AA148 /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				0ED7247C2A5CDC32007AA148 /* O_CollectionViewController */,
-				0ED724812A5CDC32007AA148 /* NavigationController */,
-				0ED724852A5CDC32007AA148 /* O_PageController */,
-				0ED724882A5CDC32007AA148 /* O_TableViewController */,
-				0ED7248D2A5CDC32007AA148 /* S_CollectionViewController */,
-				0ED724912A5CDC32007AA148 /* S_TableViewController */,
-				0ED724942A5CDC32007AA148 /* S_ViewController */,
-				0ED724962A5CDC32007AA148 /* O_ViewController */,
-				0ED724992A5CDC32007AA148 /* Model */,
-				0ED7249B2A5CDC32007AA148 /* S_PageController */,
-				0ED7249E2A5CDC32007AA148 /* TabbarController */,
-			);
-			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		0ED7247C2A5CDC32007AA148 /* O_CollectionViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED7247D2A5CDC32007AA148 /* KOCollectionCell.m */,
-				0ED7247E2A5CDC32007AA148 /* KOCollectionVC.h */,
-				0ED7247F2A5CDC32007AA148 /* KOCollectionCell.h */,
-				0ED724802A5CDC32007AA148 /* KOCollectionVC.m */,
-			);
-			path = O_CollectionViewController;
-			sourceTree = "<group>";
-		};
-		0ED724812A5CDC32007AA148 /* NavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724822A5CDC32007AA148 /* KWNavigationController.swift */,
-				0ED724832A5CDC32007AA148 /* KWFakeNavigationBar.swift */,
-				0ED724842A5CDC32007AA148 /* UIViewController+KWNavigationBar.swift */,
-			);
-			path = NavigationController;
-			sourceTree = "<group>";
-		};
-		0ED724852A5CDC32007AA148 /* O_PageController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724862A5CDC32007AA148 /* KOPageController.m */,
-				0ED724872A5CDC32007AA148 /* KOPageController.h */,
-			);
-			path = O_PageController;
-			sourceTree = "<group>";
-		};
-		0ED724882A5CDC32007AA148 /* O_TableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724892A5CDC32007AA148 /* KOTableVC.m */,
-				0ED7248A2A5CDC32007AA148 /* KOTableCell.m */,
-				0ED7248B2A5CDC32007AA148 /* KOTableVC.h */,
-				0ED7248C2A5CDC32007AA148 /* KOTableCell.h */,
-			);
-			path = O_TableViewController;
-			sourceTree = "<group>";
-		};
-		0ED7248D2A5CDC32007AA148 /* S_CollectionViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED7248E2A5CDC32007AA148 /* KSCollectionVC.swift */,
-				0ED7248F2A5CDC32007AA148 /* KSCollectionCell.swift */,
-				0ED724902A5CDC32007AA148 /* KWFlowLayout.swift */,
-			);
-			path = S_CollectionViewController;
-			sourceTree = "<group>";
-		};
-		0ED724912A5CDC32007AA148 /* S_TableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724922A5CDC32007AA148 /* KSTableVC.swift */,
-				0ED724932A5CDC32007AA148 /* KSTableCell.swift */,
-			);
-			path = S_TableViewController;
-			sourceTree = "<group>";
-		};
-		0ED724942A5CDC32007AA148 /* S_ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724952A5CDC32007AA148 /* KSViewController.swift */,
-			);
-			path = S_ViewController;
-			sourceTree = "<group>";
-		};
-		0ED724962A5CDC32007AA148 /* O_ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724972A5CDC32007AA148 /* KOViewController.h */,
-				0ED724982A5CDC32007AA148 /* KOViewController.m */,
-			);
-			path = O_ViewController;
-			sourceTree = "<group>";
-		};
-		0ED724992A5CDC32007AA148 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0ED7249A2A5CDC32007AA148 /* KSModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0ED7249B2A5CDC32007AA148 /* S_PageController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED7249C2A5CDC32007AA148 /* KSTitleView.swift */,
-				0ED7249D2A5CDC32007AA148 /* KSPageController.swift */,
-			);
-			path = S_PageController;
-			sourceTree = "<group>";
-		};
-		0ED7249E2A5CDC32007AA148 /* TabbarController */ = {
-			isa = PBXGroup;
-			children = (
-				0ED7249F2A5CDC32007AA148 /* KWTabBarController.swift */,
-			);
-			path = TabbarController;
-			sourceTree = "<group>";
-		};
-		0ED724A02A5CDC32007AA148 /* Const */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724A12A5CDC32007AA148 /* SizeO.h */,
-				0ED724A22A5CDC32007AA148 /* AutoFit.swift */,
-				0ED724A32A5CDC32007AA148 /* SizeS.swift */,
-			);
-			path = Const;
-			sourceTree = "<group>";
-		};
-		0ED724A42A5CDC32007AA148 /* SDKManager */ = {
-			isa = PBXGroup;
-			children = (
-				0ED724A52A5CDC32007AA148 /* 加载缓存.gif */,
-				0ED724A62A5CDC32007AA148 /* MJRefresh.swift */,
-				0ED724A72A5CDC32007AA148 /* HUD.swift */,
-				0ED724A82A5CDC32007AA148 /* DZNEmptyDataSet.swift */,
-			);
-			path = SDKManager;
-			sourceTree = "<group>";
-		};
 		0ED724CB2A5CDDE6007AA148 /* MBProgressHUD_use */ = {
 			isa = PBXGroup;
 			children = (
@@ -573,19 +401,189 @@
 			path = MBProgressHUD_use;
 			sourceTree = "<group>";
 		};
-		0ED724D12A5CF013007AA148 /* MasnorySnapKit_use */ = {
+		0ED724D12A5CF013007AA148 /* Alert_use */ = {
 			isa = PBXGroup;
 			children = (
 				0ED724D22A5CF034007AA148 /* MasnorySnapKitShow.h */,
 				0ED724D32A5CF034007AA148 /* MasnorySnapKitShow.m */,
 			);
-			path = MasnorySnapKit_use;
+			path = Alert_use;
+			sourceTree = "<group>";
+		};
+		0ED725872A5D2596007AA148 /* KWFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725882A5D2596007AA148 /* KWSwift.swift */,
+				0ED725892A5D2596007AA148 /* Extension */,
+				0ED725932A5D2596007AA148 /* BaseClass */,
+				0ED725B82A5D2596007AA148 /* Const */,
+				0ED725BC2A5D2596007AA148 /* SDKManager */,
+			);
+			name = KWFrameWork;
+			path = ../KWFrameWork;
+			sourceTree = "<group>";
+		};
+		0ED725892A5D2596007AA148 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7258A2A5D2596007AA148 /* Alert.swift */,
+				0ED7258B2A5D2596007AA148 /* UIColorExt.swift */,
+				0ED7258C2A5D2596007AA148 /* UIButtonExt.swift */,
+				0ED7258D2A5D2596007AA148 /* UIViewExt.swift */,
+				0ED7258E2A5D2596007AA148 /* UIView+THDXib.m */,
+				0ED7258F2A5D2596007AA148 /* UIViewControllerExt.swift */,
+				0ED725902A5D2596007AA148 /* UITextFieldExt.swift */,
+				0ED725912A5D2596007AA148 /* UIImageExt.swift */,
+				0ED725922A5D2596007AA148 /* UIView+THDXib.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0ED725932A5D2596007AA148 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725942A5D2596007AA148 /* O_CollectionViewController */,
+				0ED725992A5D2596007AA148 /* NavigationController */,
+				0ED7259D2A5D2596007AA148 /* O_PageController */,
+				0ED725A02A5D2596007AA148 /* O_TableViewController */,
+				0ED725A52A5D2596007AA148 /* S_CollectionViewController */,
+				0ED725A92A5D2596007AA148 /* S_TableViewController */,
+				0ED725AC2A5D2596007AA148 /* S_ViewController */,
+				0ED725AE2A5D2596007AA148 /* O_ViewController */,
+				0ED725B12A5D2596007AA148 /* Model */,
+				0ED725B32A5D2596007AA148 /* S_PageController */,
+				0ED725B62A5D2596007AA148 /* TabbarController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		0ED725942A5D2596007AA148 /* O_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725952A5D2596007AA148 /* KOCollectionCell.m */,
+				0ED725962A5D2596007AA148 /* KOCollectionVC.h */,
+				0ED725972A5D2596007AA148 /* KOCollectionCell.h */,
+				0ED725982A5D2596007AA148 /* KOCollectionVC.m */,
+			);
+			path = O_CollectionViewController;
+			sourceTree = "<group>";
+		};
+		0ED725992A5D2596007AA148 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7259A2A5D2596007AA148 /* KWNavigationController.swift */,
+				0ED7259B2A5D2596007AA148 /* KWFakeNavigationBar.swift */,
+				0ED7259C2A5D2596007AA148 /* UIViewController+KWNavigationBar.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		0ED7259D2A5D2596007AA148 /* O_PageController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7259E2A5D2596007AA148 /* KOPageController.m */,
+				0ED7259F2A5D2596007AA148 /* KOPageController.h */,
+			);
+			path = O_PageController;
+			sourceTree = "<group>";
+		};
+		0ED725A02A5D2596007AA148 /* O_TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725A12A5D2596007AA148 /* KOTableVC.m */,
+				0ED725A22A5D2596007AA148 /* KOTableCell.m */,
+				0ED725A32A5D2596007AA148 /* KOTableVC.h */,
+				0ED725A42A5D2596007AA148 /* KOTableCell.h */,
+			);
+			path = O_TableViewController;
+			sourceTree = "<group>";
+		};
+		0ED725A52A5D2596007AA148 /* S_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725A62A5D2596007AA148 /* KSCollectionVC.swift */,
+				0ED725A72A5D2596007AA148 /* KSCollectionCell.swift */,
+				0ED725A82A5D2596007AA148 /* KWFlowLayout.swift */,
+			);
+			path = S_CollectionViewController;
+			sourceTree = "<group>";
+		};
+		0ED725A92A5D2596007AA148 /* S_TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725AA2A5D2596007AA148 /* KSTableVC.swift */,
+				0ED725AB2A5D2596007AA148 /* KSTableCell.swift */,
+			);
+			path = S_TableViewController;
+			sourceTree = "<group>";
+		};
+		0ED725AC2A5D2596007AA148 /* S_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725AD2A5D2596007AA148 /* KSViewController.swift */,
+			);
+			path = S_ViewController;
+			sourceTree = "<group>";
+		};
+		0ED725AE2A5D2596007AA148 /* O_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725AF2A5D2596007AA148 /* KOViewController.h */,
+				0ED725B02A5D2596007AA148 /* KOViewController.m */,
+			);
+			path = O_ViewController;
+			sourceTree = "<group>";
+		};
+		0ED725B12A5D2596007AA148 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725B22A5D2596007AA148 /* KSModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0ED725B32A5D2596007AA148 /* S_PageController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725B42A5D2596007AA148 /* KSTitleView.swift */,
+				0ED725B52A5D2596007AA148 /* KSPageController.swift */,
+			);
+			path = S_PageController;
+			sourceTree = "<group>";
+		};
+		0ED725B62A5D2596007AA148 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725B72A5D2596007AA148 /* KWTabBarController.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		0ED725B82A5D2596007AA148 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725B92A5D2596007AA148 /* SizeO.h */,
+				0ED725BA2A5D2596007AA148 /* AutoFit.swift */,
+				0ED725BB2A5D2596007AA148 /* SizeS.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		0ED725BC2A5D2596007AA148 /* SDKManager */ = {
+			isa = PBXGroup;
+			children = (
+				0ED725BD2A5D2596007AA148 /* 加载缓存.gif */,
+				0ED725BE2A5D2596007AA148 /* MJRefresh.swift */,
+				0ED725BF2A5D2596007AA148 /* HUD.swift */,
+				0ED725C02A5D2596007AA148 /* DZNEmptyDataSet.swift */,
+			);
+			path = SDKManager;
 			sourceTree = "<group>";
 		};
 		0EEBD0EC2A394C71003F04DF = {
 			isa = PBXGroup;
 			children = (
-				0ED7246E2A5CDC32007AA148 /* KWFrameWork */,
+				0ED725872A5D2596007AA148 /* KWFrameWork */,
 				0EEBD1202A39541C003F04DF /* KWOC-Bridging-header.h */,
 				0EEBD0F72A394C71003F04DF /* KWOC */,
 				0EEBD0F62A394C71003F04DF /* Products */,
@@ -702,7 +700,7 @@
 				0E5BFE482A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.xib in Resources */,
 				0EEBD1082A394C73003F04DF /* LaunchScreen.storyboard in Resources */,
 				0EEBD1052A394C73003F04DF /* Assets.xcassets in Resources */,
-				0ED724C72A5CDC33007AA148 /* 加载缓存.gif in Resources */,
+				0ED725DF2A5D2597007AA148 /* 加载缓存.gif in Resources */,
 				0EC4BCEA2A4AB1F5008EB77B /* TestTableViewShowCell.xib in Resources */,
 				0EEBD1032A394C71003F04DF /* Main.storyboard in Resources */,
 				0E5BFE3A2A4EB64700BB2679 /* TestCollectionViewShowCell.xib in Resources */,
@@ -758,77 +756,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ED725CB2A5D2597007AA148 /* KOCollectionVC.m in Sources */,
+				0ED725D42A5D2597007AA148 /* KWFlowLayout.swift in Sources */,
 				0EEBD1002A394C71003F04DF /* ViewController.m in Sources */,
+				0ED725D72A5D2597007AA148 /* KSViewController.swift in Sources */,
+				0ED725D52A5D2597007AA148 /* KSTableVC.swift in Sources */,
 				0ED648B82A3D92CC0020E918 /* TabBar3VC.m in Sources */,
+				0ED725DB2A5D2597007AA148 /* KSPageController.swift in Sources */,
+				0ED725D02A5D2597007AA148 /* KOTableVC.m in Sources */,
 				0E5B00062A53B6CD00BB2679 /* KOPageVC.m in Sources */,
-				0ED724A92A5CDC33007AA148 /* KWSwift.swift in Sources */,
-				0ED724C62A5CDC33007AA148 /* SizeS.swift in Sources */,
+				0ED725CA2A5D2597007AA148 /* KOCollectionCell.m in Sources */,
 				0ED648B22A3D92B90020E918 /* TabBar1VC.m in Sources */,
-				0ED724B52A5CDC33007AA148 /* KWFakeNavigationBar.swift in Sources */,
+				0ED725E12A5D2597007AA148 /* HUD.swift in Sources */,
 				0ED648BB2A3D92D50020E918 /* TabBar4VC.m in Sources */,
 				0E5BFE432A4EB9A000BB2679 /* TestCollectionViewShow1.m in Sources */,
-				0ED724B32A5CDC33007AA148 /* KOCollectionVC.m in Sources */,
-				0ED724AD2A5CDC33007AA148 /* UIViewExt.swift in Sources */,
-				0ED724AA2A5CDC33007AA148 /* UIColorExt.swift in Sources */,
-				0ED724C22A5CDC33007AA148 /* KSTitleView.swift in Sources */,
-				0ED724BB2A5CDC33007AA148 /* KSCollectionCell.swift in Sources */,
 				0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */,
-				0ED724BC2A5CDC33007AA148 /* KWFlowLayout.swift in Sources */,
-				0ED724B92A5CDC33007AA148 /* KOTableCell.m in Sources */,
+				0ED725C92A5D2597007AA148 /* UIImageExt.swift in Sources */,
 				0E5B00152A53B71E00BB2679 /* KOPageController3.m in Sources */,
 				0ED724D02A5CDE2E007AA148 /* MBProgressHUDShow.m in Sources */,
-				0ED724C12A5CDC33007AA148 /* KSModel.swift in Sources */,
 				0E5BFE4B2A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.m in Sources */,
+				0ED725D12A5D2597007AA148 /* KOTableCell.m in Sources */,
 				0E5B000C2A53B6F600BB2679 /* KOPageShow.m in Sources */,
 				0E5BFE352A4EAC8B00BB2679 /* TestCollectionViewShow.m in Sources */,
+				0ED725D92A5D2597007AA148 /* KSModel.swift in Sources */,
+				0ED725DD2A5D2597007AA148 /* AutoFit.swift in Sources */,
+				0ED725CC2A5D2597007AA148 /* KWNavigationController.swift in Sources */,
+				0ED725D22A5D2597007AA148 /* KSCollectionVC.swift in Sources */,
+				0ED725D32A5D2597007AA148 /* KSCollectionCell.swift in Sources */,
 				0EC4BA842A47DE56008EB77B /* TestBaseVC11.m in Sources */,
 				0E5B00122A53B71500BB2679 /* KOPageController2.m in Sources */,
 				0ED648C32A3D9F9B0020E918 /* KWColorDemo.m in Sources */,
-				0ED724C52A5CDC33007AA148 /* AutoFit.swift in Sources */,
-				0ED724BA2A5CDC33007AA148 /* KSCollectionVC.swift in Sources */,
-				0ED724AE2A5CDC33007AA148 /* UIView+THDXib.m in Sources */,
 				0ED7218E2A566642007AA148 /* UIButtonExtShow.m in Sources */,
-				0ED724B82A5CDC33007AA148 /* KOTableVC.m in Sources */,
+				0ED725CF2A5D2597007AA148 /* KOPageController.m in Sources */,
 				0E5B001B2A53B73300BB2679 /* KOPageController5.m in Sources */,
-				0ED724BD2A5CDC33007AA148 /* KSTableVC.swift in Sources */,
-				0ED724B12A5CDC33007AA148 /* UIImageExt.swift in Sources */,
 				0E5B000F2A53B70D00BB2679 /* KOPageController1.m in Sources */,
-				0ED724AF2A5CDC33007AA148 /* UIViewControllerExt.swift in Sources */,
-				0ED724AB2A5CDC33007AA148 /* UIButtonExt.swift in Sources */,
 				0EC4BCE52A4AB024008EB77B /* TestTableViewShow.m in Sources */,
-				0ED724C82A5CDC33007AA148 /* MJRefresh.swift in Sources */,
+				0ED725C42A5D2597007AA148 /* UIButtonExt.swift in Sources */,
+				0ED725C72A5D2597007AA148 /* UIViewControllerExt.swift in Sources */,
 				0ED648BE2A3D92DD0020E918 /* TabBar5VC.m in Sources */,
 				0ED724D42A5CF034007AA148 /* MasnorySnapKitShow.m in Sources */,
+				0ED725DC2A5D2597007AA148 /* KWTabBarController.swift in Sources */,
 				0EEBD10B2A394C73003F04DF /* main.m in Sources */,
-				0ED724C42A5CDC33007AA148 /* KWTabBarController.swift in Sources */,
 				0ED648B52A3D92C50020E918 /* TabBar2VC.m in Sources */,
-				0ED724C32A5CDC33007AA148 /* KSPageController.swift in Sources */,
 				0EC4BA7A2A47D61E008EB77B /* TestBaseVC.m in Sources */,
+				0ED725DA2A5D2597007AA148 /* KSTitleView.swift in Sources */,
 				0EC4BCE22A4AB00A008EB77B /* TestTableView.m in Sources */,
+				0ED725DE2A5D2597007AA148 /* SizeS.swift in Sources */,
 				0E5B00182A53B72700BB2679 /* KOPageController4.m in Sources */,
-				0ED724B22A5CDC33007AA148 /* KOCollectionCell.m in Sources */,
+				0ED725E02A5D2597007AA148 /* MJRefresh.swift in Sources */,
+				0ED725C52A5D2597007AA148 /* UIViewExt.swift in Sources */,
 				0E5B01F52A553A9200BB2679 /* UIViewExtShow.m in Sources */,
 				0E5BFE472A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.m in Sources */,
-				0ED724C92A5CDC33007AA148 /* HUD.swift in Sources */,
-				0ED724CA2A5CDC33007AA148 /* DZNEmptyDataSet.swift in Sources */,
+				0ED725C82A5D2597007AA148 /* UITextFieldExt.swift in Sources */,
 				0ED649632A404F7C0020E918 /* KWNavigationVC.m in Sources */,
-				0ED724BF2A5CDC33007AA148 /* KSViewController.swift in Sources */,
 				0ED648AF2A3D91B80020E918 /* TabBarDemoVC.m in Sources */,
-				0ED724B72A5CDC33007AA148 /* KOPageController.m in Sources */,
-				0ED724B62A5CDC33007AA148 /* UIViewController+KWNavigationBar.swift in Sources */,
 				0E5BFE392A4EB64700BB2679 /* TestCollectionViewShowCell.m in Sources */,
+				0ED725CD2A5D2597007AA148 /* KWFakeNavigationBar.swift in Sources */,
+				0ED725D82A5D2597007AA148 /* KOViewController.m in Sources */,
+				0ED725CE2A5D2597007AA148 /* UIViewController+KWNavigationBar.swift in Sources */,
+				0ED725E22A5D2597007AA148 /* DZNEmptyDataSet.swift in Sources */,
 				0ED7219C2A56A3FA007AA148 /* UITextFieldExtShow.m in Sources */,
+				0ED725C32A5D2597007AA148 /* UIColorExt.swift in Sources */,
+				0ED725D62A5D2597007AA148 /* KSTableCell.swift in Sources */,
 				0E5BFE322A4EAC7300BB2679 /* TestCollectionView.m in Sources */,
 				0ED649662A404FA70020E918 /* KWNavigationVC1.m in Sources */,
-				0ED724BE2A5CDC33007AA148 /* KSTableCell.swift in Sources */,
+				0ED725C62A5D2597007AA148 /* UIView+THDXib.m in Sources */,
 				0E5BFE4F2A4EBCF300BB2679 /* TestCollectionHeadFoot.m in Sources */,
+				0ED725C12A5D2597007AA148 /* KWSwift.swift in Sources */,
 				0E5B00092A53B6E600BB2679 /* KOTitleViewShow.m in Sources */,
-				0ED724C02A5CDC33007AA148 /* KOViewController.m in Sources */,
-				0ED724AC2A5CDC33007AA148 /* VideoCompress.m in Sources */,
 				0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */,
-				0ED724B42A5CDC33007AA148 /* KWNavigationController.swift in Sources */,
+				0ED725C22A5D2597007AA148 /* Alert.swift in Sources */,
 				0EC4BCE92A4AB1F5008EB77B /* TestTableViewShowCell.m in Sources */,
-				0ED724B02A5CDC33007AA148 /* UITextFieldExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -31,7 +31,8 @@ class ViewController: UIViewController {
                             "UIButton拓展方法",
                             "UITextField拓展方法",
                             "UIImageView拓展方法",
-                            "MBProgressHUD封装"];
+                            "MBProgressHUD封装",
+                            "UIAlertController封装"];
     
     
     lazy var tableView: UITableView =  {
@@ -125,6 +126,10 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             self.changeRootViewController(vc: nav)
         }else if indexPath.row == 11 {
             let vc = MBProgressHUDShow()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 12 {
+            let vc = AlertUseShow()
             let nav = KWNavigationController(rootViewController: vc)
             self.changeRootViewController(vc: nav)
         }
