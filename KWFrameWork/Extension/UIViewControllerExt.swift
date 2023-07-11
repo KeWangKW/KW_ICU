@@ -12,7 +12,7 @@ import UIKit
 extension UIViewController {
 //MARK: 获取当前活动控制器
     /// 获取当前活动控制器
-    @objc func currentController() -> UIViewController? {
+    @objc class func kw_currentController() -> UIViewController? {
         var window = UIApplication.shared.keyWindow
         if window?.windowLevel != .normal {
             let windows = UIApplication.shared.windows

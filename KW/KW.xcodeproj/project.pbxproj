@@ -61,6 +61,16 @@
 		0ED649432A4029C30020E918 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649412A4029C30020E918 /* KWFakeNavigationBar.swift */; };
 		0ED649442A4029C30020E918 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649422A4029C30020E918 /* KWNavigationController.swift */; };
 		0ED649462A40325A0020E918 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649452A40325A0020E918 /* KSViewController.swift */; };
+		0ED721352A5660AA007AA148 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED721342A5660AA007AA148 /* UIButtonExt.swift */; };
+		0ED721382A56615E007AA148 /* UIButtonExtShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED721372A56615E007AA148 /* UIButtonExtShow.swift */; };
+		0ED721932A566D18007AA148 /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED721922A566D18007AA148 /* UITextFieldExt.swift */; };
+		0ED721962A566DFA007AA148 /* UITextFieldExtShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED721952A566DFA007AA148 /* UITextFieldExtShow.swift */; };
+		0ED721982A569A52007AA148 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED721972A569A52007AA148 /* UIImageExt.swift */; };
+		0ED722622A56C0A8007AA148 /* UIImageExtShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED722612A56C0A8007AA148 /* UIImageExtShow.swift */; };
+		0ED723F62A57B8BE007AA148 /* VideoCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED723F52A57B8BE007AA148 /* VideoCompress.m */; };
+		0ED724202A57FA24007AA148 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7241F2A57FA24007AA148 /* HUD.swift */; };
+		0ED724232A57FBF4007AA148 /* MBProgressHUDShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724222A57FBF4007AA148 /* MBProgressHUDShow.swift */; };
+		0ED724252A58F945007AA148 /* 加载缓存.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0ED724242A58F945007AA148 /* 加载缓存.gif */; };
 		0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */; };
 		0EEBD0132A37FFD5003F04DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */; };
 		0EEBD0152A37FFD5003F04DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0142A37FFD5003F04DF /* ViewController.swift */; };
@@ -140,6 +150,17 @@
 		0ED649412A4029C30020E918 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
 		0ED649422A4029C30020E918 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
 		0ED649452A40325A0020E918 /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
+		0ED721342A5660AA007AA148 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		0ED721372A56615E007AA148 /* UIButtonExtShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtShow.swift; sourceTree = "<group>"; };
+		0ED721922A566D18007AA148 /* UITextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		0ED721952A566DFA007AA148 /* UITextFieldExtShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExtShow.swift; sourceTree = "<group>"; };
+		0ED721972A569A52007AA148 /* UIImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		0ED722612A56C0A8007AA148 /* UIImageExtShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtShow.swift; sourceTree = "<group>"; };
+		0ED723F42A57B8BD007AA148 /* VideoCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCompress.h; sourceTree = "<group>"; };
+		0ED723F52A57B8BE007AA148 /* VideoCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCompress.m; sourceTree = "<group>"; };
+		0ED7241F2A57FA24007AA148 /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		0ED724222A57FBF4007AA148 /* MBProgressHUDShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDShow.swift; sourceTree = "<group>"; };
+		0ED724242A58F945007AA148 /* 加载缓存.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载缓存.gif"; sourceTree = "<group>"; };
 		0EEBD00D2A37FFD5003F04DF /* KW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -254,6 +275,8 @@
 			children = (
 				0EC4BBE92A482FD2008EB77B /* DZNEmptyDataSet.swift */,
 				0EC4BAFE2A481771008EB77B /* MJRefresh.swift */,
+				0ED724242A58F945007AA148 /* 加载缓存.gif */,
+				0ED7241F2A57FA24007AA148 /* HUD.swift */,
 			);
 			path = SDKManager;
 			sourceTree = "<group>";
@@ -365,11 +388,16 @@
 		0ED6488B2A3D4C8B0020E918 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				0ED723F42A57B8BD007AA148 /* VideoCompress.h */,
+				0ED723F52A57B8BE007AA148 /* VideoCompress.m */,
 				0ED6488C2A3D4CD90020E918 /* UIColorExt.swift */,
 				0EA7073A2A42D8F9001745A7 /* UIViewControllerExt.swift */,
 				0E5B00B72A54039800BB2679 /* UIView+THDXib.h */,
 				0E5B00B82A54039800BB2679 /* UIView+THDXib.m */,
 				0E5B00BD2A5403EF00BB2679 /* UIViewExt.swift */,
+				0ED721342A5660AA007AA148 /* UIButtonExt.swift */,
+				0ED721922A566D18007AA148 /* UITextFieldExt.swift */,
+				0ED721972A569A52007AA148 /* UIImageExt.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -423,6 +451,38 @@
 			path = NavigationController;
 			sourceTree = "<group>";
 		};
+		0ED721362A56613B007AA148 /* UIButtonExt_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED721372A56615E007AA148 /* UIButtonExtShow.swift */,
+			);
+			path = UIButtonExt_use;
+			sourceTree = "<group>";
+		};
+		0ED721942A566DE7007AA148 /* UITextFieldExt_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED721952A566DFA007AA148 /* UITextFieldExtShow.swift */,
+			);
+			path = UITextFieldExt_use;
+			sourceTree = "<group>";
+		};
+		0ED722602A56C085007AA148 /* UIImageExt_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED722612A56C0A8007AA148 /* UIImageExtShow.swift */,
+			);
+			path = UIImageExt_use;
+			sourceTree = "<group>";
+		};
+		0ED724212A57FBC5007AA148 /* MBProgressHUD_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724222A57FBF4007AA148 /* MBProgressHUDShow.swift */,
+			);
+			path = MBProgressHUD_use;
+			sourceTree = "<group>";
+		};
 		0EEBD0042A37FFD5003F04DF = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +521,10 @@
 		0EEBD06B2A38041C003F04DF /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0ED724212A57FBC5007AA148 /* MBProgressHUD_use */,
+				0ED722602A56C085007AA148 /* UIImageExt_use */,
+				0ED721942A566DE7007AA148 /* UITextFieldExt_use */,
+				0ED721362A56613B007AA148 /* UIButtonExt_use */,
 				0E5B00BF2A5405CC00BB2679 /* UIVIewExt_use */,
 				0E5BFEF82A52571800BB2679 /* KWPageController */,
 				0EC4BE392A4BC57A008EB77B /* KWCollectionView */,
@@ -552,6 +616,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0EEBD01D2A37FFD7003F04DF /* LaunchScreen.storyboard in Resources */,
+				0ED724252A58F945007AA148 /* 加载缓存.gif in Resources */,
 				0EC4BE412A4BC703008EB77B /* TestCollectionVCShowCell.xib in Resources */,
 				0EC4BB082A482146008EB77B /* TestTableView.xib in Resources */,
 				0EC4BB0E2A4827AF008EB77B /* TestTableVIewShowCell.xib in Resources */,
@@ -617,6 +682,7 @@
 				0EC4BA4F2A47CF2C008EB77B /* KOViewController.m in Sources */,
 				0E5BFF032A5257D500BB2679 /* KSPageController3.swift in Sources */,
 				0ED649432A4029C30020E918 /* KWFakeNavigationBar.swift in Sources */,
+				0ED721382A56615E007AA148 /* UIButtonExtShow.swift in Sources */,
 				0EEBD0152A37FFD5003F04DF /* ViewController.swift in Sources */,
 				0E5BFDE92A4E756F00BB2679 /* KOCollectionVC.m in Sources */,
 				0ED648942A3D58680020E918 /* KWColorDemoVC.swift in Sources */,
@@ -627,15 +693,18 @@
 				0ED6493E2A4026AE0020E918 /* KWNavigationVC2.swift in Sources */,
 				0E5BFFA62A52B97A00BB2679 /* KSPageVC.swift in Sources */,
 				0ED6480B2A3D3C700020E918 /* KWTabBarController.swift in Sources */,
+				0ED724232A57FBF4007AA148 /* MBProgressHUDShow.swift in Sources */,
 				0E5BFDA42A4D0CEA00BB2679 /* TestCollectionVCShowCell1.swift in Sources */,
 				0ED649462A40325A0020E918 /* KSViewController.swift in Sources */,
 				0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */,
+				0ED722622A56C0A8007AA148 /* UIImageExtShow.swift in Sources */,
 				0EC4BA572A47D47D008EB77B /* TestBaseVC.swift in Sources */,
 				0E5BFFB12A53A3F900BB2679 /* KOPageController.m in Sources */,
 				0ED6488D2A3D4CD90020E918 /* UIColorExt.swift in Sources */,
 				0EC4BAF62A480E96008EB77B /* KSTableCell.swift in Sources */,
 				0EC4BBEA2A482FD3008EB77B /* DZNEmptyDataSet.swift in Sources */,
 				0E5BFEFD2A5257A900BB2679 /* KSPageController.swift in Sources */,
+				0ED721352A5660AA007AA148 /* UIButtonExt.swift in Sources */,
 				0EC4BA7F2A47DBC4008EB77B /* TestBaseVC11.swift in Sources */,
 				0EEBD07A2A380790003F04DF /* TabBarDemoVC.swift in Sources */,
 				0EC4BE382A4BB9DA008EB77B /* KSCollectionCell.swift in Sources */,
@@ -644,6 +713,7 @@
 				0E5BFFA82A52B99600BB2679 /* KSPageShow.swift in Sources */,
 				0ED6493C2A4026A20020E918 /* KWNavigationVC1.swift in Sources */,
 				0EA7073D2A42D914001745A7 /* KWSwift.swift in Sources */,
+				0ED723F62A57B8BE007AA148 /* VideoCompress.m in Sources */,
 				0ED6493A2A3FFC7B0020E918 /* KWNavigationVC.swift in Sources */,
 				0EEBD0132A37FFD5003F04DF /* SceneDelegate.swift in Sources */,
 				0E5BFF052A5257E000BB2679 /* KSPageController4.swift in Sources */,
@@ -651,8 +721,10 @@
 				0EC4BB0A2A482272008EB77B /* TestTableVIewShow.swift in Sources */,
 				0EC4BA872A480C6B008EB77B /* KSTableVC.swift in Sources */,
 				0E5BFDEC2A4E75C700BB2679 /* KOCollectionCell.m in Sources */,
+				0ED721962A566DFA007AA148 /* UITextFieldExtShow.swift in Sources */,
 				0EC4BC9F2A4A7372008EB77B /* KOTableVC.m in Sources */,
 				0E5BFEFF2A5257C000BB2679 /* KSPageController1.swift in Sources */,
+				0ED724202A57FA24007AA148 /* HUD.swift in Sources */,
 				0EC4BB072A482146008EB77B /* TestTableView.swift in Sources */,
 				0EC4BE3B2A4BC5A2008EB77B /* TestCollectionVC.swift in Sources */,
 				0ED648182A3D42D30020E918 /* AutoFit.swift in Sources */,
@@ -661,10 +733,12 @@
 				0EC4BE432A4BCCD8008EB77B /* TestCollectionVCShow1.swift in Sources */,
 				0E5BFF372A526C9C00BB2679 /* KSTitleView.swift in Sources */,
 				0EEBD0702A38047D003F04DF /* TabBar2VC.swift in Sources */,
+				0ED721932A566D18007AA148 /* UITextFieldExt.swift in Sources */,
 				0EC4BE452A4BCDB3008EB77B /* KWFlowLayout.swift in Sources */,
 				0E5B00C12A54061600BB2679 /* KWViewExtShow.swift in Sources */,
 				0E5BFF072A5257EA00BB2679 /* KSPageController5.swift in Sources */,
 				0EC4BE3D2A4BC5B9008EB77B /* TestCollectionVCShow.swift in Sources */,
+				0ED721982A569A52007AA148 /* UIImageExt.swift in Sources */,
 				0EC4BAFF2A481771008EB77B /* MJRefresh.swift in Sources */,
 				0ED6480C2A3D3C700020E918 /* SizeS.swift in Sources */,
 				0EC4BB0D2A4827AF008EB77B /* TestTableVIewShowCell.swift in Sources */,

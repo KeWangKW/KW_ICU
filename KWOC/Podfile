@@ -13,7 +13,16 @@ use_frameworks!
 
   pod 'MJRefresh'
   pod 'DZNEmptyDataSet'
-#  pod 'SnapKit'
+  
   pod 'HandyJSON'
   
+  pod 'TZImagePickerController'
+  
+  pod 'MBProgressHUD'
+  
+  pod 'SDWebImage'
+  
+  pod 'SnapKit'
+  pod 'Masonry'
+	
 end

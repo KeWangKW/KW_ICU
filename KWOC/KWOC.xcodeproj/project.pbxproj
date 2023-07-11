@@ -15,34 +15,6 @@
 		0E5B00152A53B71E00BB2679 /* KOPageController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00142A53B71E00BB2679 /* KOPageController3.m */; };
 		0E5B00182A53B72700BB2679 /* KOPageController4.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00172A53B72700BB2679 /* KOPageController4.m */; };
 		0E5B001B2A53B73300BB2679 /* KOPageController5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B001A2A53B73300BB2679 /* KOPageController5.m */; };
-		0E5B01D62A5520E900BB2679 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01A32A5520E800BB2679 /* KWSwift.swift */; };
-		0E5B01D72A5520E900BB2679 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01A52A5520E800BB2679 /* UIColorExt.swift */; };
-		0E5B01D82A5520E900BB2679 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01A62A5520E800BB2679 /* UIViewExt.swift */; };
-		0E5B01D92A5520E900BB2679 /* UIView+THDXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01A72A5520E800BB2679 /* UIView+THDXib.m */; };
-		0E5B01DA2A5520E900BB2679 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01A82A5520E900BB2679 /* UIViewControllerExt.swift */; };
-		0E5B01DB2A5520E900BB2679 /* KOCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01AC2A5520E900BB2679 /* KOCollectionCell.m */; };
-		0E5B01DC2A5520E900BB2679 /* KOCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01AF2A5520E900BB2679 /* KOCollectionVC.m */; };
-		0E5B01DD2A5520E900BB2679 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01B12A5520E900BB2679 /* KWNavigationController.swift */; };
-		0E5B01DE2A5520E900BB2679 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01B22A5520E900BB2679 /* KWFakeNavigationBar.swift */; };
-		0E5B01DF2A5520E900BB2679 /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01B32A5520E900BB2679 /* UIViewController+KWNavigationBar.swift */; };
-		0E5B01E02A5520E900BB2679 /* KOPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01B52A5520E900BB2679 /* KOPageController.m */; };
-		0E5B01E12A5520E900BB2679 /* KOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01B82A5520E900BB2679 /* KOTableVC.m */; };
-		0E5B01E22A5520E900BB2679 /* KOTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01B92A5520E900BB2679 /* KOTableCell.m */; };
-		0E5B01E32A5520E900BB2679 /* KSCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01BD2A5520E900BB2679 /* KSCollectionVC.swift */; };
-		0E5B01E42A5520E900BB2679 /* KSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01BE2A5520E900BB2679 /* KSCollectionCell.swift */; };
-		0E5B01E52A5520E900BB2679 /* KWFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01BF2A5520E900BB2679 /* KWFlowLayout.swift */; };
-		0E5B01E62A5520E900BB2679 /* KSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01C12A5520E900BB2679 /* KSTableVC.swift */; };
-		0E5B01E72A5520E900BB2679 /* KSTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01C22A5520E900BB2679 /* KSTableCell.swift */; };
-		0E5B01E82A5520E900BB2679 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01C42A5520E900BB2679 /* KSViewController.swift */; };
-		0E5B01E92A5520E900BB2679 /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01C72A5520E900BB2679 /* KOViewController.m */; };
-		0E5B01EA2A5520E900BB2679 /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01C92A5520E900BB2679 /* KSModel.swift */; };
-		0E5B01EB2A5520E900BB2679 /* KSTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01CB2A5520E900BB2679 /* KSTitleView.swift */; };
-		0E5B01EC2A5520E900BB2679 /* KSPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01CC2A5520E900BB2679 /* KSPageController.swift */; };
-		0E5B01ED2A5520E900BB2679 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01CE2A5520E900BB2679 /* KWTabBarController.swift */; };
-		0E5B01EE2A5520E900BB2679 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01D12A5520E900BB2679 /* AutoFit.swift */; };
-		0E5B01EF2A5520E900BB2679 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01D22A5520E900BB2679 /* SizeS.swift */; };
-		0E5B01F02A5520E900BB2679 /* MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01D42A5520E900BB2679 /* MJRefresh.swift */; };
-		0E5B01F12A5520E900BB2679 /* DZNEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01D52A5520E900BB2679 /* DZNEmptyDataSet.swift */; };
 		0E5B01F52A553A9200BB2679 /* UIViewExtShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B01F42A553A9200BB2679 /* UIViewExtShow.m */; };
 		0E5BFE322A4EAC7300BB2679 /* TestCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE312A4EAC7300BB2679 /* TestCollectionView.m */; };
 		0E5BFE352A4EAC8B00BB2679 /* TestCollectionViewShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BFE342A4EAC8B00BB2679 /* TestCollectionViewShow.m */; };
@@ -69,6 +41,44 @@
 		0ED648C32A3D9F9B0020E918 /* KWColorDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED648C22A3D9F9B0020E918 /* KWColorDemo.m */; };
 		0ED649632A404F7C0020E918 /* KWNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649622A404F7C0020E918 /* KWNavigationVC.m */; };
 		0ED649662A404FA70020E918 /* KWNavigationVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED649652A404FA70020E918 /* KWNavigationVC1.m */; };
+		0ED7218E2A566642007AA148 /* UIButtonExtShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7218D2A566642007AA148 /* UIButtonExtShow.m */; };
+		0ED7219C2A56A3FA007AA148 /* UITextFieldExtShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7219B2A56A3FA007AA148 /* UITextFieldExtShow.m */; };
+		0ED724A92A5CDC33007AA148 /* KWSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7246F2A5CDC32007AA148 /* KWSwift.swift */; };
+		0ED724AA2A5CDC33007AA148 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724712A5CDC32007AA148 /* UIColorExt.swift */; };
+		0ED724AB2A5CDC33007AA148 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724722A5CDC32007AA148 /* UIButtonExt.swift */; };
+		0ED724AC2A5CDC33007AA148 /* VideoCompress.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724732A5CDC32007AA148 /* VideoCompress.m */; };
+		0ED724AD2A5CDC33007AA148 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724742A5CDC32007AA148 /* UIViewExt.swift */; };
+		0ED724AE2A5CDC33007AA148 /* UIView+THDXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724752A5CDC32007AA148 /* UIView+THDXib.m */; };
+		0ED724AF2A5CDC33007AA148 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724762A5CDC32007AA148 /* UIViewControllerExt.swift */; };
+		0ED724B02A5CDC33007AA148 /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724772A5CDC32007AA148 /* UITextFieldExt.swift */; };
+		0ED724B12A5CDC33007AA148 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724792A5CDC32007AA148 /* UIImageExt.swift */; };
+		0ED724B22A5CDC33007AA148 /* KOCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7247D2A5CDC32007AA148 /* KOCollectionCell.m */; };
+		0ED724B32A5CDC33007AA148 /* KOCollectionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724802A5CDC32007AA148 /* KOCollectionVC.m */; };
+		0ED724B42A5CDC33007AA148 /* KWNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724822A5CDC32007AA148 /* KWNavigationController.swift */; };
+		0ED724B52A5CDC33007AA148 /* KWFakeNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724832A5CDC32007AA148 /* KWFakeNavigationBar.swift */; };
+		0ED724B62A5CDC33007AA148 /* UIViewController+KWNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724842A5CDC32007AA148 /* UIViewController+KWNavigationBar.swift */; };
+		0ED724B72A5CDC33007AA148 /* KOPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724862A5CDC32007AA148 /* KOPageController.m */; };
+		0ED724B82A5CDC33007AA148 /* KOTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724892A5CDC32007AA148 /* KOTableVC.m */; };
+		0ED724B92A5CDC33007AA148 /* KOTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7248A2A5CDC32007AA148 /* KOTableCell.m */; };
+		0ED724BA2A5CDC33007AA148 /* KSCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7248E2A5CDC32007AA148 /* KSCollectionVC.swift */; };
+		0ED724BB2A5CDC33007AA148 /* KSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7248F2A5CDC32007AA148 /* KSCollectionCell.swift */; };
+		0ED724BC2A5CDC33007AA148 /* KWFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724902A5CDC32007AA148 /* KWFlowLayout.swift */; };
+		0ED724BD2A5CDC33007AA148 /* KSTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724922A5CDC32007AA148 /* KSTableVC.swift */; };
+		0ED724BE2A5CDC33007AA148 /* KSTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724932A5CDC32007AA148 /* KSTableCell.swift */; };
+		0ED724BF2A5CDC33007AA148 /* KSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724952A5CDC32007AA148 /* KSViewController.swift */; };
+		0ED724C02A5CDC33007AA148 /* KOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724982A5CDC32007AA148 /* KOViewController.m */; };
+		0ED724C12A5CDC33007AA148 /* KSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249A2A5CDC32007AA148 /* KSModel.swift */; };
+		0ED724C22A5CDC33007AA148 /* KSTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249C2A5CDC32007AA148 /* KSTitleView.swift */; };
+		0ED724C32A5CDC33007AA148 /* KSPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249D2A5CDC32007AA148 /* KSPageController.swift */; };
+		0ED724C42A5CDC33007AA148 /* KWTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED7249F2A5CDC32007AA148 /* KWTabBarController.swift */; };
+		0ED724C52A5CDC33007AA148 /* AutoFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A22A5CDC32007AA148 /* AutoFit.swift */; };
+		0ED724C62A5CDC33007AA148 /* SizeS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A32A5CDC32007AA148 /* SizeS.swift */; };
+		0ED724C72A5CDC33007AA148 /* 加载缓存.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0ED724A52A5CDC32007AA148 /* 加载缓存.gif */; };
+		0ED724C82A5CDC33007AA148 /* MJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A62A5CDC32007AA148 /* MJRefresh.swift */; };
+		0ED724C92A5CDC33007AA148 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A72A5CDC32007AA148 /* HUD.swift */; };
+		0ED724CA2A5CDC33007AA148 /* DZNEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724A82A5CDC32007AA148 /* DZNEmptyDataSet.swift */; };
+		0ED724D02A5CDE2E007AA148 /* MBProgressHUDShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724CF2A5CDE2E007AA148 /* MBProgressHUDShow.m */; };
+		0ED724D42A5CF034007AA148 /* MasnorySnapKitShow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED724D32A5CF034007AA148 /* MasnorySnapKitShow.m */; };
 		0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0F92A394C71003F04DF /* AppDelegate.m */; };
 		0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0FC2A394C71003F04DF /* SceneDelegate.m */; };
 		0EEBD1002A394C71003F04DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0FF2A394C71003F04DF /* ViewController.m */; };
@@ -96,42 +106,6 @@
 		0E5B00172A53B72700BB2679 /* KOPageController4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOPageController4.m; sourceTree = "<group>"; };
 		0E5B00192A53B73300BB2679 /* KOPageController5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KOPageController5.h; sourceTree = "<group>"; };
 		0E5B001A2A53B73300BB2679 /* KOPageController5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KOPageController5.m; sourceTree = "<group>"; };
-		0E5B01A32A5520E800BB2679 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
-		0E5B01A52A5520E800BB2679 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
-		0E5B01A62A5520E800BB2679 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
-		0E5B01A72A5520E800BB2679 /* UIView+THDXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THDXib.m"; sourceTree = "<group>"; };
-		0E5B01A82A5520E900BB2679 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
-		0E5B01A92A5520E900BB2679 /* UIView+THDXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THDXib.h"; sourceTree = "<group>"; };
-		0E5B01AC2A5520E900BB2679 /* KOCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionCell.m; sourceTree = "<group>"; };
-		0E5B01AD2A5520E900BB2679 /* KOCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionVC.h; sourceTree = "<group>"; };
-		0E5B01AE2A5520E900BB2679 /* KOCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionCell.h; sourceTree = "<group>"; };
-		0E5B01AF2A5520E900BB2679 /* KOCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionVC.m; sourceTree = "<group>"; };
-		0E5B01B12A5520E900BB2679 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
-		0E5B01B22A5520E900BB2679 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
-		0E5B01B32A5520E900BB2679 /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
-		0E5B01B52A5520E900BB2679 /* KOPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPageController.m; sourceTree = "<group>"; };
-		0E5B01B62A5520E900BB2679 /* KOPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPageController.h; sourceTree = "<group>"; };
-		0E5B01B82A5520E900BB2679 /* KOTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableVC.m; sourceTree = "<group>"; };
-		0E5B01B92A5520E900BB2679 /* KOTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableCell.m; sourceTree = "<group>"; };
-		0E5B01BA2A5520E900BB2679 /* KOTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableVC.h; sourceTree = "<group>"; };
-		0E5B01BB2A5520E900BB2679 /* KOTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableCell.h; sourceTree = "<group>"; };
-		0E5B01BD2A5520E900BB2679 /* KSCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionVC.swift; sourceTree = "<group>"; };
-		0E5B01BE2A5520E900BB2679 /* KSCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionCell.swift; sourceTree = "<group>"; };
-		0E5B01BF2A5520E900BB2679 /* KWFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFlowLayout.swift; sourceTree = "<group>"; };
-		0E5B01C12A5520E900BB2679 /* KSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableVC.swift; sourceTree = "<group>"; };
-		0E5B01C22A5520E900BB2679 /* KSTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableCell.swift; sourceTree = "<group>"; };
-		0E5B01C42A5520E900BB2679 /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
-		0E5B01C62A5520E900BB2679 /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
-		0E5B01C72A5520E900BB2679 /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
-		0E5B01C92A5520E900BB2679 /* KSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
-		0E5B01CB2A5520E900BB2679 /* KSTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTitleView.swift; sourceTree = "<group>"; };
-		0E5B01CC2A5520E900BB2679 /* KSPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageController.swift; sourceTree = "<group>"; };
-		0E5B01CE2A5520E900BB2679 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
-		0E5B01D02A5520E900BB2679 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
-		0E5B01D12A5520E900BB2679 /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
-		0E5B01D22A5520E900BB2679 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
-		0E5B01D42A5520E900BB2679 /* MJRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefresh.swift; sourceTree = "<group>"; };
-		0E5B01D52A5520E900BB2679 /* DZNEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZNEmptyDataSet.swift; sourceTree = "<group>"; };
 		0E5B01F32A553A9200BB2679 /* UIViewExtShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIViewExtShow.h; sourceTree = "<group>"; };
 		0E5B01F42A553A9200BB2679 /* UIViewExtShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExtShow.m; sourceTree = "<group>"; };
 		0E5BFE302A4EAC7300BB2679 /* TestCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollectionView.h; sourceTree = "<group>"; };
@@ -181,6 +155,57 @@
 		0ED649622A404F7C0020E918 /* KWNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWNavigationVC.m; sourceTree = "<group>"; };
 		0ED649642A404FA70020E918 /* KWNavigationVC1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KWNavigationVC1.h; sourceTree = "<group>"; };
 		0ED649652A404FA70020E918 /* KWNavigationVC1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KWNavigationVC1.m; sourceTree = "<group>"; };
+		0ED7218C2A566642007AA148 /* UIButtonExtShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIButtonExtShow.h; sourceTree = "<group>"; };
+		0ED7218D2A566642007AA148 /* UIButtonExtShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonExtShow.m; sourceTree = "<group>"; };
+		0ED7219A2A56A3FA007AA148 /* UITextFieldExtShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UITextFieldExtShow.h; sourceTree = "<group>"; };
+		0ED7219B2A56A3FA007AA148 /* UITextFieldExtShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITextFieldExtShow.m; sourceTree = "<group>"; };
+		0ED7246F2A5CDC32007AA148 /* KWSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWSwift.swift; sourceTree = "<group>"; };
+		0ED724712A5CDC32007AA148 /* UIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		0ED724722A5CDC32007AA148 /* UIButtonExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		0ED724732A5CDC32007AA148 /* VideoCompress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoCompress.m; sourceTree = "<group>"; };
+		0ED724742A5CDC32007AA148 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		0ED724752A5CDC32007AA148 /* UIView+THDXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THDXib.m"; sourceTree = "<group>"; };
+		0ED724762A5CDC32007AA148 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		0ED724772A5CDC32007AA148 /* UITextFieldExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		0ED724782A5CDC32007AA148 /* VideoCompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoCompress.h; sourceTree = "<group>"; };
+		0ED724792A5CDC32007AA148 /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		0ED7247A2A5CDC32007AA148 /* UIView+THDXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THDXib.h"; sourceTree = "<group>"; };
+		0ED7247D2A5CDC32007AA148 /* KOCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionCell.m; sourceTree = "<group>"; };
+		0ED7247E2A5CDC32007AA148 /* KOCollectionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionVC.h; sourceTree = "<group>"; };
+		0ED7247F2A5CDC32007AA148 /* KOCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOCollectionCell.h; sourceTree = "<group>"; };
+		0ED724802A5CDC32007AA148 /* KOCollectionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOCollectionVC.m; sourceTree = "<group>"; };
+		0ED724822A5CDC32007AA148 /* KWNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWNavigationController.swift; sourceTree = "<group>"; };
+		0ED724832A5CDC32007AA148 /* KWFakeNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFakeNavigationBar.swift; sourceTree = "<group>"; };
+		0ED724842A5CDC32007AA148 /* UIViewController+KWNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+KWNavigationBar.swift"; sourceTree = "<group>"; };
+		0ED724862A5CDC32007AA148 /* KOPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOPageController.m; sourceTree = "<group>"; };
+		0ED724872A5CDC32007AA148 /* KOPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOPageController.h; sourceTree = "<group>"; };
+		0ED724892A5CDC32007AA148 /* KOTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableVC.m; sourceTree = "<group>"; };
+		0ED7248A2A5CDC32007AA148 /* KOTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOTableCell.m; sourceTree = "<group>"; };
+		0ED7248B2A5CDC32007AA148 /* KOTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableVC.h; sourceTree = "<group>"; };
+		0ED7248C2A5CDC32007AA148 /* KOTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOTableCell.h; sourceTree = "<group>"; };
+		0ED7248E2A5CDC32007AA148 /* KSCollectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionVC.swift; sourceTree = "<group>"; };
+		0ED7248F2A5CDC32007AA148 /* KSCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSCollectionCell.swift; sourceTree = "<group>"; };
+		0ED724902A5CDC32007AA148 /* KWFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWFlowLayout.swift; sourceTree = "<group>"; };
+		0ED724922A5CDC32007AA148 /* KSTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableVC.swift; sourceTree = "<group>"; };
+		0ED724932A5CDC32007AA148 /* KSTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTableCell.swift; sourceTree = "<group>"; };
+		0ED724952A5CDC32007AA148 /* KSViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSViewController.swift; sourceTree = "<group>"; };
+		0ED724972A5CDC32007AA148 /* KOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KOViewController.h; sourceTree = "<group>"; };
+		0ED724982A5CDC32007AA148 /* KOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KOViewController.m; sourceTree = "<group>"; };
+		0ED7249A2A5CDC32007AA148 /* KSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSModel.swift; sourceTree = "<group>"; };
+		0ED7249C2A5CDC32007AA148 /* KSTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSTitleView.swift; sourceTree = "<group>"; };
+		0ED7249D2A5CDC32007AA148 /* KSPageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KSPageController.swift; sourceTree = "<group>"; };
+		0ED7249F2A5CDC32007AA148 /* KWTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KWTabBarController.swift; sourceTree = "<group>"; };
+		0ED724A12A5CDC32007AA148 /* SizeO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SizeO.h; sourceTree = "<group>"; };
+		0ED724A22A5CDC32007AA148 /* AutoFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoFit.swift; sourceTree = "<group>"; };
+		0ED724A32A5CDC32007AA148 /* SizeS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SizeS.swift; sourceTree = "<group>"; };
+		0ED724A52A5CDC32007AA148 /* 加载缓存.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载缓存.gif"; sourceTree = "<group>"; };
+		0ED724A62A5CDC32007AA148 /* MJRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MJRefresh.swift; sourceTree = "<group>"; };
+		0ED724A72A5CDC32007AA148 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		0ED724A82A5CDC32007AA148 /* DZNEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DZNEmptyDataSet.swift; sourceTree = "<group>"; };
+		0ED724CE2A5CDE2E007AA148 /* MBProgressHUDShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUDShow.h; sourceTree = "<group>"; };
+		0ED724CF2A5CDE2E007AA148 /* MBProgressHUDShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUDShow.m; sourceTree = "<group>"; };
+		0ED724D22A5CF034007AA148 /* MasnorySnapKitShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasnorySnapKitShow.h; sourceTree = "<group>"; };
+		0ED724D32A5CF034007AA148 /* MasnorySnapKitShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasnorySnapKitShow.m; sourceTree = "<group>"; };
 		0EEBD0F52A394C71003F04DF /* KWOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KWOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEBD0F82A394C71003F04DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0EEBD0F92A394C71003F04DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -232,170 +257,6 @@
 				0E5B001A2A53B73300BB2679 /* KOPageController5.m */,
 			);
 			path = KWPageController;
-			sourceTree = "<group>";
-		};
-		0E5B01A22A5520E800BB2679 /* KWFrameWork */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01A32A5520E800BB2679 /* KWSwift.swift */,
-				0E5B01A42A5520E800BB2679 /* Extension */,
-				0E5B01AA2A5520E900BB2679 /* BaseClass */,
-				0E5B01CF2A5520E900BB2679 /* Const */,
-				0E5B01D32A5520E900BB2679 /* SDKManager */,
-			);
-			name = KWFrameWork;
-			path = ../KWFrameWork;
-			sourceTree = "<group>";
-		};
-		0E5B01A42A5520E800BB2679 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01A52A5520E800BB2679 /* UIColorExt.swift */,
-				0E5B01A72A5520E800BB2679 /* UIView+THDXib.m */,
-				0E5B01A82A5520E900BB2679 /* UIViewControllerExt.swift */,
-				0E5B01A92A5520E900BB2679 /* UIView+THDXib.h */,
-				0E5B01A62A5520E800BB2679 /* UIViewExt.swift */,
-			);
-			path = Extension;
-			sourceTree = "<group>";
-		};
-		0E5B01AA2A5520E900BB2679 /* BaseClass */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01AB2A5520E900BB2679 /* O_CollectionViewController */,
-				0E5B01B02A5520E900BB2679 /* NavigationController */,
-				0E5B01B42A5520E900BB2679 /* O_PageController */,
-				0E5B01B72A5520E900BB2679 /* O_TableViewController */,
-				0E5B01BC2A5520E900BB2679 /* S_CollectionViewController */,
-				0E5B01C02A5520E900BB2679 /* S_TableViewController */,
-				0E5B01C32A5520E900BB2679 /* S_ViewController */,
-				0E5B01C52A5520E900BB2679 /* O_ViewController */,
-				0E5B01C82A5520E900BB2679 /* Model */,
-				0E5B01CA2A5520E900BB2679 /* S_PageController */,
-				0E5B01CD2A5520E900BB2679 /* TabbarController */,
-			);
-			path = BaseClass;
-			sourceTree = "<group>";
-		};
-		0E5B01AB2A5520E900BB2679 /* O_CollectionViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01AC2A5520E900BB2679 /* KOCollectionCell.m */,
-				0E5B01AD2A5520E900BB2679 /* KOCollectionVC.h */,
-				0E5B01AE2A5520E900BB2679 /* KOCollectionCell.h */,
-				0E5B01AF2A5520E900BB2679 /* KOCollectionVC.m */,
-			);
-			path = O_CollectionViewController;
-			sourceTree = "<group>";
-		};
-		0E5B01B02A5520E900BB2679 /* NavigationController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01B12A5520E900BB2679 /* KWNavigationController.swift */,
-				0E5B01B22A5520E900BB2679 /* KWFakeNavigationBar.swift */,
-				0E5B01B32A5520E900BB2679 /* UIViewController+KWNavigationBar.swift */,
-			);
-			path = NavigationController;
-			sourceTree = "<group>";
-		};
-		0E5B01B42A5520E900BB2679 /* O_PageController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01B52A5520E900BB2679 /* KOPageController.m */,
-				0E5B01B62A5520E900BB2679 /* KOPageController.h */,
-			);
-			path = O_PageController;
-			sourceTree = "<group>";
-		};
-		0E5B01B72A5520E900BB2679 /* O_TableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01B82A5520E900BB2679 /* KOTableVC.m */,
-				0E5B01B92A5520E900BB2679 /* KOTableCell.m */,
-				0E5B01BA2A5520E900BB2679 /* KOTableVC.h */,
-				0E5B01BB2A5520E900BB2679 /* KOTableCell.h */,
-			);
-			path = O_TableViewController;
-			sourceTree = "<group>";
-		};
-		0E5B01BC2A5520E900BB2679 /* S_CollectionViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01BD2A5520E900BB2679 /* KSCollectionVC.swift */,
-				0E5B01BE2A5520E900BB2679 /* KSCollectionCell.swift */,
-				0E5B01BF2A5520E900BB2679 /* KWFlowLayout.swift */,
-			);
-			path = S_CollectionViewController;
-			sourceTree = "<group>";
-		};
-		0E5B01C02A5520E900BB2679 /* S_TableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01C12A5520E900BB2679 /* KSTableVC.swift */,
-				0E5B01C22A5520E900BB2679 /* KSTableCell.swift */,
-			);
-			path = S_TableViewController;
-			sourceTree = "<group>";
-		};
-		0E5B01C32A5520E900BB2679 /* S_ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01C42A5520E900BB2679 /* KSViewController.swift */,
-			);
-			path = S_ViewController;
-			sourceTree = "<group>";
-		};
-		0E5B01C52A5520E900BB2679 /* O_ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01C62A5520E900BB2679 /* KOViewController.h */,
-				0E5B01C72A5520E900BB2679 /* KOViewController.m */,
-			);
-			path = O_ViewController;
-			sourceTree = "<group>";
-		};
-		0E5B01C82A5520E900BB2679 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01C92A5520E900BB2679 /* KSModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0E5B01CA2A5520E900BB2679 /* S_PageController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01CB2A5520E900BB2679 /* KSTitleView.swift */,
-				0E5B01CC2A5520E900BB2679 /* KSPageController.swift */,
-			);
-			path = S_PageController;
-			sourceTree = "<group>";
-		};
-		0E5B01CD2A5520E900BB2679 /* TabbarController */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01CE2A5520E900BB2679 /* KWTabBarController.swift */,
-			);
-			path = TabbarController;
-			sourceTree = "<group>";
-		};
-		0E5B01CF2A5520E900BB2679 /* Const */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01D02A5520E900BB2679 /* SizeO.h */,
-				0E5B01D12A5520E900BB2679 /* AutoFit.swift */,
-				0E5B01D22A5520E900BB2679 /* SizeS.swift */,
-			);
-			path = Const;
-			sourceTree = "<group>";
-		};
-		0E5B01D32A5520E900BB2679 /* SDKManager */ = {
-			isa = PBXGroup;
-			children = (
-				0E5B01D42A5520E900BB2679 /* MJRefresh.swift */,
-				0E5B01D52A5520E900BB2679 /* DZNEmptyDataSet.swift */,
-			);
-			path = SDKManager;
 			sourceTree = "<group>";
 		};
 		0E5B01F22A553A1100BB2679 /* UIViewExt_use */ = {
@@ -459,6 +320,10 @@
 		0ED648AB2A3D91850020E918 /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0ED724D12A5CF013007AA148 /* MasnorySnapKit_use */,
+				0ED724CB2A5CDDE6007AA148 /* MBProgressHUD_use */,
+				0ED721992A56A3DD007AA148 /* UITextFieldExt_use */,
+				0ED7218B2A566614007AA148 /* UIButtonExt_use */,
 				0E5B01F22A553A1100BB2679 /* UIViewExt_use */,
 				0E5B00032A53B6AE00BB2679 /* KWPageController */,
 				0E5BFE2F2A4EAC4400BB2679 /* TestCollectionView */,
@@ -510,10 +375,217 @@
 			path = KWNavigation;
 			sourceTree = "<group>";
 		};
+		0ED7218B2A566614007AA148 /* UIButtonExt_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7218C2A566642007AA148 /* UIButtonExtShow.h */,
+				0ED7218D2A566642007AA148 /* UIButtonExtShow.m */,
+			);
+			path = UIButtonExt_use;
+			sourceTree = "<group>";
+		};
+		0ED721992A56A3DD007AA148 /* UITextFieldExt_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7219A2A56A3FA007AA148 /* UITextFieldExtShow.h */,
+				0ED7219B2A56A3FA007AA148 /* UITextFieldExtShow.m */,
+			);
+			path = UITextFieldExt_use;
+			sourceTree = "<group>";
+		};
+		0ED7246E2A5CDC32007AA148 /* KWFrameWork */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7246F2A5CDC32007AA148 /* KWSwift.swift */,
+				0ED724702A5CDC32007AA148 /* Extension */,
+				0ED7247B2A5CDC32007AA148 /* BaseClass */,
+				0ED724A02A5CDC32007AA148 /* Const */,
+				0ED724A42A5CDC32007AA148 /* SDKManager */,
+			);
+			name = KWFrameWork;
+			path = ../KWFrameWork;
+			sourceTree = "<group>";
+		};
+		0ED724702A5CDC32007AA148 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724712A5CDC32007AA148 /* UIColorExt.swift */,
+				0ED724722A5CDC32007AA148 /* UIButtonExt.swift */,
+				0ED724732A5CDC32007AA148 /* VideoCompress.m */,
+				0ED724742A5CDC32007AA148 /* UIViewExt.swift */,
+				0ED724752A5CDC32007AA148 /* UIView+THDXib.m */,
+				0ED724762A5CDC32007AA148 /* UIViewControllerExt.swift */,
+				0ED724772A5CDC32007AA148 /* UITextFieldExt.swift */,
+				0ED724782A5CDC32007AA148 /* VideoCompress.h */,
+				0ED724792A5CDC32007AA148 /* UIImageExt.swift */,
+				0ED7247A2A5CDC32007AA148 /* UIView+THDXib.h */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		0ED7247B2A5CDC32007AA148 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7247C2A5CDC32007AA148 /* O_CollectionViewController */,
+				0ED724812A5CDC32007AA148 /* NavigationController */,
+				0ED724852A5CDC32007AA148 /* O_PageController */,
+				0ED724882A5CDC32007AA148 /* O_TableViewController */,
+				0ED7248D2A5CDC32007AA148 /* S_CollectionViewController */,
+				0ED724912A5CDC32007AA148 /* S_TableViewController */,
+				0ED724942A5CDC32007AA148 /* S_ViewController */,
+				0ED724962A5CDC32007AA148 /* O_ViewController */,
+				0ED724992A5CDC32007AA148 /* Model */,
+				0ED7249B2A5CDC32007AA148 /* S_PageController */,
+				0ED7249E2A5CDC32007AA148 /* TabbarController */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		0ED7247C2A5CDC32007AA148 /* O_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7247D2A5CDC32007AA148 /* KOCollectionCell.m */,
+				0ED7247E2A5CDC32007AA148 /* KOCollectionVC.h */,
+				0ED7247F2A5CDC32007AA148 /* KOCollectionCell.h */,
+				0ED724802A5CDC32007AA148 /* KOCollectionVC.m */,
+			);
+			path = O_CollectionViewController;
+			sourceTree = "<group>";
+		};
+		0ED724812A5CDC32007AA148 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724822A5CDC32007AA148 /* KWNavigationController.swift */,
+				0ED724832A5CDC32007AA148 /* KWFakeNavigationBar.swift */,
+				0ED724842A5CDC32007AA148 /* UIViewController+KWNavigationBar.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		0ED724852A5CDC32007AA148 /* O_PageController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724862A5CDC32007AA148 /* KOPageController.m */,
+				0ED724872A5CDC32007AA148 /* KOPageController.h */,
+			);
+			path = O_PageController;
+			sourceTree = "<group>";
+		};
+		0ED724882A5CDC32007AA148 /* O_TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724892A5CDC32007AA148 /* KOTableVC.m */,
+				0ED7248A2A5CDC32007AA148 /* KOTableCell.m */,
+				0ED7248B2A5CDC32007AA148 /* KOTableVC.h */,
+				0ED7248C2A5CDC32007AA148 /* KOTableCell.h */,
+			);
+			path = O_TableViewController;
+			sourceTree = "<group>";
+		};
+		0ED7248D2A5CDC32007AA148 /* S_CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7248E2A5CDC32007AA148 /* KSCollectionVC.swift */,
+				0ED7248F2A5CDC32007AA148 /* KSCollectionCell.swift */,
+				0ED724902A5CDC32007AA148 /* KWFlowLayout.swift */,
+			);
+			path = S_CollectionViewController;
+			sourceTree = "<group>";
+		};
+		0ED724912A5CDC32007AA148 /* S_TableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724922A5CDC32007AA148 /* KSTableVC.swift */,
+				0ED724932A5CDC32007AA148 /* KSTableCell.swift */,
+			);
+			path = S_TableViewController;
+			sourceTree = "<group>";
+		};
+		0ED724942A5CDC32007AA148 /* S_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724952A5CDC32007AA148 /* KSViewController.swift */,
+			);
+			path = S_ViewController;
+			sourceTree = "<group>";
+		};
+		0ED724962A5CDC32007AA148 /* O_ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724972A5CDC32007AA148 /* KOViewController.h */,
+				0ED724982A5CDC32007AA148 /* KOViewController.m */,
+			);
+			path = O_ViewController;
+			sourceTree = "<group>";
+		};
+		0ED724992A5CDC32007AA148 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7249A2A5CDC32007AA148 /* KSModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0ED7249B2A5CDC32007AA148 /* S_PageController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7249C2A5CDC32007AA148 /* KSTitleView.swift */,
+				0ED7249D2A5CDC32007AA148 /* KSPageController.swift */,
+			);
+			path = S_PageController;
+			sourceTree = "<group>";
+		};
+		0ED7249E2A5CDC32007AA148 /* TabbarController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED7249F2A5CDC32007AA148 /* KWTabBarController.swift */,
+			);
+			path = TabbarController;
+			sourceTree = "<group>";
+		};
+		0ED724A02A5CDC32007AA148 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724A12A5CDC32007AA148 /* SizeO.h */,
+				0ED724A22A5CDC32007AA148 /* AutoFit.swift */,
+				0ED724A32A5CDC32007AA148 /* SizeS.swift */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		0ED724A42A5CDC32007AA148 /* SDKManager */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724A52A5CDC32007AA148 /* 加载缓存.gif */,
+				0ED724A62A5CDC32007AA148 /* MJRefresh.swift */,
+				0ED724A72A5CDC32007AA148 /* HUD.swift */,
+				0ED724A82A5CDC32007AA148 /* DZNEmptyDataSet.swift */,
+			);
+			path = SDKManager;
+			sourceTree = "<group>";
+		};
+		0ED724CB2A5CDDE6007AA148 /* MBProgressHUD_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724CE2A5CDE2E007AA148 /* MBProgressHUDShow.h */,
+				0ED724CF2A5CDE2E007AA148 /* MBProgressHUDShow.m */,
+			);
+			path = MBProgressHUD_use;
+			sourceTree = "<group>";
+		};
+		0ED724D12A5CF013007AA148 /* MasnorySnapKit_use */ = {
+			isa = PBXGroup;
+			children = (
+				0ED724D22A5CF034007AA148 /* MasnorySnapKitShow.h */,
+				0ED724D32A5CF034007AA148 /* MasnorySnapKitShow.m */,
+			);
+			path = MasnorySnapKit_use;
+			sourceTree = "<group>";
+		};
 		0EEBD0EC2A394C71003F04DF = {
 			isa = PBXGroup;
 			children = (
-				0E5B01A22A5520E800BB2679 /* KWFrameWork */,
+				0ED7246E2A5CDC32007AA148 /* KWFrameWork */,
 				0EEBD1202A39541C003F04DF /* KWOC-Bridging-header.h */,
 				0EEBD0F72A394C71003F04DF /* KWOC */,
 				0EEBD0F62A394C71003F04DF /* Products */,
@@ -630,6 +702,7 @@
 				0E5BFE482A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.xib in Resources */,
 				0EEBD1082A394C73003F04DF /* LaunchScreen.storyboard in Resources */,
 				0EEBD1052A394C73003F04DF /* Assets.xcassets in Resources */,
+				0ED724C72A5CDC33007AA148 /* 加载缓存.gif in Resources */,
 				0EC4BCEA2A4AB1F5008EB77B /* TestTableViewShowCell.xib in Resources */,
 				0EEBD1032A394C71003F04DF /* Main.storyboard in Resources */,
 				0E5BFE3A2A4EB64700BB2679 /* TestCollectionViewShowCell.xib in Resources */,
@@ -685,68 +758,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E5B01E92A5520E900BB2679 /* KOViewController.m in Sources */,
-				0E5B01D82A5520E900BB2679 /* UIViewExt.swift in Sources */,
 				0EEBD1002A394C71003F04DF /* ViewController.m in Sources */,
-				0E5B01EB2A5520E900BB2679 /* KSTitleView.swift in Sources */,
-				0E5B01DD2A5520E900BB2679 /* KWNavigationController.swift in Sources */,
-				0E5B01DF2A5520E900BB2679 /* UIViewController+KWNavigationBar.swift in Sources */,
 				0ED648B82A3D92CC0020E918 /* TabBar3VC.m in Sources */,
 				0E5B00062A53B6CD00BB2679 /* KOPageVC.m in Sources */,
+				0ED724A92A5CDC33007AA148 /* KWSwift.swift in Sources */,
+				0ED724C62A5CDC33007AA148 /* SizeS.swift in Sources */,
 				0ED648B22A3D92B90020E918 /* TabBar1VC.m in Sources */,
+				0ED724B52A5CDC33007AA148 /* KWFakeNavigationBar.swift in Sources */,
 				0ED648BB2A3D92D50020E918 /* TabBar4VC.m in Sources */,
-				0E5B01E32A5520E900BB2679 /* KSCollectionVC.swift in Sources */,
 				0E5BFE432A4EB9A000BB2679 /* TestCollectionViewShow1.m in Sources */,
+				0ED724B32A5CDC33007AA148 /* KOCollectionVC.m in Sources */,
+				0ED724AD2A5CDC33007AA148 /* UIViewExt.swift in Sources */,
+				0ED724AA2A5CDC33007AA148 /* UIColorExt.swift in Sources */,
+				0ED724C22A5CDC33007AA148 /* KSTitleView.swift in Sources */,
+				0ED724BB2A5CDC33007AA148 /* KSCollectionCell.swift in Sources */,
 				0EEBD0FA2A394C71003F04DF /* AppDelegate.m in Sources */,
-				0E5B01ED2A5520E900BB2679 /* KWTabBarController.swift in Sources */,
-				0E5B01D62A5520E900BB2679 /* KWSwift.swift in Sources */,
+				0ED724BC2A5CDC33007AA148 /* KWFlowLayout.swift in Sources */,
+				0ED724B92A5CDC33007AA148 /* KOTableCell.m in Sources */,
 				0E5B00152A53B71E00BB2679 /* KOPageController3.m in Sources */,
-				0E5B01F12A5520E900BB2679 /* DZNEmptyDataSet.swift in Sources */,
+				0ED724D02A5CDE2E007AA148 /* MBProgressHUDShow.m in Sources */,
+				0ED724C12A5CDC33007AA148 /* KSModel.swift in Sources */,
 				0E5BFE4B2A4EB9CB00BB2679 /* TestCollectionViewShow1Cell2.m in Sources */,
-				0E5B01DE2A5520E900BB2679 /* KWFakeNavigationBar.swift in Sources */,
 				0E5B000C2A53B6F600BB2679 /* KOPageShow.m in Sources */,
 				0E5BFE352A4EAC8B00BB2679 /* TestCollectionViewShow.m in Sources */,
 				0EC4BA842A47DE56008EB77B /* TestBaseVC11.m in Sources */,
-				0E5B01E82A5520E900BB2679 /* KSViewController.swift in Sources */,
-				0E5B01DA2A5520E900BB2679 /* UIViewControllerExt.swift in Sources */,
 				0E5B00122A53B71500BB2679 /* KOPageController2.m in Sources */,
-				0E5B01E52A5520E900BB2679 /* KWFlowLayout.swift in Sources */,
-				0E5B01EC2A5520E900BB2679 /* KSPageController.swift in Sources */,
 				0ED648C32A3D9F9B0020E918 /* KWColorDemo.m in Sources */,
-				0E5B01E02A5520E900BB2679 /* KOPageController.m in Sources */,
-				0E5B01F02A5520E900BB2679 /* MJRefresh.swift in Sources */,
+				0ED724C52A5CDC33007AA148 /* AutoFit.swift in Sources */,
+				0ED724BA2A5CDC33007AA148 /* KSCollectionVC.swift in Sources */,
+				0ED724AE2A5CDC33007AA148 /* UIView+THDXib.m in Sources */,
+				0ED7218E2A566642007AA148 /* UIButtonExtShow.m in Sources */,
+				0ED724B82A5CDC33007AA148 /* KOTableVC.m in Sources */,
 				0E5B001B2A53B73300BB2679 /* KOPageController5.m in Sources */,
+				0ED724BD2A5CDC33007AA148 /* KSTableVC.swift in Sources */,
+				0ED724B12A5CDC33007AA148 /* UIImageExt.swift in Sources */,
 				0E5B000F2A53B70D00BB2679 /* KOPageController1.m in Sources */,
+				0ED724AF2A5CDC33007AA148 /* UIViewControllerExt.swift in Sources */,
+				0ED724AB2A5CDC33007AA148 /* UIButtonExt.swift in Sources */,
 				0EC4BCE52A4AB024008EB77B /* TestTableViewShow.m in Sources */,
-				0E5B01D72A5520E900BB2679 /* UIColorExt.swift in Sources */,
-				0E5B01EA2A5520E900BB2679 /* KSModel.swift in Sources */,
+				0ED724C82A5CDC33007AA148 /* MJRefresh.swift in Sources */,
 				0ED648BE2A3D92DD0020E918 /* TabBar5VC.m in Sources */,
+				0ED724D42A5CF034007AA148 /* MasnorySnapKitShow.m in Sources */,
 				0EEBD10B2A394C73003F04DF /* main.m in Sources */,
+				0ED724C42A5CDC33007AA148 /* KWTabBarController.swift in Sources */,
 				0ED648B52A3D92C50020E918 /* TabBar2VC.m in Sources */,
+				0ED724C32A5CDC33007AA148 /* KSPageController.swift in Sources */,
 				0EC4BA7A2A47D61E008EB77B /* TestBaseVC.m in Sources */,
 				0EC4BCE22A4AB00A008EB77B /* TestTableView.m in Sources */,
-				0E5B01E12A5520E900BB2679 /* KOTableVC.m in Sources */,
-				0E5B01DC2A5520E900BB2679 /* KOCollectionVC.m in Sources */,
 				0E5B00182A53B72700BB2679 /* KOPageController4.m in Sources */,
+				0ED724B22A5CDC33007AA148 /* KOCollectionCell.m in Sources */,
 				0E5B01F52A553A9200BB2679 /* UIViewExtShow.m in Sources */,
 				0E5BFE472A4EB9BD00BB2679 /* TestCollectionViewShow1Cell1.m in Sources */,
+				0ED724C92A5CDC33007AA148 /* HUD.swift in Sources */,
+				0ED724CA2A5CDC33007AA148 /* DZNEmptyDataSet.swift in Sources */,
 				0ED649632A404F7C0020E918 /* KWNavigationVC.m in Sources */,
+				0ED724BF2A5CDC33007AA148 /* KSViewController.swift in Sources */,
 				0ED648AF2A3D91B80020E918 /* TabBarDemoVC.m in Sources */,
+				0ED724B72A5CDC33007AA148 /* KOPageController.m in Sources */,
+				0ED724B62A5CDC33007AA148 /* UIViewController+KWNavigationBar.swift in Sources */,
 				0E5BFE392A4EB64700BB2679 /* TestCollectionViewShowCell.m in Sources */,
+				0ED7219C2A56A3FA007AA148 /* UITextFieldExtShow.m in Sources */,
 				0E5BFE322A4EAC7300BB2679 /* TestCollectionView.m in Sources */,
 				0ED649662A404FA70020E918 /* KWNavigationVC1.m in Sources */,
-				0E5B01E72A5520E900BB2679 /* KSTableCell.swift in Sources */,
-				0E5B01E62A5520E900BB2679 /* KSTableVC.swift in Sources */,
-				0E5B01DB2A5520E900BB2679 /* KOCollectionCell.m in Sources */,
-				0E5B01D92A5520E900BB2679 /* UIView+THDXib.m in Sources */,
+				0ED724BE2A5CDC33007AA148 /* KSTableCell.swift in Sources */,
 				0E5BFE4F2A4EBCF300BB2679 /* TestCollectionHeadFoot.m in Sources */,
-				0E5B01E42A5520E900BB2679 /* KSCollectionCell.swift in Sources */,
-				0E5B01E22A5520E900BB2679 /* KOTableCell.m in Sources */,
-				0E5B01EF2A5520E900BB2679 /* SizeS.swift in Sources */,
-				0E5B01EE2A5520E900BB2679 /* AutoFit.swift in Sources */,
 				0E5B00092A53B6E600BB2679 /* KOTitleViewShow.m in Sources */,
+				0ED724C02A5CDC33007AA148 /* KOViewController.m in Sources */,
+				0ED724AC2A5CDC33007AA148 /* VideoCompress.m in Sources */,
 				0EEBD0FD2A394C71003F04DF /* SceneDelegate.m in Sources */,
+				0ED724B42A5CDC33007AA148 /* KWNavigationController.swift in Sources */,
 				0EC4BCE92A4AB1F5008EB77B /* TestTableViewShowCell.m in Sources */,
+				0ED724B02A5CDC33007AA148 /* UITextFieldExt.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

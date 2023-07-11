@@ -3,3 +3,6 @@
 //
 
 #import "SizeO.h"
+
+#import "TZImagePickerController.h"
+#import "Masonry.h"

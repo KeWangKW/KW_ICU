@@ -16,6 +16,10 @@
 #import "TestCollectionView.h"
 #import "KOPageVC.h"
 #import "UIViewExtShow.h"
+#import "UIButtonExtShow.h"
+#import "UITextFieldExtShow.h"
+#import "MBProgressHUDShow.h"
+#import "MasnorySnapKitShow.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, copy) NSArray *dataArr;
@@ -35,7 +39,12 @@
                      @"KWTableView",
                      @"KWCollectionView",
                      @"KWPageController",
-                     @"UIViewExt"];
+                     @"UIViewExt拓展方法",
+                     @"UIButtonExt拓展方法",
+                     @"UITextField拓展方法",
+                     @"UIImageView拓展方法",
+                     @"MBProgressHUD封装",
+                     @"Masnory/SnapKit"];
     
     UITableView * tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, kNavigationStatusHeight(), kScreenWidth(), kScreenHeight()-kNavigationStatusHeight()) style:UITableViewStyleGrouped];
     tableView.delegate = self;
@@ -97,6 +106,31 @@
         [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
     }else if (indexPath.row == 7) {
         UIViewExtShow * vc = [[UIViewExtShow alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 8) {
+        UIButtonExtShow * vc = [[UIButtonExtShow alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 9) {
+        UITextFieldExtShow * vc = [[UITextFieldExtShow alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 10) {
+        UITextFieldExtShow * vc = [[UITextFieldExtShow alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 11) {
+        MBProgressHUDShow * vc = [[MBProgressHUDShow alloc]init];
+        KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
+        [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
+        [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];
+    }else if (indexPath.row == 12) {
+        MasnorySnapKitShow * vc = [[MasnorySnapKitShow alloc]init];
         KWNavigationController * nav = [[KWNavigationController alloc]initWithRootViewController:vc];
         [UIApplication sharedApplication].windows.firstObject.rootViewController = nav;
         [[UIApplication sharedApplication].windows.firstObject makeKeyAndVisible];

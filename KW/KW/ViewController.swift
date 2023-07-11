@@ -21,13 +21,17 @@ class ViewController: UIViewController {
     }
 
     let dataArr:[String] = ["KWTabBar",
-    "KWColor",
-    "KWNavigation",
-    "KWViewController",
-    "KWTableViewController",
-    "KWCollectionViewController",
-    "KWPageController",
-    "UIView拓展方法"];
+                            "KWColor",
+                            "KWNavigation",
+                            "KWViewController",
+                            "KWTableViewController",
+                            "KWCollectionViewController",
+                            "KWPageController",
+                            "UIView拓展方法",
+                            "UIButton拓展方法",
+                            "UITextField拓展方法",
+                            "UIImageView拓展方法",
+                            "MBProgressHUD封装"];
     
     
     lazy var tableView: UITableView =  {
@@ -105,6 +109,22 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             self.changeRootViewController(vc: nav)
         }else if indexPath.row == 7 {
             let vc = KWViewExtShow()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 8 {
+            let vc = UIButtonExtShow()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 9 {
+            let vc = UITextFieldExtShow()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 10 {
+            let vc = UIImageExtShow()
+            let nav = KWNavigationController(rootViewController: vc)
+            self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 11 {
+            let vc = MBProgressHUDShow()
             let nav = KWNavigationController(rootViewController: vc)
             self.changeRootViewController(vc: nav)
         }
