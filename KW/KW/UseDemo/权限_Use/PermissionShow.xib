@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PermissionShow" customModule="KW" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUt-Sm-895">
+                    <rect key="frame" x="0.0" y="80" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="EQM-EW-uiC"/>
+                        <constraint firstAttribute="width" constant="94" id="bU0-de-89h"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="开启监听"/>
+                    <connections>
+                        <action selector="netWorkClick1:" destination="-1" eventType="touchUpInside" id="h8v-bF-QTT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UK2-Hu-jsN">
+                    <rect key="frame" x="0.0" y="116" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="anu-At-eFT"/>
+                        <constraint firstAttribute="height" constant="35" id="xEl-no-Amx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="蜂窝网络权限"/>
+                    <connections>
+                        <action selector="netWorkClick5:" destination="-1" eventType="touchUpInside" id="rcH-0o-0dn"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PH-MB-qIf">
+                    <rect key="frame" x="95" y="116" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="QCM-jY-oZu"/>
+                        <constraint firstAttribute="width" constant="94" id="cB7-Kb-2bE"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Wi-Fi权限"/>
+                    <connections>
+                        <action selector="netWorkClick6:" destination="-1" eventType="touchUpInside" id="Oaz-pF-RXb"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="网络：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jeb-gM-zxK">
+                    <rect key="frame" x="0.0" y="59" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PnR-CS-VmX">
+                    <rect key="frame" x="95" y="80" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="0zO-nN-t0s"/>
+                        <constraint firstAttribute="width" constant="94" id="Pob-ce-wVp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="结束监听"/>
+                    <connections>
+                        <action selector="netWorkClick2:" destination="-1" eventType="touchUpInside" id="66z-oI-y1x"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bcz-Cg-loL">
+                    <rect key="frame" x="190" y="80" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="EkW-VQ-Emc"/>
+                        <constraint firstAttribute="width" constant="94" id="zwG-Zt-tpM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="有无网络"/>
+                    <connections>
+                        <action selector="netWorkClick3:" destination="-1" eventType="touchUpInside" id="iZo-b9-4TW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAh-t7-CaP">
+                    <rect key="frame" x="285" y="80" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="TJt-Sp-sVl"/>
+                        <constraint firstAttribute="width" constant="94" id="m7o-TH-iAC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="跳转设置"/>
+                    <connections>
+                        <action selector="netWorkClick4:" destination="-1" eventType="touchUpInside" id="q31-uJ-eWZ"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="定位：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vP-xW-ebF">
+                    <rect key="frame" x="0.0" y="151" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLh-8J-ROn">
+                    <rect key="frame" x="0.0" y="172" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="91K-I0-iiN"/>
+                        <constraint firstAttribute="width" constant="94" id="hYk-F5-ZOU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="有无权限"/>
+                    <connections>
+                        <action selector="locationClick1:" destination="-1" eventType="touchUpInside" id="Rgg-5B-CQ8"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KKQ-eb-67P">
+                    <rect key="frame" x="95" y="172" width="190" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="190" id="Bd7-L2-NEe"/>
+                        <constraint firstAttribute="height" constant="35" id="vKm-yS-rP1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="获取权限 回调结果 不监听"/>
+                    <connections>
+                        <action selector="loactionClick2:" destination="-1" eventType="touchUpInside" id="ujf-Yt-23q"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AQ-a3-bow">
+                    <rect key="frame" x="286" y="172" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Jlz-Pc-Hwh"/>
+                        <constraint firstAttribute="width" constant="94" id="h8w-t9-1am"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="跳转设置"/>
+                    <connections>
+                        <action selector="locationClick3:" destination="-1" eventType="touchUpInside" id="59y-tS-Y2s"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPK-s9-HdR">
+                    <rect key="frame" x="302" y="208" width="79" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="79" id="NRy-ao-jip"/>
+                        <constraint firstAttribute="height" constant="35" id="n9W-wB-286"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="取消监听"/>
+                    <connections>
+                        <action selector="locationClick5:" destination="-1" eventType="touchUpInside" id="6DJ-wN-PcC"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="相机：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Dh-IG-z7L">
+                    <rect key="frame" x="0.0" y="243" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwj-lW-uWR">
+                    <rect key="frame" x="0.0" y="264" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="Y3m-qH-VpJ"/>
+                        <constraint firstAttribute="width" constant="94" id="tyJ-kM-Yck"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="有无权限"/>
+                    <connections>
+                        <action selector="cameraClick1:" destination="-1" eventType="touchUpInside" id="xiU-3V-chd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRr-hE-dzv">
+                    <rect key="frame" x="95" y="264" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="9aG-OX-N24"/>
+                        <constraint firstAttribute="width" constant="94" id="FoI-a7-UvF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="获取权限"/>
+                    <connections>
+                        <action selector="cameraClick2:" destination="-1" eventType="touchUpInside" id="8gT-LW-9xf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xhX-mv-yde">
+                    <rect key="frame" x="190" y="264" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="7oM-xA-n65"/>
+                        <constraint firstAttribute="height" constant="35" id="y82-Wk-nST"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="跳转设置"/>
+                    <connections>
+                        <action selector="cameraClick3:" destination="-1" eventType="touchUpInside" id="qnb-Li-rTX"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dxb-iW-aWL">
+                    <rect key="frame" x="79" y="208" width="222" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="vot-7O-ZCr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="获取权限 回调结果 监听设置中改动"/>
+                    <connections>
+                        <action selector="loactionClick4:" destination="-1" eventType="touchUpInside" id="YRa-fl-bNK"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="相册：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mes-0y-Ufg">
+                    <rect key="frame" x="0.0" y="299" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGm-7G-FgL">
+                    <rect key="frame" x="0.0" y="320" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="3Nb-rW-hqP"/>
+                        <constraint firstAttribute="width" constant="94" id="cYc-gX-7cV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="有无权限"/>
+                    <connections>
+                        <action selector="photoClick1:" destination="-1" eventType="touchUpInside" id="kr5-iJ-P54"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nQS-hC-4kr">
+                    <rect key="frame" x="95" y="320" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="7TW-Zu-1NV"/>
+                        <constraint firstAttribute="width" constant="94" id="pGg-sH-ouL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="申请权限"/>
+                    <connections>
+                        <action selector="photoClick2:" destination="-1" eventType="touchUpInside" id="nVF-eg-XQ3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CuR-P0-VST">
+                    <rect key="frame" x="190" y="320" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="W7D-fz-zzt"/>
+                        <constraint firstAttribute="height" constant="35" id="f5W-ba-cfe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="跳转设置"/>
+                    <connections>
+                        <action selector="photoClick3:" destination="-1" eventType="touchUpInside" id="xHV-PU-JJn"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="麦克风：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLU-ZX-uNT">
+                    <rect key="frame" x="0.0" y="355" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3lt-B9-qx4">
+                    <rect key="frame" x="0.0" y="376" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="WWr-Zf-AaP"/>
+                        <constraint firstAttribute="height" constant="35" id="cT6-mS-pss"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="有无权限"/>
+                    <connections>
+                        <action selector="MicrophoneClick1:" destination="-1" eventType="touchUpInside" id="vHX-Vf-nmR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbO-6h-56e">
+                    <rect key="frame" x="95" y="376" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="2UV-I4-pXW"/>
+                        <constraint firstAttribute="width" constant="94" id="nSU-bM-hMV"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="申请权限"/>
+                    <connections>
+                        <action selector="MicrophoneClick2:" destination="-1" eventType="touchUpInside" id="vkg-bz-Nhg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sy-Wn-2hE">
+                    <rect key="frame" x="190" y="376" width="94" height="35"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="94" id="tJ9-e0-1w8"/>
+                        <constraint firstAttribute="height" constant="35" id="viX-JO-x8a"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="跳转设置"/>
+                    <connections>
+                        <action selector="MicrophoneClick3:" destination="-1" eventType="touchUpInside" id="MGE-1Q-rdp"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="3lt-B9-qx4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1PF-h9-0Uw"/>
+                <constraint firstItem="xhX-mv-yde" firstAttribute="leading" secondItem="sRr-hE-dzv" secondAttribute="trailing" constant="1" id="2IG-8g-H1Z"/>
+                <constraint firstItem="eGm-7G-FgL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4Ld-QZ-Moc"/>
+                <constraint firstItem="CuR-P0-VST" firstAttribute="leading" secondItem="nQS-hC-4kr" secondAttribute="trailing" constant="1" id="4YA-05-wv0"/>
+                <constraint firstItem="QUt-Sm-895" firstAttribute="top" secondItem="jeb-gM-zxK" secondAttribute="bottom" id="4mz-b0-zeA"/>
+                <constraint firstItem="nQS-hC-4kr" firstAttribute="top" secondItem="eGm-7G-FgL" secondAttribute="top" id="56H-1p-I7O"/>
+                <constraint firstItem="Iwj-lW-uWR" firstAttribute="top" secondItem="7Dh-IG-z7L" secondAttribute="bottom" id="7D8-my-7Zt"/>
+                <constraint firstItem="5vP-xW-ebF" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="7lR-uT-trg"/>
+                <constraint firstItem="UK2-Hu-jsN" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="BGk-ke-kNx"/>
+                <constraint firstItem="KKQ-eb-67P" firstAttribute="leading" secondItem="sLh-8J-ROn" secondAttribute="trailing" constant="1" id="Cpz-LE-82O"/>
+                <constraint firstItem="7Dh-IG-z7L" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="DFs-iR-kMJ"/>
+                <constraint firstItem="PnR-CS-VmX" firstAttribute="top" secondItem="QUt-Sm-895" secondAttribute="top" id="DIh-rN-iDo"/>
+                <constraint firstItem="8AQ-a3-bow" firstAttribute="top" secondItem="KKQ-eb-67P" secondAttribute="top" id="E58-6I-0kZ"/>
+                <constraint firstItem="jeb-gM-zxK" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="EsG-zE-lWX"/>
+                <constraint firstItem="NbO-6h-56e" firstAttribute="top" secondItem="3lt-B9-qx4" secondAttribute="top" id="GQQ-w6-C2e"/>
+                <constraint firstItem="2PH-MB-qIf" firstAttribute="top" secondItem="PnR-CS-VmX" secondAttribute="bottom" constant="1" id="IMi-tA-EPq"/>
+                <constraint firstItem="QUt-Sm-895" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ifo-lu-blU"/>
+                <constraint firstItem="SLU-ZX-uNT" firstAttribute="top" secondItem="eGm-7G-FgL" secondAttribute="bottom" id="KE0-pa-XeS"/>
+                <constraint firstItem="sRr-hE-dzv" firstAttribute="leading" secondItem="Iwj-lW-uWR" secondAttribute="trailing" constant="1" id="Kw0-Xw-7rN"/>
+                <constraint firstItem="Dxb-iW-aWL" firstAttribute="top" secondItem="sLh-8J-ROn" secondAttribute="bottom" constant="1" id="KxN-2F-Xae"/>
+                <constraint firstItem="mes-0y-Ufg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="LCA-Fx-4ML"/>
+                <constraint firstItem="bcz-Cg-loL" firstAttribute="leading" secondItem="PnR-CS-VmX" secondAttribute="trailing" constant="1" id="Pxp-Do-KHh"/>
+                <constraint firstItem="8AQ-a3-bow" firstAttribute="leading" secondItem="KKQ-eb-67P" secondAttribute="trailing" constant="1" id="W8e-br-Emy"/>
+                <constraint firstItem="NbO-6h-56e" firstAttribute="leading" secondItem="3lt-B9-qx4" secondAttribute="trailing" constant="1" id="Wml-nJ-uIZ"/>
+                <constraint firstItem="xhX-mv-yde" firstAttribute="top" secondItem="sRr-hE-dzv" secondAttribute="top" id="WqH-6e-hsS"/>
+                <constraint firstItem="3lt-B9-qx4" firstAttribute="top" secondItem="SLU-ZX-uNT" secondAttribute="bottom" id="Xll-xf-Eld"/>
+                <constraint firstItem="sLh-8J-ROn" firstAttribute="top" secondItem="5vP-xW-ebF" secondAttribute="bottom" id="YNX-ds-D8j"/>
+                <constraint firstItem="7Dh-IG-z7L" firstAttribute="top" secondItem="Dxb-iW-aWL" secondAttribute="bottom" id="Z6o-5i-L59"/>
+                <constraint firstItem="7sy-Wn-2hE" firstAttribute="leading" secondItem="NbO-6h-56e" secondAttribute="trailing" constant="1" id="ZF7-4X-dQK"/>
+                <constraint firstItem="eGm-7G-FgL" firstAttribute="top" secondItem="mes-0y-Ufg" secondAttribute="bottom" id="ari-nw-zge"/>
+                <constraint firstItem="jeb-gM-zxK" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="b0g-za-T2M"/>
+                <constraint firstItem="5vP-xW-ebF" firstAttribute="top" secondItem="QUt-Sm-895" secondAttribute="bottom" constant="36" id="b63-YA-5UI"/>
+                <constraint firstItem="sRr-hE-dzv" firstAttribute="top" secondItem="Iwj-lW-uWR" secondAttribute="top" id="b89-Tp-i4j"/>
+                <constraint firstItem="KKQ-eb-67P" firstAttribute="top" secondItem="sLh-8J-ROn" secondAttribute="top" id="d95-pg-7BM"/>
+                <constraint firstItem="UK2-Hu-jsN" firstAttribute="top" secondItem="QUt-Sm-895" secondAttribute="bottom" constant="1" id="dQq-0N-Cf2"/>
+                <constraint firstItem="PnR-CS-VmX" firstAttribute="leading" secondItem="QUt-Sm-895" secondAttribute="trailing" constant="1" id="e5w-SY-tDo"/>
+                <constraint firstItem="CuR-P0-VST" firstAttribute="top" secondItem="nQS-hC-4kr" secondAttribute="top" id="eqN-yw-QVY"/>
+                <constraint firstItem="7sy-Wn-2hE" firstAttribute="top" secondItem="3lt-B9-qx4" secondAttribute="top" id="gK2-3X-jG9"/>
+                <constraint firstItem="SLU-ZX-uNT" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gpj-U3-k31"/>
+                <constraint firstItem="bcz-Cg-loL" firstAttribute="top" secondItem="QUt-Sm-895" secondAttribute="top" id="mSF-wG-yQj"/>
+                <constraint firstItem="hPK-s9-HdR" firstAttribute="top" secondItem="8AQ-a3-bow" secondAttribute="bottom" constant="1" id="mgT-Ae-Gvs"/>
+                <constraint firstItem="BAh-t7-CaP" firstAttribute="top" secondItem="QUt-Sm-895" secondAttribute="top" id="oFc-DD-ykW"/>
+                <constraint firstItem="sLh-8J-ROn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pTo-I0-ip2"/>
+                <constraint firstItem="nQS-hC-4kr" firstAttribute="leading" secondItem="eGm-7G-FgL" secondAttribute="trailing" constant="1" id="s96-eR-r99"/>
+                <constraint firstItem="mes-0y-Ufg" firstAttribute="top" secondItem="Iwj-lW-uWR" secondAttribute="bottom" id="uJf-HG-RXd"/>
+                <constraint firstItem="Iwj-lW-uWR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="uKo-AM-m4V"/>
+                <constraint firstItem="Dxb-iW-aWL" firstAttribute="centerX" secondItem="KKQ-eb-67P" secondAttribute="centerX" id="vAk-xg-EpQ"/>
+                <constraint firstItem="hPK-s9-HdR" firstAttribute="leading" secondItem="Dxb-iW-aWL" secondAttribute="trailing" constant="1" id="w1M-y2-rWr"/>
+                <constraint firstItem="2PH-MB-qIf" firstAttribute="leading" secondItem="UK2-Hu-jsN" secondAttribute="trailing" constant="1" id="wzh-aK-luo"/>
+                <constraint firstItem="BAh-t7-CaP" firstAttribute="leading" secondItem="bcz-Cg-loL" secondAttribute="trailing" constant="1" id="zrX-Y9-IfP"/>
+            </constraints>
+            <point key="canvasLocation" x="131" y="-12"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

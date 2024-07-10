@@ -5,6 +5,7 @@
 //  Created by 渴望 on 2023/7/7.
 //
 
+#if canImport(MBProgressHUD)
 import UIKit
 import MBProgressHUD
 import SnapKit
@@ -201,3 +202,5 @@ extension HUD {
     }
     */
 }
+
+#endif

@@ -32,7 +32,9 @@ class ViewController: UIViewController {
                             "UITextField拓展方法",
                             "UIImageView拓展方法",
                             "MBProgressHUD封装",
-                            "UIAlertController封装"];
+                            "UIAlertController封装",
+                            "系统权限",
+                            "结束"];
     
     
     lazy var tableView: UITableView =  {
@@ -132,6 +134,11 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             let vc = AlertUseShow()
             let nav = KWNavigationController(rootViewController: vc)
             self.changeRootViewController(vc: nav)
+        }else if indexPath.row == 13 {
+            let vc = PermissionShow()
+            self.navigationController?.pushViewController(vc, animated: true)
+        }else if indexPath.row == 14 {
+            
         }
         
     }

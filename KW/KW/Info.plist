@@ -27,6 +27,8 @@
 	<string>是否允许存储图片，若不允许，则</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>是否允许使用定位功能，若不允许，则</string>
+	<key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+	<true/>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>是否允许使用定位功能，若不允许，则</string>
 	<key>NSLocationUsageDescription</key>

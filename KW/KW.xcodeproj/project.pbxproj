@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E0E0E352A611CA700DAE9B3 /* PermissionShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0E0E332A611CA700DAE9B3 /* PermissionShow.swift */; };
+		0E0E0E362A611CA700DAE9B3 /* PermissionShow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0E0E342A611CA700DAE9B3 /* PermissionShow.xib */; };
 		0E5B00B92A54039900BB2679 /* UIView+THDXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00B82A54039800BB2679 /* UIView+THDXib.m */; };
 		0E5B00BE2A5403EF00BB2679 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00BD2A5403EF00BB2679 /* UIViewExt.swift */; };
 		0E5B00C12A54061600BB2679 /* KWViewExtShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5B00C02A54061600BB2679 /* KWViewExtShow.swift */; };
@@ -72,6 +74,7 @@
 		0ED724252A58F945007AA148 /* 加载缓存.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0ED724242A58F945007AA148 /* 加载缓存.gif */; };
 		0ED725732A5CF84B007AA148 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725722A5CF84B007AA148 /* Alert.swift */; };
 		0ED725762A5CF8DE007AA148 /* AlertUseShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725752A5CF8DE007AA148 /* AlertUseShow.swift */; };
+		0ED725E42A5D2CBA007AA148 /* Permission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED725E32A5D2CBA007AA148 /* Permission.swift */; };
 		0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */; };
 		0EEBD0132A37FFD5003F04DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */; };
 		0EEBD0152A37FFD5003F04DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EEBD0142A37FFD5003F04DF /* ViewController.swift */; };
@@ -88,6 +91,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E0E0E332A611CA700DAE9B3 /* PermissionShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionShow.swift; sourceTree = "<group>"; };
+		0E0E0E342A611CA700DAE9B3 /* PermissionShow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PermissionShow.xib; sourceTree = "<group>"; };
 		0E5B00B72A54039800BB2679 /* UIView+THDXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+THDXib.h"; sourceTree = "<group>"; };
 		0E5B00B82A54039800BB2679 /* UIView+THDXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+THDXib.m"; sourceTree = "<group>"; };
 		0E5B00BD2A5403EF00BB2679 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
@@ -162,6 +167,9 @@
 		0ED724242A58F945007AA148 /* 加载缓存.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "加载缓存.gif"; sourceTree = "<group>"; };
 		0ED725722A5CF84B007AA148 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		0ED725752A5CF8DE007AA148 /* AlertUseShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertUseShow.swift; sourceTree = "<group>"; };
+		0ED725E32A5D2CBA007AA148 /* Permission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permission.swift; sourceTree = "<group>"; };
+		0ED725E52A5D2D75007AA148 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		0ED725EA2A5D34E6007AA148 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		0EEBD00D2A37FFD5003F04DF /* KW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EEBD0102A37FFD5003F04DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EEBD0122A37FFD5003F04DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -193,6 +201,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E0E0E2D2A611C5300DAE9B3 /* 权限_Use */ = {
+			isa = PBXGroup;
+			children = (
+				0E0E0E332A611CA700DAE9B3 /* PermissionShow.swift */,
+				0E0E0E342A611CA700DAE9B3 /* PermissionShow.xib */,
+			);
+			path = "权限_Use";
+			sourceTree = "<group>";
+		};
 		0E5B00BF2A5405CC00BB2679 /* UIVIewExt_use */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,6 +291,7 @@
 		0EC4BAFD2A48173D008EB77B /* SDKManager */ = {
 			isa = PBXGroup;
 			children = (
+				0ED725E32A5D2CBA007AA148 /* Permission.swift */,
 				0EC4BBE92A482FD2008EB77B /* DZNEmptyDataSet.swift */,
 				0EC4BAFE2A481771008EB77B /* MJRefresh.swift */,
 				0ED724242A58F945007AA148 /* 加载缓存.gif */,
@@ -529,6 +547,7 @@
 		0EEBD06B2A38041C003F04DF /* UseDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0E0E0E2D2A611C5300DAE9B3 /* 权限_Use */,
 				0ED725742A5CF8C0007AA148 /* Alert_use */,
 				0ED724212A57FBC5007AA148 /* MBProgressHUD_use */,
 				0ED722602A56C085007AA148 /* UIImageExt_use */,
@@ -549,6 +568,8 @@
 		58651E11F5E5ED466BCC8C03 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0ED725EA2A5D34E6007AA148 /* SystemConfiguration.framework */,
+				0ED725E52A5D2D75007AA148 /* CoreTelephony.framework */,
 				C52B5166FC659861142CFB5E /* Pods_KW.framework */,
 			);
 			name = Frameworks;
@@ -574,7 +595,7 @@
 				0EEBD0092A37FFD5003F04DF /* Sources */,
 				0EEBD00A2A37FFD5003F04DF /* Frameworks */,
 				0EEBD00B2A37FFD5003F04DF /* Resources */,
-				49966B66B94DB66FD3E60A58 /* [CP] Embed Pods Frameworks */,
+				09D50F2A4FE22164595E2730 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -629,6 +650,7 @@
 				0EC4BE412A4BC703008EB77B /* TestCollectionVCShowCell.xib in Resources */,
 				0EC4BB082A482146008EB77B /* TestTableView.xib in Resources */,
 				0EC4BB0E2A4827AF008EB77B /* TestTableVIewShowCell.xib in Resources */,
+				0E0E0E362A611CA700DAE9B3 /* PermissionShow.xib in Resources */,
 				0EEBD01A2A37FFD7003F04DF /* Assets.xcassets in Resources */,
 				0EEBD0182A37FFD5003F04DF /* Main.storyboard in Resources */,
 			);
@@ -637,7 +659,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		49966B66B94DB66FD3E60A58 /* [CP] Embed Pods Frameworks */ = {
+		09D50F2A4FE22164595E2730 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -708,6 +730,7 @@
 				0ED649462A40325A0020E918 /* KSViewController.swift in Sources */,
 				0EEBD0112A37FFD5003F04DF /* AppDelegate.swift in Sources */,
 				0ED722622A56C0A8007AA148 /* UIImageExtShow.swift in Sources */,
+				0E0E0E352A611CA700DAE9B3 /* PermissionShow.swift in Sources */,
 				0EC4BA572A47D47D008EB77B /* TestBaseVC.swift in Sources */,
 				0E5BFFB12A53A3F900BB2679 /* KOPageController.m in Sources */,
 				0ED6488D2A3D4CD90020E918 /* UIColorExt.swift in Sources */,
@@ -746,6 +769,7 @@
 				0ED721932A566D18007AA148 /* UITextFieldExt.swift in Sources */,
 				0EC4BE452A4BCDB3008EB77B /* KWFlowLayout.swift in Sources */,
 				0E5B00C12A54061600BB2679 /* KWViewExtShow.swift in Sources */,
+				0ED725E42A5D2CBA007AA148 /* Permission.swift in Sources */,
 				0E5BFF072A5257EA00BB2679 /* KSPageController5.swift in Sources */,
 				0EC4BE3D2A4BC5B9008EB77B /* TestCollectionVCShow.swift in Sources */,
 				0ED721982A569A52007AA148 /* UIImageExt.swift in Sources */,
@@ -909,7 +933,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -942,7 +966,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

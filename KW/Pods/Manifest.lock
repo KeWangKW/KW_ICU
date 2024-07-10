@@ -3,16 +3,17 @@ PODS:
   - HandyJSON (5.0.2)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
-  - MJRefresh (3.7.5)
-  - SDWebImage (5.15.8):
-    - SDWebImage/Core (= 5.15.8)
-  - SDWebImage/Core (5.15.8)
-  - SnapKit (5.6.0)
-  - TZImagePickerController (3.8.3):
-    - TZImagePickerController/Basic (= 3.8.3)
-    - TZImagePickerController/Location (= 3.8.3)
-  - TZImagePickerController/Basic (3.8.3)
-  - TZImagePickerController/Location (3.8.3)
+  - MJRefresh (3.7.9)
+  - Reachability (3.7.6)
+  - SDWebImage (5.19.2):
+    - SDWebImage/Core (= 5.19.2)
+  - SDWebImage/Core (5.19.2)
+  - SnapKit (5.7.1)
+  - TZImagePickerController (3.8.5):
+    - TZImagePickerController/Basic (= 3.8.5)
+    - TZImagePickerController/Location (= 3.8.5)
+  - TZImagePickerController/Basic (3.8.5)
+  - TZImagePickerController/Location (3.8.5)
 
 DEPENDENCIES:
   - DZNEmptyDataSet
@@ -20,6 +21,7 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MJRefresh
+  - Reachability
   - SDWebImage
   - SnapKit
   - TZImagePickerController
@@ -31,6 +33,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - Reachability
     - SDWebImage
     - SnapKit
     - TZImagePickerController
@@ -40,11 +43,12 @@ SPEC CHECKSUMS:
   HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
-  MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
-  SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
-  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
-  TZImagePickerController: e9909edbadf7381140efc5b5c9f5bdbfd630f7d4
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
+  SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  TZImagePickerController: c0f8e83c27cb08f7d812b1d066a5934d30ff78ad
 
-PODFILE CHECKSUM: 2aa2f334b77204b9444e3461bf9cfc711fdbc8b9
+PODFILE CHECKSUM: 459e17cf45f2dd284ce8b1b2861a62ec37ef9a52
 
-COCOAPODS: 1.12.1
+COCOAPODS: 1.15.2
