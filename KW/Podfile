@@ -31,6 +31,8 @@ use_frameworks!
   
   pod 'Reachability' #https://github.com/tonymillion/Reachability
 #  pod 'ReachabilitySwift' #https://github.com/givtnl/ReachabilitySwift
+
+  pod 'SAMKeychain', '1.5.3'
 end
 
 

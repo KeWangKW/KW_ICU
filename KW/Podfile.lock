@@ -5,6 +5,7 @@ PODS:
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.9)
   - Reachability (3.7.6)
+  - SAMKeychain (1.5.3)
   - SDWebImage (5.19.2):
     - SDWebImage/Core (= 5.19.2)
   - SDWebImage/Core (5.19.2)
@@ -22,6 +23,7 @@ DEPENDENCIES:
   - MBProgressHUD
   - MJRefresh
   - Reachability
+  - SAMKeychain (= 1.5.3)
   - SDWebImage
   - SnapKit
   - TZImagePickerController
@@ -34,6 +36,7 @@ SPEC REPOS:
     - MBProgressHUD
     - MJRefresh
     - Reachability
+    - SAMKeychain
     - SDWebImage
     - SnapKit
     - TZImagePickerController
@@ -45,10 +48,11 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
   Reachability: fd0ecd23705e2599e4cceeb943222ae02296cbc6
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
   SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
   TZImagePickerController: c0f8e83c27cb08f7d812b1d066a5934d30ff78ad
 
-PODFILE CHECKSUM: 459e17cf45f2dd284ce8b1b2861a62ec37ef9a52
+PODFILE CHECKSUM: f4b901c6e28d823fe5cbfed8ec6082628d312cc0
 
 COCOAPODS: 1.15.2

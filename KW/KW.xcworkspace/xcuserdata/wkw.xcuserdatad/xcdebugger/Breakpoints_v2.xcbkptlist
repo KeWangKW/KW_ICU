@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "08EECA6C-BFBF-4DCC-829C-3D1C5526B7BA"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C08656D3-8747-4BC1-A49F-A690E2D4E001"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KW/UseDemo/&#x6743;&#x9650;_Use/PermissionShow.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "netWorkClick6(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C08656D3-8747-4BC1-A49F-A690E2D4E001 - d45d6b00a4becfa9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KW.PermissionShow.netWorkClick6(Any) -&gt; ()"
+                  moduleName = "KW.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wkw/Work/KW_ICU/KW/KW/UseDemo/%E6%9D%83%E9%99%90_Use/PermissionShow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60">
+               </Location>
+               <Location
+                  uuid = "C08656D3-8747-4BC1-A49F-A690E2D4E001 - eb27a48b6220ed69"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in KW.PermissionShow.netWorkClick6(Any) -&gt; ()"
+                  moduleName = "KW.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wkw/Work/KW_ICU/KW/KW/UseDemo/%E6%9D%83%E9%99%90_Use/PermissionShow.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

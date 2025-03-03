@@ -50,7 +50,7 @@ class UIImageExtShow: KSViewController {
         let imageViewM3 = UIImageView(frame: CGRect(x: 10, y: 430, width: 207, height: 155))
         imageViewM3.image = imageM!.kw_compressed(quality: 0.1)
         scrollView.addSubview(imageViewM3)
-        print(imageViewM3.image?.kw_kb)
+        print(imageViewM3.image?.kw_kb ?? 0)
         //指定压缩
         let imageViewM4 = UIImageView(frame: CGRect(x: 10, y: 595, width: 207, height: 155))
         imageViewM4.image = UIImage(data: (imageM?.kw_compressedToData(maxSize: 100))!)

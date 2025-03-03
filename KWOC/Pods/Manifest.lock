@@ -4,6 +4,7 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJRefresh (3.7.5)
+  - SAMKeychain (1.5.3)
   - SDWebImage (5.15.8):
     - SDWebImage/Core (= 5.15.8)
   - SDWebImage/Core (5.15.8)
@@ -20,6 +21,7 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MJRefresh
+  - SAMKeychain (= 1.5.3)
   - SDWebImage
   - SnapKit
   - TZImagePickerController
@@ -31,6 +33,7 @@ SPEC REPOS:
     - Masonry
     - MBProgressHUD
     - MJRefresh
+    - SAMKeychain
     - SDWebImage
     - SnapKit
     - TZImagePickerController
@@ -41,10 +44,11 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   SDWebImage: cb032eba469c54e0000e78bcb0a13cdde0a52798
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
   TZImagePickerController: e9909edbadf7381140efc5b5c9f5bdbfd630f7d4
 
-PODFILE CHECKSUM: f9e46021b28b1dd4525354a3cc0ef24665422eaf
+PODFILE CHECKSUM: efda4a5e685def66b4368819714f820c790d0f6d
 
 COCOAPODS: 1.15.2

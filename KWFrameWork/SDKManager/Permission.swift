@@ -453,6 +453,9 @@ struct NetWorkStatus {
         case .notDetermined:
             //print("通讯录权限尚未确定")
             completion(0)
+        case .limited:
+            // 部分授权
+            completion(1)
         @unknown default:
             //print("通讯录权限状态异常")
             break
